@@ -1,4 +1,16 @@
 // default layout
+.out{
+	position: relative;
+	background: url(../img/bg.jpg) 0% 121px no-repeat;
+	@include background-size(cover);
+}
+.wrap{
+	width: 960px;
+	margin: 0 auto;
+}
+.content{
+	display: inline-block;
+}
 .l{
 	width: 100%;
 	display: inline-block;
