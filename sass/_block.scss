@@ -171,7 +171,7 @@
 	&:after{
 		content: "";
 		position: absolute;
-		bottom: -30px;
+		bottom: -33px;
 		left: 0;
 		@include s(news_btm);
 	}
@@ -181,7 +181,7 @@
 		padding: 0 10px;
 		position: relative;
 		top: -40px;
-		text-align: center;
+		text-align: center; 
 		overflow: hidden;
 		span{
 			position: relative;
