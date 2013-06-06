@@ -8,6 +8,7 @@
 		background: #2f2f2f;
 	}
 	.news{
+		overflow: hidden;
 		&:after{
 			content:none;
 		}
@@ -19,14 +20,16 @@
 		}
 	}
 	.news__items{
-		width: 820px;
-		padding-left: 90px;
-		margin-right: 0;
+		text-align: left;
+		overflow: hidden;
+		padding-left: 60px;
+		margin-right: 60;
 		padding-top: 40px;
 		background: #647b88;
 	}
 	.news__item{
-		margin-right: 30px;
+
+		margin-right: 60px;
 	}
 	.footer{
 		color: #c2c2c2;

@@ -133,11 +133,12 @@ a img, fieldset { border: none; }
 
 .lteie8 .search input { line-height: 31px; }
 .lteie8 .slider__list { background: #2f2f2f; }
+.lteie8 .news { overflow: hidden; }
 .lteie8 .news:after { content: none; }
 .lteie8 .news__title { top: 10px; }
 .lteie8 .news__title span { background: #647b88; }
-.lteie8 .news__items { width: 820px; padding-left: 90px; margin-right: 0; padding-top: 40px; background: #647b88; }
-.lteie8 .news__item { margin-right: 30px; }
+.lteie8 .news__items { text-align: left; overflow: hidden; padding-left: 60px; margin-right: 60; padding-top: 40px; background: #647b88; }
+.lteie8 .news__item { margin-right: 60px; }
 .lteie8 .footer { color: #c2c2c2; }
 .lteie8 .footer__left .left a, .lteie8 .right a, .lteie8 .footer__right .left a, .lteie8 .footer__right dl a, .lteie8 .footer__right dl dt { color: #c2c2c2; }
 .lteie8 .footer__left .h3, .lteie8 .h4 { color: #c2c2c2; }
