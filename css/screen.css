@@ -131,6 +131,17 @@ a img, fieldset { border: none; }
 .some-info { margin-top: 60px; margin-bottom: 50px; text-align: center; font: 14px Calibri,sans-serif; color: #fff; }
 .some-info p { margin-bottom: 20px; }
 
+.lteie8 .search input { line-height: 31px; }
+.lteie8 .slider__list { background: #2f2f2f; }
+.lteie8 .news:after { content: none; }
+.lteie8 .news__title { top: 10px; }
+.lteie8 .news__title span { background: #647b88; }
+.lteie8 .news__items { width: 860px; margin-right: 0; padding-top: 40px; background: #647b88; }
+.lteie8 .news__item { margin-right: 50px; }
+.lteie8 .footer { color: #c2c2c2; }
+.lteie8 .footer__left .left a, .lteie8 .right a, .lteie8 .footer__right .left a, .lteie8 .footer__right dl a, .lteie8 .footer__right dl dt { color: #c2c2c2; }
+.lteie8 .footer__left .h3, .lteie8 .h4 { color: #c2c2c2; }
+
 .button { padding: 9px 14px; font-size: 12px; line-height: normal; border-radius: 5px; display: inline-block; }
 
 .button_large { font-size: 30px; }
