@@ -22,8 +22,7 @@
 	.news__items{
 		text-align: left;
 		overflow: hidden;
-		padding-left: 60px;
-		margin-right: 60;
+		padding-left: 70px;
 		padding-top: 40px;
 		background: #647b88;
 	}
@@ -40,5 +39,11 @@
 	.footer__left .h3, .h4{
 		color: #c2c2c2;
 	}
-
+	.breadcrumbs{
+		.active{
+			&:after{
+				content:none;
+			}
+		}
+	}
 }
