@@ -103,7 +103,8 @@ a img, fieldset { border: none; }
 .sub-nav:before { content: ""; width: 1000px; height: 41px; line-height: 41px; background-color: #4db7fc; position: absolute; top: 0px; right: 100%; }
 .sub-nav:after { content: ""; width: 1000px; height: 41px; line-height: 41px; background-color: #4db7fc; position: absolute; top: 0px; left: 100%; }
 .sub-nav li { padding: 0 15px !important; height: 41px; line-height: 41px; float: left; }
-.sub-nav a { padding: 0 !important; color: #fff; text-decoration: none; text-transform: uppercase; }
+.sub-nav a { display: inline-block; height: 23px; line-height: 23px; padding: 0 10px !important; border: 1px solid transparent; color: #fff; text-decoration: none; text-transform: uppercase; }
+.sub-nav a:hover { border: 1px solid #a6dbfe; }
 
 .h2 { margin-top: 30px; margin-bottom: 30px; position: relative; font-family: Calibti,sans-serif; text-transform: uppercase; font-size: 28px; line-height: 1; text-align: center; color: #fff; text-shadow: 0 1px 0 rgba(0, 0, 0, 0.48); }
 .h2:before { content: ""; margin-top: -12px; position: absolute; top: 50%; left: 0; background: url('../img/icons-s261e6584f1.png') 0 -402px no-repeat; width: 114px; height: 24px; }
@@ -113,6 +114,12 @@ a img, fieldset { border: none; }
 
 .slider { width: 959px; height: 463px; margin-bottom: 65px; overflow: hidden; position: relative; }
 .slider .slider__bg { width: 959px; height: 463px; background: url(../img/slider.jpg) 0px 0px no-repeat; position: absolute; top: 0; left: 0; }
+
+.slider_collection .slider__list { background: #000; }
+.slider_collection .slider__item { display: inline-block; width: 211px; margin-left: 211px; padding: 30px; background: #fff; text-decoration: none; line-height: 1.2; }
+.slider_collection .slider__media { margin-bottom: 10px; }
+.slider_collection .slider__meta { color: #4db5f9; font-family: "Calibri"; font-size: 17px; font-weight: bold; }
+.slider_collection .slider__code { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50); opacity: 0.5; color: #323c40; font-family: "Calibri"; font-size: 14px; }
 
 .slider__list { width: 211px; height: 451px; padding: 6px 0; position: absolute; background: rgba(0, 0, 0, 0.8); overflow: hidden; list-style: none; }
 .slider__list li { height: 30px; line-height: 30px; padding: 0 0 0 20px; }
