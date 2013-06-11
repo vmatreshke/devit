@@ -100,8 +100,8 @@ a img, fieldset { border: none; }
 .nav a:hover { border: 2px solid #4db7fc; }
 
 .sub-nav { width: 300px; height: 41px; line-height: 41px; margin: 0 auto; position: absolute; background: #4db7fc; list-style: none; text-align: center; }
-.sub-nav:before { content: ""; width: 1000px; height: 41px; line-height: 41px; background-color: #4db7fc; position: absolute; top: 0px; right: 100%; }
-.sub-nav:after { content: ""; width: 1000px; height: 41px; line-height: 41px; background-color: #4db7fc; position: absolute; top: 0px; left: 100%; }
+.sub-nav:before { content: ""; width: 10000px; height: 41px; line-height: 41px; background-color: #4db7fc; position: absolute; top: 0px; right: 100%; }
+.sub-nav:after { content: ""; width: 10000px; height: 41px; line-height: 41px; background-color: #4db7fc; position: absolute; top: 0px; left: 100%; }
 .sub-nav li { padding: 0 15px !important; height: 41px; line-height: 41px; float: left; }
 .sub-nav a { display: inline-block; height: 23px; line-height: 23px; padding: 0 10px !important; border: 1px solid transparent; color: #fff; text-decoration: none; text-transform: uppercase; }
 .sub-nav a:hover { border: 1px solid transparent; }
@@ -119,6 +119,7 @@ a img, fieldset { border: none; }
 
 .slider_collection { width: 960px; min-height: 1152px; height: auto; -webkit-box-shadow: 0 1px 16px rgba(159, 207, 238, 0.75); -moz-box-shadow: 0 1px 16px rgba(159, 207, 238, 0.75); box-shadow: 0 1px 16px rgba(159, 207, 238, 0.75); }
 .slider_collection .slider__list { width: 175px; background: #000; }
+.slider_collection .slider__list li { padding: 0 0 0 10px; margin-left: 15px; }
 .slider_collection .slider__list li:hover { background: #fff; }
 .slider_collection .slider__list a { width: 100%; display: inline-block; color: #FFF; font-size: 13px; }
 .slider_collection .slider__list a:hover { text-shadow: none; color: #4db7fc; }
@@ -236,6 +237,8 @@ a img, fieldset { border: none; }
 .photogallery__nav a { font-size: 22px; font-family: Calibri,sans-serif; color: #1895e6; text-transform: uppercase; text-decoration: none; }
 
 .photogallery__item { margin: 14px 0px 0 14px; position: relative; float: left; }
+.photogallery__item i { width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: 1000; }
+.photogallery__item i:hover { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80); opacity: 0.8; background-color: #4db7fb; cursor: pointer; }
 
 .photogallery__img img { vertical-align: top; }
 .photogallery__img:hover { cursor: pointer; }
