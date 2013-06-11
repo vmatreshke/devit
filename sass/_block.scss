@@ -212,17 +212,30 @@
 }
 .slider_collection{
 	width: 960px;
-	min-height: 1180px;
+	min-height: 1152px;
 	height: auto;
 	@include box-shadow(0 1px 16px rgba(159,207,238,.75));
 	.slider__list{
 		width: 175px;
 		background: #000;
+		li{
+			&:hover{
+				background: #fff;
+			}
+		}
 		a{
+			width: 100%;
+			display: inline-block;
+			color: #FFF;
 			font-size: 13px;
+			&:hover{
+				text-shadow: none;
+				color: #4db7fc;
+			}
 		}
 	}
 	.slider__list{
+		padding: 25px 0;
 		height: 100%;
 	}
 	.item__conteiner{
@@ -242,9 +255,12 @@
 		line-height: 1.2;
 	}
 	.slider__media{
+		width: 221px;
+		height: 202px;
+		overflow: hidden;
 		margin-bottom: 10px;
 		img{
-			
+			width: 100%;
 		}
 	}
 	.slider__meta{
@@ -260,6 +276,9 @@
 	font-family: "Calibri";
 	font-size: 14px;
 	}
+}
+.slider_innerBuy{
+	min-height: 965px;
 }
 	.slider__list{
 		width: 211px;
@@ -531,7 +550,7 @@
 		a{
 			padding: 5px 0 5px 10px;
 			display: block;
-			line-height: 29px;
+			line-height: 25px;
 			font-family: Calibti,sans-serif;
 			font-size: 14px;
 			text-transform: uppercase;
@@ -837,3 +856,74 @@
 		float: left;
 		list-style: none;
 	}
+.label{
+	display: inline-block;
+	position: relative;
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	background: #4db7fc;
+	&:after, &:before {
+		content:"";
+		position: absolute;
+	}
+	&:after {
+		top: 9px;
+		left: 15px;
+		width: 6px;
+		height: 6px;
+		border: 4px solid #fff;
+		// border-bottom: 4px solid #fff;
+		border-radius: 50%;
+	}
+	&:before {
+		top: 20px;
+		left: 16px;
+		width: 0px;
+		height: 0px;
+		border-style: solid;
+		border-width: 16px 6.5px 0 6.5px;
+		border-color: #fff transparent transparent transparent;
+	}
+}
+.sity{
+	width: 297px;
+	height: 100px;
+	padding: 20px;
+	display: inline-block;
+	overflow: hidden;
+	border: 4px solid transparent;
+	&:hover{
+		border: 4px solid #4db7fc;
+		cursor: pointer;
+	}
+	.label{
+		float: left;
+	}
+	.sity__cont{
+		float: left;
+		margin-left: 12px;
+		font-family: Calibri,sans-serif;
+		line-height: 1.4;
+	}
+	.sity__town{
+		font-family: Calibri,sans-serif;
+		font-size: 17px;
+		color: #4eb6fa;
+		font-weight: bold;
+	}
+	.sity__addr{
+		font-size: 14px;
+		color: #323c41;
+	}
+	.sity__mail{
+		font-size: 14px;
+		color: #1795e6;
+		text-decoration: underline;
+	}
+	.sity__tel{
+		margin-top: 5px;
+		font-size: 24px;
+		color: #40494e;
+	}
+}
