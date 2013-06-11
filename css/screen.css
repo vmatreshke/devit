@@ -104,7 +104,9 @@ a img, fieldset { border: none; }
 .sub-nav:after { content: ""; width: 1000px; height: 41px; line-height: 41px; background-color: #4db7fc; position: absolute; top: 0px; left: 100%; }
 .sub-nav li { padding: 0 15px !important; height: 41px; line-height: 41px; float: left; }
 .sub-nav a { display: inline-block; height: 23px; line-height: 23px; padding: 0 10px !important; border: 1px solid transparent; color: #fff; text-decoration: none; text-transform: uppercase; }
-.sub-nav a:hover { border: 1px solid #a6dbfe; }
+.sub-nav a:hover { border: 1px solid transparent; }
+.sub-nav .sub-nav__active { border: 1px solid #a6dbfe; }
+.sub-nav .sub-nav__active:hover { border: 1px solid #a6dbfe; }
 
 .h2 { margin-top: 30px; margin-bottom: 30px; position: relative; font-family: Calibti,sans-serif; text-transform: uppercase; font-size: 28px; line-height: 1; text-align: center; color: #fff; text-shadow: 0 1px 0 rgba(0, 0, 0, 0.48); }
 .h2:before { content: ""; margin-top: -12px; position: absolute; top: 50%; left: 0; background: url('../img/icons-s261e6584f1.png') 0 -402px no-repeat; width: 114px; height: 24px; }
@@ -115,9 +117,10 @@ a img, fieldset { border: none; }
 .slider { width: 959px; height: 463px; margin-bottom: 65px; overflow: hidden; position: relative; }
 .slider .slider__bg { width: 959px; height: 463px; background: url(../img/slider.jpg) 0px 0px no-repeat; position: absolute; top: 0; left: 0; }
 
-.slider_collection { width: 960px; height: auto; }
+.slider_collection { width: 960px; min-height: 1180px; -webkit-box-shadow: 0 1px 16px rgba(159, 207, 238, 0.75); -moz-box-shadow: 0 1px 16px rgba(159, 207, 238, 0.75); box-shadow: 0 1px 16px rgba(159, 207, 238, 0.75); }
 .slider_collection .slider__list { width: 175px; background: #000; }
 .slider_collection .slider__list a { font-size: 13px; }
+.slider_collection .slider__list { height: 100%; }
 .slider_collection .item__conteiner { margin-right: -33px; padding: 30px 0px 30px 33px; margin-left: 175px; background: #fff; overflow: hidden; }
 .slider_collection .slider__item { width: 221px; margin-right: 33px; float: left; text-decoration: none; line-height: 1.2; }
 .slider_collection .slider__media { margin-bottom: 10px; }

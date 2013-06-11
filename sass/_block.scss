@@ -146,6 +146,12 @@
 		text-decoration: none;
 		text-transform: uppercase;
 		&:hover{
+			border: 1px solid transparent;
+		}
+	}
+	.sub-nav__active{
+		border: 1px solid #a6dbfe;
+		&:hover{
 			border: 1px solid #a6dbfe;
 		}
 	}
@@ -206,13 +212,17 @@
 }
 .slider_collection{
 	width: 960px;
-	height: auto;
+	min-height: 1180px;
+	@include box-shadow(0 1px 16px rgba(159,207,238,.75));
 	.slider__list{
 		width: 175px;
 		background: #000;
 		a{
 			font-size: 13px;
 		}
+	}
+	.slider__list{
+		height: 100%;
 	}
 	.item__conteiner{
 		// width: 750px;
