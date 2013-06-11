@@ -213,6 +213,7 @@
 .slider_collection{
 	width: 960px;
 	min-height: 1180px;
+	height: auto;
 	@include box-shadow(0 1px 16px rgba(159,207,238,.75));
 	.slider__list{
 		width: 175px;
@@ -235,6 +236,7 @@
 	.slider__item{
 		width: 221px;
 		margin-right: 33px;
+		margin-bottom: 10px;
 		float: left;
 		text-decoration: none;
 		line-height: 1.2;
