@@ -205,15 +205,27 @@
 	}
 }
 .slider_collection{
+	width: 960px;
+	height: auto;
 	.slider__list{
+		width: 175px;
 		background: #000;
+		a{
+			font-size: 13px;
+		}
+	}
+	.item__conteiner{
+		// width: 750px;
+		margin-right: -33px;
+		padding: 30px 0px 30px 33px;
+		margin-left: 175px;
+		background: #fff;
+		overflow: hidden;
 	}
 	.slider__item{
-		display: inline-block;
-		width: 211px;
-		margin-left: 211px;
-		padding: 30px;
-		background: #fff;
+		width: 221px;
+		margin-right: 33px;
+		float: left;
 		text-decoration: none;
 		line-height: 1.2;
 	}
