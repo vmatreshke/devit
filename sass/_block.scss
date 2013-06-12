@@ -282,8 +282,34 @@
 	font-size: 14px;
 	}
 }
-.slider_proj{
+.slider_innerProj{
+	width: auto;
+	min-height: 940px;
 	height: auto;
+	min-height: 230px;
+	margin-top: 20px;
+	box-shadow: none;
+	display: inline-block;
+	overflow: hidden;
+	.slider__item, .slider__media, .slider__meta {
+		width: 112px;
+		height: 112px;
+	}
+	.slider__meta{
+		height: auto;
+		font-size: 15px;
+		line-height: 1.2;
+	}
+}
+.slider_mod{
+	min-height: 960px;
+	margin-bottom: 12px;
+	@include box-shadow(0 1px 16px rgba(159,207,238,.75));
+	.slider__list{
+		min-height: 100%;
+	}
+}
+.slider_proj{
 	.slider__list{
 		width: 175px;
 		padding: 10px 0;
@@ -337,7 +363,7 @@
 }
 	.slider__list{
 		width: 211px;
-		height: 451px;
+		min-height: 976px;
 		padding: 6px 0;
 		position: absolute;
 		background: rgba(0,0,0, 0.8);
@@ -996,10 +1022,10 @@
 	}
 }
 .scrollable{
-	
+	margin-top: 45px;
 }
 	.scrollable__cnt{
-		margin-bottom: -1px;
+		position: relative;
 	}
 	.scrollable__media{
 		width: 784px;
@@ -1009,11 +1035,82 @@
 			vertical-align: bottom;
 		}
 	}
+	.scrollable__next, .scrollable__prew{
+		width: 42px;
+		height: 42px;
+		background: #4db7fc;
+		position: absolute;
+		top: 160px;
+	}
+	.scrollable__next{
+		left: 0;
+		&:after{
+			content:"";
+			display: inline-block;
+			position: absolute;
+			top: 6px;
+			right: 15px;
+			@include s(scroll_left);
+		}
+	}
+	.scrollable__prew{
+		right: 0;
+		&:after{
+			content:"";
+			display: inline-block;
+			position: absolute;
+			top: 6px;
+			left: 15px;
+			@include s(scroll_right);
+		}
+	}
 	.scrollable__list{
+		margin-right: -2px;
 		overflow: hidden;
 		list-style: none;
 		li{
-			width: 130px;
+			width: 131px;
+			height: 95px;
+			overflow: hidden;
+			position: relative;
 			float: left;
+			&:last-child{
+				i{
+					width: 115px;
+					height: 81px;
+					border: 7px solid transparent;
+					&:hover{
+						border: 7px solid #4db7fc;
+					}
+				}
+			}
 		}
+		a{
+			display: inline-block;
+
+		}
+		img{
+			width: 100%;
+			min-height: 100%;
+		}
+		i{
+			width: 117px;
+			height: 81px;
+			position: absolute;
+			top: 0;
+			left: 0;
+			&:hover{
+				border: 7px solid #4db7fc;
+			}
+
+		}
+	}
+.used{
+	padding: 25px 30px;
+}
+	.used__title{
+		padding-bottom: 10px;
+		border-bottom: 1px solid #e5e5e5;
+		font-size: 14px;
+		color: #323c41;
 	}
