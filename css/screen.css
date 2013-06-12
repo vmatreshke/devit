@@ -358,6 +358,18 @@ a img, fieldset { border: none; }
 
 .proj__border { display: none; z-index: 1000; position: absolute; top: 0; left: -13px; width: 240px; height: 414px; border: 13px solid #4db7fc; }
 
+.triangle { position: relative; width: 0px; height: 0px; border-style: solid; border-width: 0 18.5px 15px 18.5px; border-color: transparent transparent #007bff transparent; }
+.triangle:after { content: ""; position: absolute; top: 1px; left: -18px; width: 0px; height: 0px; border-style: solid; border-width: 0 18.5px 15px 18.5px; border-color: transparent transparent #fff transparent; }
+
+.proj__item .triangle { position: absolute; top: 260px; right: 15px; }
+.proj__item:hover .triangle { border-color: transparent transparent #fff transparent; }
+.proj__item:hover .triangle:after { border-color: transparent transparent #4db7fc transparent; }
+
+.proj__item_ImgBottom .triangle { position: absolute; top: 180px; left: 25px; width: 0px; height: 0px; border-style: solid; border-width: 15px 18.5px 0 18.5px; border-color: #007bff transparent transparent transparent; }
+.proj__item_ImgBottom .triangle:after { content: ""; position: absolute; top: -16px; left: -18px; width: 0px; height: 0px; border-style: solid; border-width: 15px 18.5px 0 18.5px; border-color: #fff transparent transparent transparent; }
+.proj__item_ImgBottom:hover .triangle { border-color: #fff transparent transparent transparent; }
+.proj__item_ImgBottom:hover .triangle:after { border-color: #4db7fc transparent transparent transparent; }
+
 .lteie8 .search input { line-height: 31px; }
 .lteie8 .slider__list { background: #2f2f2f; }
 .lteie8 .news { overflow: hidden; }
