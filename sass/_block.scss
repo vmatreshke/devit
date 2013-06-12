@@ -12,12 +12,15 @@
 	vertical-align: middle;
 }
 .lang{
-	a{
+	a, span{
 		display: inline-block;
 		padding: 3px 7px;
 		text-decoration: none;
 		font-family: Calibri, sans-serif;
 		color: #4db7fc;
+		&:hover{
+			text-decoration: underline;
+		}
 	}
 	.active{
 		background: #4db7fc;
@@ -31,6 +34,9 @@
 		padding: 0 10px;
 		height: 29px;
 		font: 14px Calibri,sans-serif;
+		&:focus{
+			outline: 1px solid #4db7fc;
+		}
 	}
 	button{
 		content:"";
@@ -62,7 +68,7 @@
 	li{
 		height: 71px;
 		line-height: 71px;
-		margin-left: 11px;
+		margin-left: 2px;
 		position: relative;
 		display: inline-block;
 		&:first-child{
@@ -72,7 +78,7 @@
 	.active{
 		position: relative;
 		background: #4db7fc;
-		a{
+		a, span{
 			padding: 0 25px;
 			color: #fff;
 		}
@@ -88,7 +94,7 @@
 			background: url(../img/icons/nav_border.png) 0px 0px repeat-x;
 		}
 	}
-	a{
+	a, span{
 		padding: 6px 12px;
 		line-height: 27px;
 		border: 2px solid transparent;
@@ -136,7 +142,7 @@
 		line-height: 41px;
 		float: left;
 	}
-	a{
+	a, span{
 		display: inline-block;
 		height: 23px;
 		line-height: 23px;
@@ -414,7 +420,7 @@
 		padding: 0 10px;
 		position: relative;
 		top: -40px;
-		text-align: center; 
+		text-align: center;
 		overflow: hidden;
 		span{
 			position: relative;
@@ -482,24 +488,24 @@
 		padding: 0 50px;
 		margin-top: -30px;
 		margin-right: -80px;
-		.active{
-			position: relative;
-			border: 5px solid #4db7fc;
-			&:before{
-				content: "";
-				position: absolute;
-				top: 50px;
-				left: -80px;
-				@include s(active_border);
-			}
-			&:after{
-				content: "";
-				position: absolute;
-				top: 50px;
-				right: -80px;
-				@include s(active_border);
-			}
-		}
+		// .active{
+		// 	position: relative;
+		// 	border: 5px solid #4db7fc;
+		// 	&:before{
+		// 		content: "";
+		// 		position: absolute;
+		// 		top: 50px;
+		// 		left: -80px;
+		// 		@include s(active_border);
+		// 	}
+		// 	&:after{
+		// 		content: "";
+		// 		position: absolute;
+		// 		top: 50px;
+		// 		right: -80px;
+		// 		@include s(active_border);
+		// 	}
+		// }
 	}
 	.news__item{
 		width: 230px;
@@ -509,6 +515,26 @@
 		text-align: center;
 		text-decoration: none;
 		font: 14px Calibri, sans-serif;
+		&:hover{
+			.news__img{
+				position: relative;
+				border: 5px solid #4db7fc;
+				&:before{
+					content: "";
+					position: absolute;
+					top: 50px;
+					left: -80px;
+					@include s(active_border);
+				}
+				&:after{
+					content: "";
+					position: absolute;
+					top: 50px;
+					right: -80px;
+					@include s(active_border);
+				}
+			}
+		}
 	}
 		.news__img{
 			margin-bottom: 15px;
@@ -516,6 +542,8 @@
 			width: 112px;
 			height: 112px;
 			border-radius: 112px;
+			border: 5px solid transparent;
+
 			img{
 				text-align: center;
 				width: 112px;
@@ -561,6 +589,9 @@
 		text-decoration: none;
 		color: #FFF;
 		opacity: 0.55;
+		&:hover{
+			border-bottom: 1px solid #b3b2b6;
+		}
 	}
 	.active{
 		position: relative;
@@ -989,7 +1020,6 @@
 	border: 4px solid transparent;
 	&:hover{
 		border: 4px solid #4db7fc;
-		cursor: pointer;
 	}
 	.label{
 		float: left;
@@ -1113,4 +1143,81 @@
 		border-bottom: 1px solid #e5e5e5;
 		font-size: 14px;
 		color: #323c41;
+	}
+.proj{
+	padding-bottom: 40px;
+	overflow: hidden;
+	background: #fff;
+	@include box-shadow(3px 0px 16px  rgba(77,184,240,.63));
+	margin-bottom: 20px;
+}
+	.proj__cont{
+		position: relative;
+	}
+	.proj__text{
+		padding: 40px 45px 55px;
+		color: #323c41;
+		font-size: 14px;
+		line-height: 1.2;
+	}
+	.proj__item{
+		width: 240px;
+		height: 440px;
+		float: left;
+		position: relative;
+		vertical-align: top;
+		background: #FFF;
+		color: #000;
+		&:hover{
+			h3{
+				color: #fff;
+			}
+			.proj__border{
+				display: block;
+			}
+			background: #4db7fc;
+			cursor: pointer;
+			color: #fff;
+		}
+		.proj__img{
+			// margin-bottom: -10px;
+		}
+	}
+	.proj__item_ImgBottom{
+		.proj__img{
+			position: absolute;
+			bottom: 0px;
+			// margin-bottom: -10px;
+
+		}
+		.proj__descr{
+			
+		}
+	}
+	.proj__img{
+		height: 218px;
+		// margin-top: -10px;
+		img{
+			height: 100%;
+		}
+	}
+	.proj__descr{
+		padding: 30px 25px;
+		h3{
+			margin-bottom: 10px;
+			color: #4db7fc;
+			font-size: 18px;
+			line-height: 1;
+			font-family: Calibri,sans-serif;
+		}
+	}
+	.proj__border{
+		display: none;
+		z-index: 1000;
+		position: absolute;
+		top: 0;
+		left: -13px;
+		width: 240px;
+		height: 414px;
+		border: 13px solid #4db7fc;
 	}

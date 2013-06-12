@@ -129,8 +129,7 @@ a img,fieldset{
 	position: relative;
 	color: rgba(255,255,255, .4);
 	font-family: Calibri, sans-serif;
-	font-size: 11px;
-
+	font-size: 12px;
 	&:before{
 		content:"";
 		width: 100%;
@@ -149,6 +148,7 @@ a img,fieldset{
 	}
 	.footer__left{
 		width: 600px;
+		padding-bottom: 15px;
 		margin-right: 70px;
 		float: left;
 		.h3{
@@ -180,6 +180,11 @@ a img,fieldset{
 				margin-bottom: 1px;
 				display: inline-block;
 				vertical-align: middle;
+				a{
+					&:hover{
+						color: #000;
+					}
+				}
 				&:hover{
 					background: #4db5f9;
 				}
@@ -207,6 +212,11 @@ a img,fieldset{
 				margin-bottom: 1px;
 				display: inline-block;
 				vertical-align: middle;
+				a{
+					&:hover{
+						color: #000;
+					}
+				}
 				&:hover{
 					background: #4db5f9;
 				}
@@ -235,7 +245,7 @@ a img,fieldset{
 	.footer__right{
 		@extend %clr;
 		float: left;
-		.left{
+		.left, dl{
 			margin-right: 40px;
 			float: left;
 			list-style: none;
@@ -250,6 +260,7 @@ a img,fieldset{
 				text-transform: uppercase;
 				&:hover{
 					background: #4db5f9;
+					color: #000;
 				}
 			}
 		}
@@ -261,13 +272,15 @@ a img,fieldset{
 				text-transform: uppercase;
 			}
 			dd{
+				font-size: 11px;
 				margin-bottom: 12px;
 			}
 			a{
+				text-transform: none;
 				text-decoration: none;
 				color: rgba(255,255,255, .4);
 				&:hover{
-					text-decoration: underline;
+					// text-decoration: underline;
 				}
 			}
 		}
