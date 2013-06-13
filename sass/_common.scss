@@ -86,11 +86,22 @@ a img,fieldset{
 @font-face {
 	font-family: 'Conv_DlCyLtTf';
 	src:
-		url('fonts/DlCyLtTf.eot');
+		url('../fonts/DlCyLtTf.eot');
 	src:
-		url('fonts/DlCyLtTf.woff') format('woff'),
-		url('fonts/DlCyLtTf.ttf') format('truetype'),
-		url('fonts/DlCyLtTf.svg') format('svg');
+		url('../fonts/DlCyLtTf.woff') format('woff'),
+		url('../fonts/DlCyLtTf.ttf') format('truetype'),
+		url('../fonts/DlCyLtTf.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Conv_DlCyRgTf';
+	src:
+		url('../fonts/DlCyRgTf.eot');
+	src:
+		url('../fonts/DlCyRgTf.woff') format('woff'),
+		url('../fonts/DlCyRgTf.ttf') format('truetype'),
+		url('../fonts/DlCyRgTf.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }

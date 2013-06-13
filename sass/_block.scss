@@ -59,7 +59,7 @@
 	margin-right: 50px;
 }
 .nav{
-	width: 777px;
+	width: 780px;
 	height: 71px;
 	// overflow: hidden;
 	float: left;
@@ -102,7 +102,7 @@
 		text-transform: uppercase;
 		color: #5f6b7b;
 		font-family: 'Conv_DlCyLtTf', sans-serif;
-		font-size: 12px;
+		font-size: 13px;
 		&:hover{
 			border: 2px solid #4db7fc;
 		}
@@ -172,9 +172,9 @@
 	line-height: 1;
 	text-align: center;
 	font-family: 'Conv_DlCyLtTf', sans-serif;
-	font-size: 28px;
+	font-size: 30px;
 	color: #fff;
-	@include text-shadow(0 1px 0 rgba(0,0,0,.48));
+	// @include text-shadow(0 1px 0 rgba(0,0,0,.48));
 	&:before{
 		content:"";
 		margin-top: -12px;
@@ -197,11 +197,11 @@
 	position: relative;
 	display: inline-block;
 	margin-right: 10px;
-	font-family: Calibri,sans-serif;
+	font-family: 'Conv_DlCyLtTf', sans-serif;
 	font-size: 32px;
 	text-transform: uppercase;
 	color: #fff;
-	@include text-shadow(0 1px 0 rgba(0,0,0,.48));
+	@include text-shadow(0 1px 0 rgba(0,0,0,.15));
 }
 .slider{
 	width: 959px;
@@ -306,7 +306,7 @@
 	.slider__meta{
 		height: auto;
 		font-size: 15px;
-		line-height: 1.2;
+		line-height: 0.8;
 	}
 }
 .slider_mod{
@@ -331,6 +331,7 @@
 				background: #FFF;
 			}
 			a{
+				font-family: 'Conv_DlCyLtTf', sans-serif;
 				text-shadow: none;
 				padding: 16px 0 16px 10px;
 				&:hover{
@@ -405,7 +406,7 @@
 		font-family: 'Conv_DlCyLtTf',sans-serif;
 		font-weight: normal;
 		color: #FFF;
-		@include text-shadow(0 1px 0 rgba(0,0,0,.48));
+		// @include text-shadow(0 1px 0 rgba(0,0,0,.08));
 	}
 .news{
 	position: relative;
@@ -669,7 +670,7 @@
 			padding: 5px 0 5px 10px;
 			display: block;
 			line-height: 25px;
-			font-family: Calibti,sans-serif;
+			font-family: 'Conv_DlCyLtTf', sans-serif;
 			font-size: 14px;
 			text-transform: uppercase;
 			text-decoration: none;
@@ -823,7 +824,7 @@
 		.active{
 			position: relative;
 			background: #4db7fc;
-			text-shadow: 0px 1px 0px rgba(0,0,0, .7);
+			text-shadow: 0px 1px 0px rgba(0,0,0, .2);
 			&:after{
 				content:"";
 				position: absolute;
@@ -836,12 +837,13 @@
 				border-color: #4db7fc transparent transparent transparent;
 			}
 			a{
+				font-family: 'Conv_DlCyRgTf', sans-serif;
 				color: #fff;
 			}
 		}
 		a{
 			font-size: 22px;
-			font-family: Calibri,sans-serif;
+			font-family: 'Conv_DlCyRgTf', sans-serif;
 			color: #1895e6;
 			text-transform: uppercase;
 			text-decoration: none;
@@ -882,10 +884,11 @@
 		right: 0;
 		h2{
 			text-transform: uppercase;
+			font-family: 'Conv_DlCyLtTf', sans-serif;
 			color: #FFF;
 		}
 		.big{
-			font-family: Calibri,sans-serif;
+			font-family: 'Conv_DlCyLtTf', sans-serif;
 			font-weight: normal;
 			font-size: 26px;
 		}
