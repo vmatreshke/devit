@@ -82,7 +82,19 @@ a img,fieldset{
 	}
 }
 
-//////////////////////////* HEADER *///////////////////////
+////////////////////////// * FONTS *////////////////////////////
+@font-face {
+	font-family: 'Conv_DlCyLtTf';
+	src:
+		url('fonts/DlCyLtTf.eot');
+	src:
+		url('fonts/DlCyLtTf.woff') format('woff'),
+		url('fonts/DlCyLtTf.ttf') format('truetype'),
+		url('fonts/DlCyLtTf.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+//////////////////////////* HEADER *//////////////////////////
 .out__border{
 	position: absolute;
 	top: 121px;

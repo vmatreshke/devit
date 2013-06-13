@@ -101,6 +101,8 @@
 		text-decoration: none;
 		text-transform: uppercase;
 		color: #5f6b7b;
+		font-family: 'Conv_DlCyLtTf', sans-serif;
+		font-size: 12px;
 		&:hover{
 			border: 2px solid #4db7fc;
 		}
@@ -166,11 +168,11 @@
 	margin-top: 30px;
 	margin-bottom: 30px;
 	position: relative;
-	font-family: Calibti,sans-serif;
 	text-transform: uppercase;
-	font-size: 28px;
 	line-height: 1;
 	text-align: center;
+	font-family: 'Conv_DlCyLtTf', sans-serif;
+	font-size: 28px;
 	color: #fff;
 	@include text-shadow(0 1px 0 rgba(0,0,0,.48));
 	&:before{
@@ -385,6 +387,7 @@
 			}
 		}
 		a{
+			font-family: 'Conv_DlCyLtTf', sans-serif;
 			font-size: 16px;
 			text-transform: uppercase;
 			color: #FFF;
@@ -399,6 +402,8 @@
 		left: 230px;
 		font-size: 92px;
 		line-height: 1;
+		font-family: 'Conv_DlCyLtTf',sans-serif;
+		font-weight: normal;
 		color: #FFF;
 		@include text-shadow(0 1px 0 rgba(0,0,0,.48));
 	}
@@ -462,6 +467,7 @@
 				border-top: 1px solid #4db7fc;
 				border-bottom: 1px solid #4db7fc;
 				position: relative;
+				font-family: 'Conv_DlCyLtTf', sans-serif;
 				font-style: normal;
 				&:before{
 					content: "";
