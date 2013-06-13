@@ -386,6 +386,8 @@ a img, fieldset { border: none; }
 .lteie8 .footer__left .left a, .lteie8 .right a, .lteie8 .footer__right .left a, .lteie8 .footer__right dl a, .lteie8 .footer__right dl dt { color: #c2c2c2; }
 .lteie8 .footer__left .h3, .lteie8 .h4 { color: #c2c2c2; }
 .lteie8 .breadcrumbs .active:after { content: none; }
+.lteie8 .active .product__wrap { background: #4db7fc; }
+.lteie8 .active .product__list { background: #4db7fc; }
 
 .button { padding: 9px 14px; font-size: 12px; line-height: normal; border-radius: 5px; display: inline-block; }
 
