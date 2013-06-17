@@ -376,7 +376,7 @@ a img, fieldset { border: none; }
 
 .download { margin-bottom: 12px; -webkit-box-shadow: 0 0 16px rgba(0, 0, 0, 0.2); -moz-box-shadow: 0 0 16px rgba(0, 0, 0, 0.2); box-shadow: 0 0 16px rgba(0, 0, 0, 0.2); padding: 30px 25px 30px 30px; background: #FFF; overflow: hidden; }
 
-.download__left { width: 630px; float: left; }
+.download__left { width: 600px; padding-right: 50px; float: left; }
 .download__left span { display: inline-block; margin-bottom: 50px; }
 
 .download__right { width: 250px; float: left; }
