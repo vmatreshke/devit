@@ -1297,6 +1297,7 @@
 	}
 }
 .download{
+	min-height: 945px;
 	margin-bottom: 12px;
 	@include box-shadow(0 0 16px rgba(0,0,0,0.2));
 	padding: 30px 25px 30px 30px;
@@ -1315,6 +1316,66 @@
 	.download__right{
 		width: 250px;
 		float: left;
+	}
+	.download__item{
+		list-style: none;
+		li{
+			position: relative;
+			background: #FFF;
+			padding: 20px 0 15px;
+			border-bottom: 1px solid #e4eff6;
+			&:hover{
+				cursor: pointer;
+				background: #4db7fc;
+				.download__ico{
+					@include s(download_hover);
+				}
+				.download__eye{
+					@include s(eye_hover);
+				}
+				.download__title{
+					color: #FFF;
+				}
+				.download__wt{
+					color: #FFF;
+					opacity: 0.4;
+				}
+			}
+		}
+		a{
+			text-decoration: none;
+		}
+		.download__ico{
+			display: inline-block;
+			margin-left: 25px;
+			margin-top: 0px;
+			@include s(download);
+			vertical-align: top;
+		}
+		.download__note{
+			width: 520px;
+			padding-left: 20px;
+			display: inline-block;
+			line-height: 1.2;
+		}
+		.download__title{
+			font-weight: bold;
+			color: #4eb6fa;
+			font-size: 17px;
+			font-family: Calibri,sans-serif;
+		}
+		.download__wt{
+			font-family: Calibri,sans-serif;
+			font-size: 14px;
+			color: #323c41;
+		}
+		.download__eye{
+			position: absolute;
+			right: 25px;
+			top: 25px;
+			@include s(eye);
+			vertical-align: top;
+		}
 	}
 
 .login{
