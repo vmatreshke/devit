@@ -412,7 +412,8 @@ a img, fieldset { border: none; }
 .collection { width: 180px; overflow: hidden; float: left; list-style: none; }
 .collection li { margin-bottom: 25px; }
 .collection li:first-child p { color: #4eb6fa; font-size: 18px; font-family: Calibri,sans-serif; font-weight: bold; }
-.collection li p { text-transform: uppercase; font-family: 'Conv_DlCyLtTf'; font-size: 14px; }
+.collection li a, .collection li p { text-transform: uppercase; font-family: 'Conv_DlCyLtTf'; font-size: 14px; color: #40494e; text-decoration: none; }
+.collection li a:hover, .collection li p:hover { cursor: pointer; text-decoration: underline; }
 
 .lteie8 .search input { line-height: 31px; }
 .lteie8 .slider__list { background: #2f2f2f; }

@@ -1458,10 +1458,16 @@
 					font-weight: bold;
 				}
 			}
-			p{
+			a,p{
 				text-transform: uppercase;
 				font-family: 'Conv_DlCyLtTf';
 				font-size: 14px;
+				color: #40494e;
+				text-decoration: none;
+				&:hover{
+					cursor: pointer;
+					text-decoration: underline;
+				}
 			}
 		}
 	}
