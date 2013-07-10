@@ -133,25 +133,26 @@ a img, fieldset { border: none; }
 .slider_collection .slider__list { padding: 25px 0; height: 100%; }
 .slider_collection .item__conteiner { margin-right: -33px; padding: 30px 0px 30px 33px; margin-left: 175px; background: #fff; overflow: hidden; }
 .slider_collection .item__conteiner h3 { margin-bottom: 25px; }
-.slider_collection .slider__item { width: 221px; margin-right: 33px; margin-bottom: 10px; float: left; text-decoration: none; line-height: 1.2; }
+.slider_collection .slider__item { width: 221px; margin-right: 33px; margin-bottom: 15px; float: left; text-decoration: none; line-height: 1.2; }
 .slider_collection .slider__media { width: 221px; height: 202px; overflow: hidden; margin-bottom: 10px; }
 .slider_collection .slider__media img { width: 100%; }
-.slider_collection .slider__meta { color: #4db5f9; font-family: "Calibri"; font-size: 17px; font-weight: bold; }
 .slider_collection .slider__code { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50); opacity: 0.5; color: #323c40; font-family: "Calibri"; font-size: 14px; }
 
 .slider_innerProj { width: auto; min-height: 940px; height: auto; min-height: 230px; margin-top: 20px; box-shadow: none; display: inline-block; overflow: hidden; }
-.slider_innerProj .slider__item, .slider_innerProj .slider__media, .slider_innerProj .slider__meta { width: 112px; height: 112px; }
+.slider_innerProj .slider__item { width: 112px; color: #4db5f9; font-family: "Calibri"; font-size: 17px; font-weight: bold; }
+.slider_innerProj .slider__item:hover { text-decoration: underline; }
+.slider_innerProj .slider__media, .slider_innerProj .slider__meta { width: 112px; height: 112px; }
 .slider_innerProj .slider__meta { height: auto; font-size: 15px; line-height: 0.8; }
 
-.slider_mod { min-height: 960px; margin-bottom: 12px; -webkit-box-shadow: 0 1px 16px rgba(159, 207, 238, 0.75); -moz-box-shadow: 0 1px 16px rgba(159, 207, 238, 0.75); box-shadow: 0 1px 16px rgba(159, 207, 238, 0.75); }
+.slider_mod { height: auto; min-height: 960px; margin-bottom: 12px; -webkit-box-shadow: 0 1px 16px rgba(159, 207, 238, 0.75); -moz-box-shadow: 0 1px 16px rgba(159, 207, 238, 0.75); box-shadow: 0 1px 16px rgba(159, 207, 238, 0.75); }
 .slider_mod .slider__list { min-height: 100%; }
 
 .slider_proj .slider__list { width: 175px; padding: 10px 0; background: #000; }
 .slider_proj .slider__list li { margin-left: 15px; padding: 0 15px 0 0; height: auto; line-height: 1.2; }
 .slider_proj .slider__list li:hover { background: #FFF; }
-.slider_proj .slider__list li a { font-family: 'Conv_DlCyLtTf', sans-serif; text-shadow: none; padding: 16px 0 16px 10px; }
-.slider_proj .slider__list li a:hover { color: #4db7fc; }
-.slider_proj .slider__list a { display: inline-block; font-size: 14px; color: #FFF; }
+.slider_proj .slider__list li a, .slider_proj .slider__list li span { font-family: 'Conv_DlCyLtTf', sans-serif; text-shadow: none; padding: 16px 0 16px 10px; }
+.slider_proj .slider__list li a:hover, .slider_proj .slider__list li span:hover { color: #4db7fc; }
+.slider_proj .slider__list a, .slider_proj .slider__list span { display: inline-block; font-size: 14px; color: #FFF; }
 .slider_proj .item__conteiner { padding: 25px 0px 45px 0px; background: #FFF; margin-left: 175px; font-family: Calibri,sans-serif; font-size: 14px; color: #323c41; line-height: 1.2; }
 .slider_proj .item__conteiner .item__data { padding-left: 20px; padding-right: 50px; }
 .slider_proj .item__conteiner .item__data h3 { margin-bottom: 20px; font-family: Calibri,sans-serif; font-size: 32px; color: #4eb6fa; font-weight: bold; }
@@ -161,7 +162,7 @@ a img, fieldset { border: none; }
 .slider__list { width: 211px; min-height: 976px; padding: 6px 0; position: absolute; background: rgba(0, 0, 0, 0.8); overflow: hidden; list-style: none; }
 .slider__list li { height: 30px; line-height: 30px; padding: 0 0 0 20px; }
 .slider__list li:hover { background: #4db7fc; cursor: pointer; }
-.slider__list a { font-family: 'Conv_DlCyLtTf', sans-serif; font-size: 16px; text-transform: uppercase; color: #FFF; text-decoration: none; text-shadow: 0 1px 0 rgba(0, 0, 0, 0.48); }
+.slider__list a, .slider__list span { font-family: 'Conv_DlCyLtTf', sans-serif; font-size: 16px; text-transform: uppercase; color: #FFF; text-decoration: none; text-shadow: 0 1px 0 rgba(0, 0, 0, 0.48); }
 
 .slider__title { position: absolute; bottom: 25px; left: 230px; font-size: 92px; line-height: 1; font-family: 'Conv_DlCyLtTf',sans-serif; font-weight: normal; color: #FFF; }
 
