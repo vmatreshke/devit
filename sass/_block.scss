@@ -1182,6 +1182,7 @@
 		vertical-align: top;
 		background: #FFF;
 		color: #000;
+		text-decoration: none;
 		&:hover{
 			h3{
 				color: #fff;
@@ -1218,6 +1219,7 @@
 	.proj__descr{
 		padding: 30px 25px;
 		h3{
+			width: 140px;
 			margin-bottom: 10px;
 			color: #4db7fc;
 			font-size: 18px;

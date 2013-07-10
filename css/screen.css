@@ -348,7 +348,7 @@ a img, fieldset { border: none; }
 
 .proj__text { padding: 40px 45px 55px; color: #323c41; font-size: 14px; line-height: 1.2; }
 
-.proj__item { width: 240px; height: 440px; float: left; position: relative; vertical-align: top; background: #FFF; color: #000; }
+.proj__item { width: 240px; height: 440px; float: left; position: relative; vertical-align: top; background: #FFF; color: #000; text-decoration: none; }
 .proj__item:hover { background: #4db7fc; cursor: pointer; color: #fff; }
 .proj__item:hover h3 { color: #fff; }
 .proj__item:hover .proj__border { display: block; }
@@ -359,7 +359,7 @@ a img, fieldset { border: none; }
 .proj__img img { height: 100%; }
 
 .proj__descr { padding: 30px 25px; }
-.proj__descr h3 { margin-bottom: 10px; color: #4db7fc; font-size: 18px; line-height: 1; font-family: Calibri,sans-serif; }
+.proj__descr h3 { width: 140px; margin-bottom: 10px; color: #4db7fc; font-size: 18px; line-height: 1; font-family: Calibri,sans-serif; }
 
 .proj__border { display: none; z-index: 1000; position: absolute; top: 0; left: -13px; width: 240px; height: 414px; border: 13px solid #4db7fc; }
 
