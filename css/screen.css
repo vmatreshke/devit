@@ -239,16 +239,19 @@ a img, fieldset { border: none; }
 .kat__info { margin-top: 25px; font-family: Calibri,sans-serif; font-size: 14px; line-height: 1.2; color: rgba(50, 60, 65, 0.77); }
 
 .kat__doc, .kat__charac { float: left; list-style: none; }
-.kat__doc li, .kat__charac li { line-height: 28px; border-top: 1px solid #e5e5e5; }
-.kat__doc li:first-child, .kat__charac li:first-child { color: rgba(50, 60, 65, 0.5); border-top: none; }
+.kat__doc li, .kat__charac li { position: relative; line-height: 28px; border-top: 1px solid #e5e5e5; }
+.kat__doc li:first-child, .kat__charac li:first-child { padding-bottom: 20px; color: rgba(50, 60, 65, 0.5); border-top: none; }
+.kat__doc li:first-child:after, .kat__charac li:first-child:after { content: ""; width: 100%; height: 1px; position: absolute; bottom: 15px; left: 0; background: #e5e5e5; }
+.kat__doc li:first-child:before, .kat__charac li:first-child:before { content: ""; width: 100%; height: 5px; position: absolute; bottom: -2px; left: 0; background: #fff; z-index: 1000; }
 .kat__doc li strong, .kat__charac li strong { margin-left: 25px; }
+
+.kat__doc li:first-child { padding-bottom: 0; }
+.kat__doc li:first-child:after { bottom: -5px; }
+.kat__doc li:first-child:before { content: none; }
 
 .kat__charac { margin-right: 25px; }
 
-.kat__somePadding { padding-top: 20px; line-height: 1; }
-
 .kat__doc li { border-top: none; }
-.kat__doc li:first-child { border-bottom: 1px solid #e5e5e5; }
 
 .doc { margin-top: 25px; margin-bottom: 20px; }
 .doc a { display: inline-block; text-decoration: none; color: rgba(50, 60, 65, 0.5); }

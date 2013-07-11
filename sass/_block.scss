@@ -771,32 +771,59 @@
 		float: left;
 		list-style: none;
 		li{
+			position: relative;
 			line-height: 28px;
 			border-top: 1px solid #e5e5e5;
 			&:first-child{
+				padding-bottom: 20px;
 				color: rgba(50,60,65, .5);
 				border-top: none;
+				&:after{
+					content: "";
+					width: 100%;
+					height: 1px;
+					position: absolute;
+					bottom: 15px;
+					left: 0;
+					background: #e5e5e5;
+				}
+				&:before{
+					content: "";
+					width: 100%;
+					height: 5px;
+					position: absolute;
+					bottom: -2px;
+					left: 0;
+					background: #fff;
+					z-index: 1000;
+				}
 			}
 			strong{
 				margin-left: 25px;
 			}
 		}
 	}
+	.kat__doc{
+		li{
+			&:first-child{
+				padding-bottom: 0;
+				&:after{
+					bottom: -5px;
+				}
+				&:before{
+					content: none;
+				}
+			}
+		}
+	}
 	.kat__charac{
 		margin-right: 25px;
-	}
-	.kat__meta{
-
-	}
-	.kat__somePadding{
-		padding-top: 20px;
-		line-height: 1;
 	}
 	.kat__doc{
 		li{
 			border-top: none;
 			&:first-child{
-				border-bottom: 1px solid #e5e5e5;
+				// border-bottom: 1px solid #e5e5e5;
 			}
 		}
 	}
