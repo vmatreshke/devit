@@ -1476,14 +1476,19 @@
 					font-weight: bold;
 				}
 			}
-			a,p{
+			.collection__item{
 				text-transform: uppercase;
 				font-family: 'Conv_DlCyLtTf';
 				font-size: 14px;
 				color: #40494e;
 				text-decoration: none;
 				&:hover{
+					color: #4EB6FA;
 					cursor: pointer;
+				}
+			}
+			a.collection__item{
+				&:hover{
 					text-decoration: underline;
 				}
 			}
