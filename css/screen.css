@@ -451,13 +451,17 @@ a.product__cnt:hover { text-decoration: underline; }
 
 .scroll__wrap { padding: 35px 60px; }
 
-.scroll__item { margin-bottom: 25px; }
+.scroll__item { display: inline-block; margin-bottom: 25px; }
 
 .scroll__media { width: 159px; height: 159px; border-radius: 50%; overflow: hidden; margin-right: 25px; float: left; }
 .scroll__media img { width: 100%; height: 100%; }
 
 .scroll__cont { width: 650px; padding: 25px 0; float: left; font-family: Calibri, sans-serif; font-size: 14px; color: #323c41; line-height: 1.3; }
 .scroll__cont h2 { margin-bottom: 20px; font-family: Calibri, sans-serif; font-size: 25px; color: #4eb6fa; line-height: 1; }
+
+.scroll__cont_news { width: 510px; }
+
+.scroll__wrap_news .scroll__item:hover h2 { color: #305269; }
 
 .tradeMark { min-height: 600px; margin-top: 35px; }
 

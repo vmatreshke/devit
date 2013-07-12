@@ -1625,6 +1625,7 @@
 	}
 		.scroll__item{
 			@extend %clr;
+			display: inline-block;
 			margin-bottom: 25px;
 		}
 			.scroll__media{
@@ -1656,6 +1657,18 @@
 					line-height: 1;
 				}
 			}
+			.scroll__cont_news{
+				width: 510px;
+			}
+	.scroll__wrap_news{
+		.scroll__item{
+			&:hover{
+				h2{
+					color: #305269;
+				}
+			}
+		}
+	}
 .tradeMark{
 	min-height: 600px;
 	margin-top: 35px;
