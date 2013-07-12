@@ -222,7 +222,7 @@
 	.slider__bg{
 		width: 959px;
 		height: 463px;
-		background: url(../img/slider.jpg) 0px 0px no-repeat;
+		// background: url(../img/slider.jpg) 0px 0px no-repeat;
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -260,6 +260,7 @@
 	.slider__list{
 		padding: 25px 0;
 		height: 100%;
+		z-index: 200;
 	}
 	.item__conteiner{
 		// width: 750px;
@@ -402,10 +403,16 @@
 		background: rgba(0,0,0, 0.8);
 		overflow: hidden;
 		list-style: none;
+		z-index: 200;
+		a{
+			display: block;
+			padding: 0 0 0 20px;
+			height: 30px;
+			line-height: 30px;
+		}
 		li{
 			height: 30px;
 			line-height: 30px;
-			padding: 0 0 0 20px;
 			&:hover{
 				background: #4db7fc;
 				cursor: pointer;
