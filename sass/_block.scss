@@ -108,6 +108,7 @@
 		}
 	}
 }
+
 .sub-nav{
 	@extend %clr;
 	width: 300px;
@@ -162,6 +163,13 @@
 		&:hover{
 			border: 1px solid #a6dbfe;
 		}
+	}
+}
+.sub-nav_right{
+	width: 800px;
+	right: 0;
+	li{
+		float: right;
 	}
 }
 .h1{
@@ -1648,4 +1656,43 @@
 					line-height: 1;
 				}
 			}
+.tradeMark{
+	min-height: 600px;
+	margin-top: 35px;
+}
+	.tradeMark__title{
+		font-family: Calibri, sans-serif;
+		font-weight: bold;
+		font-size: 18px;
+		color: #4eb6fa;
+	}
+	.tradeMark__item{
+		margin-top: 25px;
+	}
+	.tradeMark__top{
+		margin-bottom: 10px;
+		.tradeMark__ok{
+			margin-right: 12px;
+			display: inline-block;
+			vertical-align: middle;
+			@include s(tradeMark__ok);
+		}
+		strong{
+			font-family: Calibri, sans-serif;
+			font-size: 15px;
+			color: #323c41;
+			text-transform: uppercase;
+		}
+	}
+	.tradeMark__cnt{
+		margin-left: 38px;
+		font-family: Calibri, sans-serif;
+		font-size: 14px;
+		color: #323c41;
+		strong{
+			font-weight: bold;
+			color: #1795e6;
+		}
+	}
+
 
