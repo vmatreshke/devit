@@ -162,16 +162,16 @@ a img, fieldset { border: none; }
 .slider_proj .item__conteiner .item__data { padding-left: 20px; padding-right: 50px; }
 .slider_proj .item__conteiner .item__data h1 { margin-bottom: 20px; font-family: Calibri,sans-serif; font-size: 32px; color: #4eb6fa; font-weight: bold; }
 
-.slider_innerBuy { min-height: auto; }
+.slider_innerBuy { min-height: 100%; height: auto; }
 
 .slider__list { width: 211px; min-height: 976px; padding: 6px 0; position: absolute; background: rgba(0, 0, 0, 0.8); overflow: hidden; list-style: none; z-index: 200; }
-.slider__list a { display: block; padding: 0 0 0 20px; height: 30px; }
+.slider__list a, .slider__list span { display: block; padding: 0 0 0 20px; height: 30px; }
 .slider__list .is-active { background: #fff; }
 .slider__list .is-active span, .slider__list .is-active div { color: #4db7fc; }
 .slider__list .is-active:hover { cursor: normal; }
 .slider__list li { height: 30px; line-height: 30px; }
 .slider__list li:hover { background: #4db7fc; cursor: pointer; }
-.slider__list a, .slider__list span { font-family: 'Conv_DlCyLtTf', sans-serif; font-size: 16px; text-transform: uppercase; color: #FFF; text-decoration: none; text-shadow: 0 1px 0 rgba(0, 0, 0, 0.48); }
+.slider__list a, .slider__list span { font-family: 'Conv_DlCyLtTf', sans-serif; font-size: 16px; text-transform: uppercase; color: #FFF; text-decoration: none; }
 
 .slider__title { position: absolute; bottom: 25px; left: 230px; font-size: 92px; line-height: 1; font-family: 'Conv_DlCyLtTf',sans-serif; font-weight: normal; color: #FFF; }
 

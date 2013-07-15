@@ -392,7 +392,8 @@
 }
 .slider_innerBuy{
 	// min-height: 965px;
-	min-height: auto;
+	min-height: 100%;
+	height: auto;
 }
 	.slider__list{
 		width: 211px;
@@ -403,7 +404,7 @@
 		overflow: hidden;
 		list-style: none;
 		z-index: 200;
-		a{
+		a,span{
 			display: block;
 			padding: 0 0 0 20px;
 			height: 30px;
@@ -432,7 +433,7 @@
 			text-transform: uppercase;
 			color: #FFF;
 			text-decoration: none;
-			@include text-shadow(0 1px 0 rgba(0,0,0,.48));
+			// @include text-shadow(0 1px 0 rgba(0,0,0,.48));
 		}
 	}
 	.slider__title{
