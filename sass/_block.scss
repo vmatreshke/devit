@@ -1780,5 +1780,24 @@
 	background: #415665;
 	opacity: 0.8;
 }
+.popupLogin{
+	width: 460px;
+	position: absolute;
+	top: 400px;
+	left: 50%;
+	margin-left: -230px;
+	z-index: 1000;
+	.row{
+		p{
+			width: 50px;
+			margin-left: 40px;
+			margin-right: 40px;
+			display: inline-block;
+		}
+		input{
+			display: inline-block;
+		}
+	}
+}
 
 

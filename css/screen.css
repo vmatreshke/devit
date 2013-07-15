@@ -491,6 +491,10 @@ a.product__cnt:hover { text-decoration: underline; }
 
 .popupBg { width: 100%; height: 100%; min-height: 100%; position: absolute; left: 0px; bottom: 0px !important; top: 0px !important; z-index: 999; background: #415665; opacity: 0.8; }
 
+.popupLogin { width: 460px; position: absolute; top: 400px; left: 50%; margin-left: -230px; z-index: 1000; }
+.popupLogin .row p { width: 50px; margin-left: 40px; margin-right: 40px; display: inline-block; }
+.popupLogin .row input { display: inline-block; }
+
 .lteie8 .search input { line-height: 31px; }
 .lteie8 .slider__list { background: #2f2f2f; }
 .lteie8 .news { overflow: hidden; }
