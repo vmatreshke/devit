@@ -367,7 +367,6 @@
 			display: inline-block;
 			font-size: 14px;
 			color: #FFF;
-
 		}
 	}
 	.item__conteiner{
@@ -408,7 +407,16 @@
 			display: block;
 			padding: 0 0 0 20px;
 			height: 30px;
-			line-height: 30px;
+			// line-height: 30px;
+		}
+		.is-active{
+			background: #fff;
+			span,div{
+				color: #4db7fc;
+			}
+			&:hover{
+				cursor: normal;
+			}
 		}
 		li{
 			height: 30px;
