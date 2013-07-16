@@ -416,7 +416,7 @@
 				color: #4db7fc;
 			}
 			&:hover{
-				cursor: normal;
+				cursor: auto;
 			}
 		}
 		li{
@@ -1787,15 +1787,51 @@
 	left: 50%;
 	margin-left: -230px;
 	z-index: 1000;
+	.popupLogin__cross{
+		@include s(popupLogin__cross);
+		position: absolute;
+		top: 5px;
+		right: 15px;
+		&:hover{
+			cursor: pointer;
+		}
+	}
 	.row{
 		p{
-			width: 50px;
+			width: 80px;
 			margin-left: 40px;
-			margin-right: 40px;
 			display: inline-block;
 		}
 		input{
 			display: inline-block;
+		}
+	}
+	.row_log{
+		@extend %clr;
+		padding-bottom: 25px;
+		button{
+			float: left;
+			margin-left: 134px;
+		}
+		.login__note{
+			margin-left: 10px;
+			float: left;
+			color: #FFF;
+		}
+
+	}
+	.login{
+		line-height: 1;
+		.login__top{
+			position: relative;
+			.h4{
+				margin-left: 15px;
+				text-align: left;
+			}
+		}
+		button{
+			background: #FFF;
+			border: none;
 		}
 	}
 }
