@@ -451,6 +451,7 @@ a.product__cnt:hover { text-decoration: underline; }
 
 .scroll__nav { text-align: center; }
 .scroll__nav a { display: inline-block; width: 10px; height: 10px; -webkit-border-radius: 50%; border-radius: 50%; background: #b8e2fe; margin-right: 3px; }
+.scroll__nav a:hover { background: #DCECF7; }
 .scroll__nav .active { width: 4px; height: 4px; -webkit-border-radius: 50%; border-radius: 50%; border: 3px solid #4eb7fb; background: #fff; }
 
 .scroll__wrap { padding: 35px 60px; }

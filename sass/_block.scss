@@ -1626,6 +1626,9 @@
 			        border-radius: 50%;
 			background: #b8e2fe;
 			margin-right: 3px;
+			&:hover{
+				background: #DCECF7;
+			}
 		}
 		.active{
 			width: 4px;
