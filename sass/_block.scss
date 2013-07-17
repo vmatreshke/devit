@@ -908,6 +908,18 @@
 		}
 	}
 }
+.kat_mod2{
+	@extend %clr;
+	padding: 35px 0;
+	font-family: Calibri, sans-serif;
+	font-size: 14px;
+	line-height: 1.4;
+	.kat_mod__cont{
+		padding: 40px 0 0 35px;
+		width: 420px;
+		float: left;
+	}
+}
 // photogallery
 .js-masonry{
 	@extend %clr;
@@ -1835,6 +1847,32 @@
 		button{
 			background: #FFF;
 			border: none;
+		}
+	}
+}
+.support{
+	width: 310px;
+	padding: 45px 45px 40px;
+	margin-right: 35px;
+	background: #4db7fc;
+	float: right;
+	font-family: Calibri, sans-serif;
+	color: #FFF;
+	.support__media{
+		margin-bottom: 20px;
+	}
+	.support__descr{
+		margin-bottom: 20px;
+	}
+	.support__tel{
+		overflow: hidden;
+		img{
+			float: left;
+			margin-right: 10px;
+		}
+		.support__number{
+			float: left;
+			font-size: 18px;
 		}
 	}
 }
