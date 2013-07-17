@@ -910,12 +910,12 @@
 }
 .kat_mod2{
 	@extend %clr;
-	padding: 35px 0;
+	padding: 35px;
 	font-family: Calibri, sans-serif;
 	font-size: 14px;
 	line-height: 1.4;
 	.kat_mod__cont{
-		padding: 40px 0 0 35px;
+		padding: 40px 0 0 0px;
 		width: 420px;
 		float: left;
 	}
@@ -1853,7 +1853,7 @@
 .support{
 	width: 310px;
 	padding: 45px 45px 40px;
-	margin-right: 35px;
+	// margin-right: 35px;
 	background: #4db7fc;
 	float: right;
 	font-family: Calibri, sans-serif;
@@ -1876,5 +1876,103 @@
 		}
 	}
 }
+.contact-form{
+	float: left;
+	h2{
+		display: inline-block;
+		margin-bottom: 40px;
+		font-size: 25px;
+		color: #4eb6fa;
+	}
+	textarea, input{
+		@include box-sizing(border-box);
+		width: 375px;
+		display: block;
+		margin-bottom: 10px;
+		border: 1px solid #e3e6e8;
+		font-family: Calibri, sans-serif;
+		font-size: 14px;
+		color: #323c41;
+		opacity: 0.6;
+	}
+	textarea{
+		padding: 15px 20px;
+		min-height: 138px;
+		resize: vertical;
+	}
+	input{
+		padding: 0 20px;
+		height: 38px;
+	}
+	.error{
+		border: 1px solid #fcbfbf;
+		opacity: 1;
+	}
+	.contact-form__input{
+		position: relative;
+		.i_er{
+			display: none;
+		}
+	}
+	.contact-form__input_error{
+		.i_er{
+			display: block;
+		}
+	}
+	.i_er{
+		@include s(input_error);
+		position: absolute;
+		top: 9px;
+		right: 10px;
+	}
+	.contact-form__noteError{
+		margin-bottom: 20px;
+		margin-left: 20px;
+		color: #f86b6b;
+	}
+	.contact-form__capcha{
+		overflow: hidden;
+		input{
+			width: 105px;
+			padding: 0 10px;
+			margin-right: 10px;
+			float: left;
+		}
+		ul{
+			float: left;
+			list-style: none;
+			p{
+				line-height: 1;
+				color: #323c41;
+			}
+			b{
+				font-size: 18px;
+				color: #4db7fc;
+			}
+		}
+	}
+	button{
+		margin-top: 15px;
+		height: 40px;
+		line-height: 40px;
+		padding: 0 20px;
+		background: #54bafc;
+		border: none;
+		text-transform: uppercase;
+		color: #FFF;
+		&:hover{
+			cursor: pointer;
+		}
+	}
+}
+	.contact-form__meta{
+		margin-bottom: 25px;
+		.contact-form__info{
+			margin-right: 5px;
+			display: inline-block;
+			vertical-align: middle;
+			@include s(contact-form__info);
+		}
+	}
 
 
