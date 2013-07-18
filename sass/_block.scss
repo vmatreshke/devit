@@ -533,7 +533,9 @@
 	.news__items{
 		padding: 0 50px;
 		margin-top: -30px;
-		margin-right: -80px;
+		// margin-right: -80px;
+		
+
 		// .active{
 		// 	position: relative;
 		// 	border: 5px solid #4db7fc;
@@ -555,12 +557,15 @@
 	}
 	.news__item{
 		width: 230px;
-		margin-right: 80px;
+		margin-left: 80px;
 		display: inline-block;
 		vertical-align: top;
 		text-align: center;
 		text-decoration: none;
 		font: 14px Calibri, sans-serif;
+		&:first-child{
+			margin-left: 0;
+		}
 		&:hover{
 			.news__img{
 				position: relative;
@@ -677,7 +682,8 @@
 	padding-bottom: 50px;
 }
 	.waves__cont{
-		width: 960px;
+		// width: 960px;
+		width: 940px;
 		margin: 0 auto;
 		text-align: center;
 		p{
@@ -1691,7 +1697,7 @@
 				}
 			}
 			.scroll__cont{
-				width: 650px;
+				width: 510px;
 				padding: 25px 0;
 				float: left;
 				font-family: Calibri, sans-serif;
@@ -1765,6 +1771,7 @@
 	display: inline-block;
 	width: 84px;
 	height: 84px;
+	margin-left: 55px;
 	margin-top: 45px;
 	-webkit-border-radius: 50%;
 	        border-radius: 50%;

@@ -7,7 +7,7 @@ $(document).ready(function(){
       $('.js-masonry').masonry({
         itemSelector: '.photogallery__item',
 
-        columnWidth: 25
+        columnWidth: 20
 
 
       });

@@ -13,6 +13,7 @@
 	background: url(../img/bg.jpg) 0% 121px no-repeat;
 	@include background-size(cover);
 	margin-bottom: 125px;
+	overflow: hidden;
 }
 .wrap{
 	width: 960px;
