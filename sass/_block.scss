@@ -233,7 +233,7 @@
 }
 .slider_collection{
 	width: 960px;
-	min-height: 1152px;
+	// min-height: 1152px;
 	height: auto;
 	@include box-shadow(0 1px 16px rgba(159,207,238,.75));
 	.slider__list{
@@ -1645,6 +1645,8 @@
 		.active{
 			width: 4px;
 			height: 4px;
+			display: inline-block;
+			margin-right: 3px;
 			-webkit-border-radius: 50%;
 			        border-radius: 50%;
 			border: 3px solid #4eb7fb;
@@ -1705,10 +1707,14 @@
 				}
 			}
 			.scroll__cont_news{
-				width: 510px;
+				overflow: hidden;
 			}
 	.scroll__wrap_news{
+		a{
+			display: block;
+		}
 		.scroll__item{
+			@extend %clr;
 			&:hover{
 				h2{
 					color: #305269;
@@ -1755,7 +1761,7 @@
 		}
 	}
 .date{
-	float: left;
+	float: right;
 	display: inline-block;
 	width: 84px;
 	height: 84px;
