@@ -1,6 +1,7 @@
 @media only screen and (min-width: 1200px) { .header { width: 1200px; margin: 0 auto; }
   .h1 { width: 1200px; margin: 30px auto; }
   .wrap { width: auto; }
+  .wrap_1200 { width: 1400px; }
   .logo { margin-right: 130px; }
   .content { width: auto; padding-bottom: 15px; display: block; }
   .slider { width: 90%; margin: 0 auto; }

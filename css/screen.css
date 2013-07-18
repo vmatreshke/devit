@@ -455,7 +455,7 @@ a.product__cnt:hover { text-decoration: underline; }
 .scroll__nav { text-align: center; }
 .scroll__nav a { display: inline-block; width: 10px; height: 10px; -webkit-border-radius: 50%; border-radius: 50%; background: #b8e2fe; margin-right: 3px; }
 .scroll__nav a:hover { background: #DCECF7; }
-.scroll__nav .active { width: 4px; height: 4px; -webkit-border-radius: 50%; border-radius: 50%; border: 3px solid #4eb7fb; background: #fff; }
+.scroll__nav .active { display: inline-block; margin-right: 3px; width: 4px; height: 4px; -webkit-border-radius: 50%; border-radius: 50%; border: 3px solid #4eb7fb; background: #fff; }
 
 .scroll__wrap { padding: 35px 60px; }
 
@@ -472,6 +472,7 @@ a.product__cnt:hover { text-decoration: underline; }
 
 .scroll__cont_news { width: 510px; }
 
+.scroll__wrap_news a { display: block; }
 .scroll__wrap_news .scroll__item:hover h2 { color: #305269; }
 
 .tradeMark { min-height: 600px; margin-top: 35px; }
@@ -555,6 +556,7 @@ a.product__cnt:hover { text-decoration: underline; }
 @media only screen and (min-width: 1200px) { .header { width: 1200px; margin: 0 auto; }
   .h1 { width: 1200px; margin: 30px auto; }
   .wrap { width: auto; }
+  .wrap_1200 { width: 1400px; }
   .logo { margin-right: 130px; }
   .content { width: auto; padding-bottom: 15px; display: block; }
   .slider { width: 90%; margin: 0 auto; }
