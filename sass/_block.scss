@@ -397,7 +397,7 @@
 }
 	.slider__list{
 		width: 211px;
-		min-height: 976px;
+		// min-height: 976px;
 		padding: 6px 0;
 		position: absolute;
 		background: rgba(0,0,0, 0.8);
@@ -440,6 +440,7 @@
 		position: absolute;
 		bottom: 25px;
 		left: 230px;
+		z-index: 2000;
 		font-size: 92px;
 		line-height: 1;
 		font-family: 'Conv_DlCyLtTf',sans-serif;
@@ -455,7 +456,7 @@
 	&:after{
 		content: "";
 		position: absolute;
-		bottom: -33px;
+		bottom: -32px;
 		left: 0;
 		@include s(news_btm);
 	}

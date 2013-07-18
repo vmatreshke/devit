@@ -1,0 +1,60 @@
+////////////////////////// * media screen *////////////////////////////
+@media only screen and (min-width: 1200px) {
+	.header{
+		width: 1200px;
+		margin: 0 auto;
+	}
+	.h1{
+		width: 1200px;
+		margin: 30px auto;
+	}
+	.wrap{
+		width: auto;
+	}
+    .logo{
+		margin-right: 130px;
+    }
+    .content{
+    	width: auto;
+    	padding-bottom: 15px;
+    	display: block;
+    }
+    // index page
+    .slider{
+        width: 90%;
+        margin: 0 auto;
+        // margin-right: 100px;
+        .slider__bg{
+            width: 100%;
+            height: 100%;
+        }
+    }
+        .slider__list{
+
+        }
+        .slider__title{
+        	left: 330px;
+        }
+        .slider__bg{
+            margin-right: 200px;
+            // margin-left: 100px;
+            a{
+                display: block;
+            }
+        	img{
+                // min-width: 1000px;
+                // width: 100%;
+                width: 100%;
+                height: 100%;
+            }
+        }
+    .news{
+        &:after{
+            width: 100%;
+            background: url('../img/icons/news_btm.png') 0 0px repeat-x;
+        }
+    }
+        .news__items{
+            margin-right: 0;
+        }
+}
