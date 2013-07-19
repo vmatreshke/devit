@@ -293,6 +293,16 @@ a img, fieldset { border: none; }
 .photogallery__item i { width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: 1000; }
 .photogallery__item i:hover { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80); opacity: 0.8; background-color: #4db7fb; cursor: pointer; }
 
+.photogallery__item_w100 .photogallery__img img { width: 420px; }
+
+.photogallery__item_w50 .photogallery__img img { width: 227px; }
+
+.photogallery__item_long .photogallery__img img { height: 411px; }
+
+.photogallery__item_average .photogallery__img img { height: 270px; }
+
+.photogallery__item_small .photogallery__img img { height: 127px; }
+
 .photogallery__img img { vertical-align: top; }
 .photogallery__img:hover { cursor: pointer; }
 

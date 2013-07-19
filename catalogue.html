@@ -7,8 +7,9 @@
 	<meta name="viewport" content="width=device-width"/>
 	<link rel="stylesheet" media="screen" href="css/screen.css" >
 	<script src="js/jquery.tools.min.js"></script>
-	<script src="js/modernizr-transitions.js"></script>
-	<script src="js/jquery.masonry.min.js"></script>
+
+
+	<script src="js/masonry.pkgd.min.js"></script>
 	<script src="js/common.js"></script>
 </head>
 <body>
@@ -61,100 +62,20 @@
 						<li class="active"><a href="#">Коллекции</a></li>
 						<li><a href="#">Тип товара</a></li>
 					</ul>
-					<div class="js-masonry photogallery">
+					<div id="container" class="js-masonry photogallery"
+						 	data-masonry-options='{ "columnWidth": 23, "itemSelector": ".photogallery__item" }'>
 
-						<div class="photogallery__item">
+						<div class="photogallery__item photogallery__item_w100 photogallery__item_long">
 							<i></i>
 							<div class="photogallery__img">
-								<img src="img/mass3.jpg" alt="">
+								<img src="img/mass1.jpg" alt="">
 							</div>
 							<div class="photogallery__title">
 								<h2 class="big">AUROra</h2>
 							</div>
 						</div>
-						<div class="photogallery__item">
-							<i></i>
-							<div class="photogallery__img">
-								<img src="img/mass2.jpg" alt="">
-							</div>
-							<div class="photogallery__title">
-								<h2 class="big">AUROra</h2>
-							</div>
-						</div>
-						<div class="photogallery__item">
-							<i></i>
-							<div class="photogallery__img">
-								<img src="img/mass3.jpg" alt="">
-							</div>
-							<div class="photogallery__title">
-								<h2 class="big">AUROra</h2>
-							</div>
-						</div>
-						<div class="photogallery__item">
-							<i></i>
-							<div class="photogallery__img">
-								<img src="img/mass3.jpg" alt="">
-							</div>
-							<div class="photogallery__title">
-								<h2 class="big">AUROra</h2>
-							</div>
-						</div>
-						<div class="photogallery__item">
-							<i></i>
-							<div class="photogallery__img">
-								<img src="img/mass3.jpg" alt="">
-							</div>
-							<div class="photogallery__title">
-								<h2 class="big">AUROra</h2>
-							</div>
-						</div>
-						<div class="photogallery__item">
-							<i></i>
-							<div class="photogallery__img">
-								<img src="img/mass4.jpg" alt="">
-							</div>
-							<div class="photogallery__title">
-								<h2 class="big">AUROra</h2>
-							</div>
-						</div>
-						<div class="photogallery__item">
-							<i></i>
-							<div class="photogallery__img">
-								<img src="img/mass5.jpg" alt="">
-							</div>
-							<div class="photogallery__title">
-								<h2 class="big">AUROra</h2>
-							</div>
-						</div>
-						<div class="photogallery__item">
-							<i></i>
-							<div class="photogallery__img">
-								<img src="img/mass5.jpg" alt="">
-							</div>
-							<div class="photogallery__title">
-								<h2 class="big">AUROra</h2>
-							</div>
-						</div>
-						<div class="photogallery__item">
-							<i></i>
-							<div class="photogallery__img">
-								<img src="img/mass6.jpg" alt="">
-							</div>
-							<div class="photogallery__title">
-								<h2 class="big">AUROra</h2>
-							</div>
-						</div>
-						<!-- some here -->
-						<div class="photogallery__item">
-							<i></i>
-							<div class="photogallery__img">
-								<img src="img/mass3.jpg" alt="">
-							</div>
-							<div class="photogallery__title">
-								<h2 class="big">AUROra</h2>
-							</div>
-						</div>
-						<div class="photogallery__item">
+
+						<div class="photogallery__item photogallery__item_w50 photogallery__item_average">
 							<i></i>
 							<div class="photogallery__img">
 								<img src="img/mass2.jpg" alt="">
@@ -163,7 +84,8 @@
 								<h2 class="big">AUROra</h2>
 							</div>
 						</div>
-						<div class="photogallery__item">
+
+						<div class="photogallery__item photogallery__item_w50 photogallery__item_small">
 							<i></i>
 							<div class="photogallery__img">
 								<img src="img/mass3.jpg" alt="">
@@ -172,25 +94,8 @@
 								<h2 class="big">AUROra</h2>
 							</div>
 						</div>
-						<div class="photogallery__item">
-							<i></i>
-							<div class="photogallery__img">
-								<img src="img/mass3.jpg" alt="">
-							</div>
-							<div class="photogallery__title">
-								<h2 class="big">AUROra</h2>
-							</div>
-						</div>
-						<div class="photogallery__item">
-							<i></i>
-							<div class="photogallery__img">
-								<img src="img/mass3.jpg" alt="">
-							</div>
-							<div class="photogallery__title">
-								<h2 class="big">AUROra</h2>
-							</div>
-						</div>
-						<div class="photogallery__item">
+
+						<div class="photogallery__item photogallery__item_w50 photogallery__item_long">
 							<i></i>
 							<div class="photogallery__img">
 								<img src="img/mass4.jpg" alt="">
@@ -199,44 +104,8 @@
 								<h2 class="big">AUROra</h2>
 							</div>
 						</div>
-						<div class="photogallery__item">
-							<i></i>
-							<div class="photogallery__img">
-								<img src="img/mass5.jpg" alt="">
-							</div>
-							<div class="photogallery__title">
-								<h2 class="big">AUROra</h2>
-							</div>
-						</div>
-						<div class="photogallery__item">
-							<i></i>
-							<div class="photogallery__img">
-								<img src="img/mass5.jpg" alt="">
-							</div>
-							<div class="photogallery__title">
-								<h2 class="big">AUROra</h2>
-							</div>
-						</div>
-						<div class="photogallery__item">
-							<i></i>
-							<div class="photogallery__img">
-								<img src="img/mass6.jpg" alt="">
-							</div>
-							<div class="photogallery__title">
-								<h2 class="big">AUROra</h2>
-							</div>
-						</div>
-						<!-- some here -->
-						<div class="photogallery__item">
-							<i></i>
-							<div class="photogallery__img">
-								<img src="img/mass3.jpg" alt="">
-							</div>
-							<div class="photogallery__title">
-								<h2 class="big">AUROra</h2>
-							</div>
-						</div>
-						<div class="photogallery__item">
+
+						<div class="photogallery__item photogallery__item_w50 photogallery__item_average">
 							<i></i>
 							<div class="photogallery__img">
 								<img src="img/mass2.jpg" alt="">
@@ -245,7 +114,8 @@
 								<h2 class="big">AUROra</h2>
 							</div>
 						</div>
-						<div class="photogallery__item">
+
+						<div class="photogallery__item photogallery__item_w50 photogallery__item_small">
 							<i></i>
 							<div class="photogallery__img">
 								<img src="img/mass3.jpg" alt="">
@@ -254,7 +124,28 @@
 								<h2 class="big">AUROra</h2>
 							</div>
 						</div>
-						<div class="photogallery__item">
+
+						<div class="photogallery__item photogallery__item_w100 photogallery__item_long">
+							<i></i>
+							<div class="photogallery__img">
+								<img src="img/mass1.jpg" alt="">
+							</div>
+							<div class="photogallery__title">
+								<h2 class="big">AUROra</h2>
+							</div>
+						</div>
+
+						<div class="photogallery__item photogallery__item_w50 photogallery__item_average">
+							<i></i>
+							<div class="photogallery__img">
+								<img src="img/mass2.jpg" alt="">
+							</div>
+							<div class="photogallery__title">
+								<h2 class="big">AUROra</h2>
+							</div>
+						</div>
+
+						<div class="photogallery__item photogallery__item_w50 photogallery__item_small">
 							<i></i>
 							<div class="photogallery__img">
 								<img src="img/mass3.jpg" alt="">
@@ -263,16 +154,8 @@
 								<h2 class="big">AUROra</h2>
 							</div>
 						</div>
-						<div class="photogallery__item">
-							<i></i>
-							<div class="photogallery__img">
-								<img src="img/mass3.jpg" alt="">
-							</div>
-							<div class="photogallery__title">
-								<h2 class="big">AUROra</h2>
-							</div>
-						</div>
-						<div class="photogallery__item">
+
+						<div class="photogallery__item photogallery__item_w50 photogallery__item_long">
 							<i></i>
 							<div class="photogallery__img">
 								<img src="img/mass4.jpg" alt="">
@@ -281,34 +164,125 @@
 								<h2 class="big">AUROra</h2>
 							</div>
 						</div>
-						<div class="photogallery__item">
+
+						<div class="photogallery__item photogallery__item_w50 photogallery__item_average">
 							<i></i>
 							<div class="photogallery__img">
-								<img src="img/mass5.jpg" alt="">
+								<img src="img/mass2.jpg" alt="">
 							</div>
 							<div class="photogallery__title">
 								<h2 class="big">AUROra</h2>
 							</div>
 						</div>
-						<div class="photogallery__item">
+
+						<div class="photogallery__item photogallery__item_w50 photogallery__item_small">
 							<i></i>
 							<div class="photogallery__img">
-								<img src="img/mass5.jpg" alt="">
+								<img src="img/mass3.jpg" alt="">
 							</div>
 							<div class="photogallery__title">
 								<h2 class="big">AUROra</h2>
 							</div>
 						</div>
-						<div class="photogallery__item">
+						<div class="photogallery__item photogallery__item_w50 photogallery__item_average">
 							<i></i>
 							<div class="photogallery__img">
-								<img src="img/mass6.jpg" alt="">
+								<img src="img/mass2.jpg" alt="">
 							</div>
 							<div class="photogallery__title">
 								<h2 class="big">AUROra</h2>
 							</div>
 						</div>
-						<!-- some here -->
+
+						<div class="photogallery__item photogallery__item_w50 photogallery__item_small">
+							<i></i>
+							<div class="photogallery__img">
+								<img src="img/mass3.jpg" alt="">
+							</div>
+							<div class="photogallery__title">
+								<h2 class="big">AUROra</h2>
+							</div>
+						</div>
+
+						<div class="photogallery__item photogallery__item_w50 photogallery__item_long">
+							<i></i>
+							<div class="photogallery__img">
+								<img src="img/mass4.jpg" alt="">
+							</div>
+							<div class="photogallery__title">
+								<h2 class="big">AUROra</h2>
+							</div>
+						</div>
+
+						<div class="photogallery__item photogallery__item_w50 photogallery__item_average">
+							<i></i>
+							<div class="photogallery__img">
+								<img src="img/mass2.jpg" alt="">
+							</div>
+							<div class="photogallery__title">
+								<h2 class="big">AUROra</h2>
+							</div>
+						</div>
+
+						<div class="photogallery__item photogallery__item_w50 photogallery__item_small">
+							<i></i>
+							<div class="photogallery__img">
+								<img src="img/mass3.jpg" alt="">
+							</div>
+							<div class="photogallery__title">
+								<h2 class="big">AUROra</h2>
+							</div>
+						</div>
+
+						<div class="photogallery__item photogallery__item_w50 photogallery__item_small">
+							<i></i>
+							<div class="photogallery__img">
+								<img src="img/mass3.jpg" alt="">
+							</div>
+							<div class="photogallery__title">
+								<h2 class="big">AUROra</h2>
+							</div>
+						</div>
+
+						<div class="photogallery__item photogallery__item_w50 photogallery__item_small">
+							<i></i>
+							<div class="photogallery__img">
+								<img src="img/mass3.jpg" alt="">
+							</div>
+							<div class="photogallery__title">
+								<h2 class="big">AUROra</h2>
+							</div>
+
+							<div class="photogallery__item photogallery__item_w50 photogallery__item_small">
+								<i></i>
+								<div class="photogallery__img">
+									<img src="img/mass3.jpg" alt="">
+								</div>
+								<div class="photogallery__title">
+									<h2 class="big">AUROra</h2>
+								</div>
+							</div>
+
+							<div class="photogallery__item photogallery__item_w50 photogallery__item_small">
+								<i></i>
+								<div class="photogallery__img">
+									<img src="img/mass3.jpg" alt="">
+								</div>
+								<div class="photogallery__title">
+									<h2 class="big">AUROra</h2>
+								</div>
+							</div>
+
+							<div class="photogallery__item photogallery__item_w50 photogallery__item_average">
+								<i></i>
+								<div class="photogallery__img">
+									<img src="img/mass2.jpg" alt="">
+								</div>
+								<div class="photogallery__title">
+									<h2 class="big">AUROra</h2>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 				<!-- END kat -->

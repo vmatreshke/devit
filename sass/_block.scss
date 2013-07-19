@@ -971,6 +971,7 @@
 		}
 	}
 	.photogallery__item{
+		// width: 181px;
 		margin: 14px 0px 0 14px;
 		position: relative;
 		float: left;
@@ -985,6 +986,41 @@
 				@include opacity(.8);
 				background-color: #4db7fb;
 				cursor: pointer;
+			}
+		}
+	}
+	.photogallery__item_w100{
+		.photogallery__img{
+			img{
+				width: 420px;
+			}
+		}
+	}
+	.photogallery__item_w50{
+		.photogallery__img{
+			img{
+				width: 227px;
+			}
+		}
+	}
+	.photogallery__item_long{
+		.photogallery__img{
+			img{
+				height: 411px;
+			}
+		}
+	}
+	.photogallery__item_average{
+		.photogallery__img{
+			img{
+				height: 270px;
+			}
+		}
+	}
+	.photogallery__item_small{
+		.photogallery__img{
+			img{
+				height: 127px;
 			}
 		}
 	}
