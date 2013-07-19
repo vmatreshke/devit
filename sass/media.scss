@@ -9,9 +9,6 @@
 		margin: 30px auto;
 	}
 	.wrap{
-		width: auto;
-	}
-    .wrap_1200{
         width: 1200px;
         .scroll__cont_news{
             overflow: hidden;
@@ -23,7 +20,7 @@
         .date{
             margin-left: 40px;
         }
-    }
+	}
     .logo{
 		margin-right: 130px;
     }
@@ -72,5 +69,14 @@
     // inner_buy.html
     .slider_innerBuy{
         width: 1200px;
+    }
+    // catalogue_item.html
+    .kat__conteiner{
+        width: auto;
+    }
+    .kat__descr{
+        width: auto;
+        float: none;
+        overflow: hidden;
     }
 }
