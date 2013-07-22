@@ -233,10 +233,12 @@
 }
 .slider_collection{
 	width: 960px;
-	// min-height: 1152px;
 	height: auto;
 	@include box-shadow(0 1px 16px rgba(159,207,238,.75));
 	.slider__list{
+		padding: 25px 0;
+		height: 100%;
+		z-index: 200;
 		width: 175px;
 		background: #000;
 		li{
@@ -257,29 +259,28 @@
 			}
 		}
 	}
-	.slider__list{
-		padding: 25px 0;
-		height: 100%;
-		z-index: 200;
-	}
 	.item__conteiner{
-		// width: 750px;
 		margin-right: -33px;
 		padding: 30px 0px 30px 33px;
-		margin-left: 175px;
 		background: #fff;
-		overflow: hidden;
+		margin-left: -175px;
+		float: right;
+		width: 785px;
+		border-left: 175px solid #000;
 		h3{
 			margin-bottom: 25px;
 		}
 	}
 	.slider__item{
 		width: 221px;
-		margin-right: 33px;
+		// margin-right: 33px;
+		margin-right: 38px;
 		margin-bottom: 15px;
-		float: left;
+		// float: left;
 		text-decoration: none;
 		line-height: 1.2;
+		display: inline-block;
+		vertical-align: top;
 	}
 	.slider__media{
 		width: 221px;
@@ -312,6 +313,8 @@
 	box-shadow: none;
 	display: inline-block;
 	overflow: hidden;
+	
+	margin-right: -38px;
 	.slider__item{
 		width: 112px;
 		color: #4db5f9;
@@ -334,7 +337,7 @@
 }
 .slider_mod{
 	height: auto;
-	min-height: 960px;
+	// min-height: 960px;
 	margin-bottom: 12px;
 	@include box-shadow(0 1px 16px rgba(159,207,238,.75));
 	.slider__list{
@@ -342,6 +345,7 @@
 	}
 }
 .slider_proj{
+	@extend %clr;
 	.slider__list{
 		width: 175px;
 		padding: 10px 0;
@@ -377,6 +381,12 @@
 		font-size: 14px;
 		color: #323c41;
 		line-height: 1.2;
+
+		margin-left: -175px;
+		border-left: 175px solid #000;
+		margin-left: -175px;
+		float: right;
+		width: 784px;
 		.item__data{
 			padding-left: 20px;
 			padding-right: 50px;
@@ -395,12 +405,24 @@
 	width: 960px;
 	min-height: 100%;
 	height: auto;
+
+
+	overflow: hidden;
+	background: #fff;
 }
 	.slider__list{
 		width: 211px;
-		min-height: 976px;
+		// min-height: 976px;
 		padding: 6px 0;
-		position: absolute;
+		// position: absolute;
+		// top: 0;
+		// bottom: 0;
+
+
+		background: #000;
+		float: left;
+
+
 		background: rgba(0,0,0, 0.8);
 		overflow: hidden;
 		list-style: none;
@@ -700,6 +722,7 @@
 	background: #fff;
 	overflow: hidden;
 	@include box-shadow(0 1px 16px rgba(159,207,238,.75));
+	@extend %clr;
 }
 	.kat__nav{
 		width: 160px;
@@ -707,10 +730,12 @@
 		margin-right: 30px;
 		background: #000;
 		list-style: none;
-		position: absolute;
-		top: 0;
-		bottom: 0;
-		left: 0;
+		position: relative;
+		z-index: 200;
+		// position: absolute;
+		// top: 0;
+		// bottom: 0;
+		// left: 0;
 		li{
 			background: #000;
 			&:hover{
@@ -731,14 +756,18 @@
 		}
 	}
 	.kat__conteiner{
-		width: 755px;
+		width: 785px;
 		padding: 35px 0;
-		margin-left: 200px;
 		overflow: hidden;
+
+		border-left: 175px solid #000;
+		margin-left: -175px;
+		float: right;
 	}
 	.kat__media{
 		width: 365px;
 		margin-right: 30px;
+		margin-left: 30px;
 		float: left;
 		position: relative;
 		&:before{
@@ -804,8 +833,13 @@
 	}
 	.kat__wrap{
 		margin-left: 200px;
-		margin-bottom: 50px;
+		// margin-bottom: 50px;
 		overflow: hidden;
+
+		float: left;
+		margin-left: 0px;
+		border-left: 175px solid #000;
+		padding-bottom: 50px;
 	}
 	.kat__doc, .kat__charac{
 		float: left;
@@ -857,6 +891,7 @@
 		}
 	}
 	.kat__charac{
+		margin-left: 30px;
 		margin-right: 25px;
 	}
 	.kat__doc{

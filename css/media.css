@@ -22,10 +22,20 @@
   .news:after { width: 100%; background: url("../img/icons/news_btm2.png") 0 0px repeat-x; }
   .news__items { margin-right: 0; }
   .slider_innerBuy { width: 1200px; }
-  .kat__conteiner { width: auto; }
+  .slider_collection .item__conteiner { width: 1025px; }
+  .kat__conteiner { width: 1025px; }
   .kat__descr { width: auto; float: none; overflow: hidden; }
   .kat_mod2 .kat_mod__cont { width: auto; overflow: hidden; float: none; margin-right: 35px; }
   .support_aboutContacts { float: none; margin: 0 auto; padding: 45px 95px 40px; }
   .contact-form { width: 425px; float: none; margin: 0 auto; width: 400px; background: #C1E4FC; padding: 50px; text-align: center; }
   .contact-form .i_er { right: 36px; }
-  .download__left { width: 100%; } }
+  .download__left { width: 100%; }
+  .slider_innerProj { margin-right: -31px; }
+  .slider_collection .slider__item { margin-right: 31px; }
+  .slider_proj .item__conteiner { width: 905px; }
+  .scrollable__media { width: 100%; }
+  .scrollable__list { margin-right: -8px; }
+  .scrollable__list i { width: 138px; }
+  .scrollable__list li { width: 152px; }
+  .scrollable__list li:last-child i { width: 131px; }
+  .download__left_innerDownload { width: 845px; } }

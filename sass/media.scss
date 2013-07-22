@@ -98,9 +98,14 @@
     .slider_innerBuy{
         width: 1200px;
     }
+    .slider_collection {
+        .item__conteiner{
+            width: 1025px;
+        }
+    }
     // catalogue_item.html
     .kat__conteiner{
-        width: auto;
+        width: 1025px;
     }
     .kat__descr{
         width: auto;
@@ -137,5 +142,40 @@
     // inner_autorization.html
     .download__left{
         width: 100%;
+    }
+    // inner_proj.html
+    .slider_innerProj{
+        margin-right: -31px;
+    }
+    .slider_collection {
+        .slider__item{
+            margin-right: 31px;
+        }
+    }
+    .slider_proj{
+        .item__conteiner{
+            width: 905px;
+        }
+    }
+    .scrollable__media{
+        width: 100%;
+    }
+    .scrollable__list{
+        margin-right: -8px;
+        i{
+            width: 138px;
+        }
+        li{
+            width: 152px;
+            &:last-child{
+                i{
+                    width: 131px;
+                }
+            }
+        }
+    }
+    // inner_download.html
+    .download__left_innerDownload{
+        width: 845px;
     }
 }
