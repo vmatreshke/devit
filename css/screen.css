@@ -1,3 +1,5 @@
+
+
 .header__general, .footer__wrap, .footer__right, .sub-nav, .kat_mod, .kat_mod2, .js-masonry, .photogallery__nav, .product, .scroll__item, .scroll__wrap_news .scroll__item, .popupLogin .row_log { *zoom: 1; }
 .header__general:before, .footer__wrap:before, .footer__right:before, .sub-nav:before, .kat_mod:before, .kat_mod2:before, .js-masonry:before, .photogallery__nav:before, .product:before, .scroll__item:before, .popupLogin .row_log:before, .header__general:after, .footer__wrap:after, .footer__right:after, .sub-nav:after, .kat_mod:after, .kat_mod2:after, .js-masonry:after, .photogallery__nav:after, .product:after, .scroll__item:after, .popupLogin .row_log:after { content: " "; display: table; }
 .header__general:after, .footer__wrap:after, .footer__right:after, .sub-nav:after, .kat_mod:after, .kat_mod2:after, .js-masonry:after, .photogallery__nav:after, .product:after, .scroll__item:after, .popupLogin .row_log:after { clear: both; }
