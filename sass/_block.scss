@@ -304,6 +304,12 @@
 	font-size: 14px;
 	}
 }
+.slider_collectionMod{
+	.slider__list{
+		position: relative;
+		z-index: 200;
+	}
+}
 .slider_innerProj{
 	width: auto;
 	min-height: 940px;
@@ -313,7 +319,6 @@
 	box-shadow: none;
 	display: inline-block;
 	overflow: hidden;
-	
 	margin-right: -38px;
 	.slider__item{
 		width: 112px;
@@ -412,6 +417,7 @@
 }
 	.slider__list{
 		width: 211px;
+		position: relative;
 		// min-height: 976px;
 		padding: 6px 0;
 		// position: absolute;

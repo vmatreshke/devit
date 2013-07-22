@@ -22,6 +22,13 @@
             margin-left: 40px;
         }
 	}
+    .wrap_index{
+        width: 100%;
+        .slider{
+            width: 90%;
+            margin: 0 5%;
+        }
+    }
     .logo{
 		margin-right: 130px;
     }
@@ -59,7 +66,7 @@
     }
     // index.html
     .slider{
-        width: 90%;
+        width: 1200px;
         margin: 0 auto;
         .slider__bg{
             width: 100%;
@@ -154,7 +161,7 @@
     }
     .slider_proj{
         .item__conteiner{
-            width: 905px;
+            width: 1025px;
         }
     }
     .scrollable__media{
@@ -172,6 +179,12 @@
                     width: 131px;
                 }
             }
+        }
+    }
+    // inner_collection.html
+    .slider_collectionMod {
+        .item__conteiner{
+            width: 1025px;
         }
     }
     // inner_download.html

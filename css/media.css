@@ -4,6 +4,8 @@
   .wrap .scroll__cont_news { overflow: hidden; }
   .wrap .scroll__cont { width: auto; float: none; }
   .wrap .date { margin-left: 40px; }
+  .wrap_index { width: 100%; }
+  .wrap_index .slider { width: 90%; margin: 0 5%; }
   .logo { margin-right: 130px; }
   .content { width: auto; padding-bottom: 15px; display: block; }
   .footer__wrap { width: 1200px; }
@@ -13,7 +15,7 @@
   .footer__left .right { width: 240px; }
   .footer__left .right li:first-child { width: 240px; }
   .footer__right { float: right; }
-  .slider { width: 90%; margin: 0 auto; }
+  .slider { width: 1200px; margin: 0 auto; }
   .slider .slider__bg { width: 100%; height: 100%; }
   .slider__title { left: 330px; }
   .slider__bg { margin-right: 200px; }
@@ -32,10 +34,11 @@
   .download__left { width: 100%; }
   .slider_innerProj { margin-right: -31px; }
   .slider_collection .slider__item { margin-right: 31px; }
-  .slider_proj .item__conteiner { width: 905px; }
+  .slider_proj .item__conteiner { width: 1025px; }
   .scrollable__media { width: 100%; }
   .scrollable__list { margin-right: -8px; }
   .scrollable__list i { width: 138px; }
   .scrollable__list li { width: 152px; }
   .scrollable__list li:last-child i { width: 131px; }
+  .slider_collectionMod .item__conteiner { width: 1025px; }
   .download__left_innerDownload { width: 845px; } }
