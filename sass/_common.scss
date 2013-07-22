@@ -244,14 +244,12 @@ a img,fieldset{
 					background: #4db5f9;
 				}
 				&:first-child{
-					&:first-child{
-						width: 255px;
-						padding: 0;
-						margin-right: 0;
-						margin-bottom: 15px;
-						&:hover{
-							background: transparent;
-						}
+					width: 255px;
+					padding: 0;
+					margin-right: 0;
+					margin-bottom: 15px;
+					&:hover{
+						background: transparent;
 					}
 				}
 			}

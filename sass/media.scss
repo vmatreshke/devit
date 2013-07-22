@@ -1,5 +1,6 @@
 ////////////////////////// * media screen *////////////////////////////
 @media only screen and (min-width: 1200px) {
+    // layout for all pages
 	.header{
 		width: 1200px;
 		margin: 0 auto;
@@ -29,7 +30,34 @@
     	padding-bottom: 15px;
     	display: block;
     }
-    // index page
+    .footer__wrap{
+        width: 1200px;
+    }
+    .footer__left{
+        width: 900px;
+        margin-right: 0;
+        .left{
+            width: 660px;
+            li{
+                &:first-child{
+                    width: 660px;
+                }
+            }
+        }
+        .right{
+            width: 240px;
+            li{
+                &:first-child{
+                    width: 240px;
+                }
+            }
+        }
+
+    }
+    .footer__right{
+        float: right;
+    }
+    // index.html
     .slider{
         width: 90%;
         margin: 0 auto;
@@ -78,5 +106,36 @@
         width: auto;
         float: none;
         overflow: hidden;
+    }
+    // inner_about-service.html
+    .kat_mod2 {
+        .kat_mod__cont{
+            width: auto;
+            overflow: hidden;
+            float: none;
+            margin-right: 35px;
+        }
+    }
+    // inner_about-contacts.html
+    .support_aboutContacts{
+        float: none;
+        margin: 0 auto;
+        padding: 45px 95px 40px;
+    }
+    .contact-form{
+        width: 425px;
+        float: none;
+        margin: 0 auto;
+        width: 400px;
+        background: #C1E4FC;
+        padding: 50px;
+        text-align: center;
+        .i_er{
+            right: 36px;
+        }
+    }
+    // inner_autorization.html
+    .download__left{
+        width: 100%;
     }
 }
