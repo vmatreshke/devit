@@ -7,12 +7,14 @@
 	<meta name="viewport" content="width=device-width"/>
 	<link rel="stylesheet" media="screen" href="css/screen.css" >
 	<script src="js/app.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/common.js"></script>
 </head>
 <body>
 	<!-- BEGIN out -->
 	<div class="out out_alt">
 		<i class="out__border"></i>
-		<div class="wrap">
+		<div class="wrap wrap_catalogue-item">
 			<!-- BEGIN header -->
 			<div class="header">
 				<div class="header__toppper">
@@ -31,9 +33,16 @@
 
 				<div class="header__general">
 					<a href="#" class="logo"></a>
+					<div class="navMobile"></div>
 					<ul class="nav">
 						<li><a href="#">lorem 1</a></li>
-						<li class="active"><a href="#">lorem 2</a></li>
+						<li class="active is-thereIsDropNaw">
+							<a href="#">lorem 2</a>
+							<ul class="sub-nav">
+								<li><span class="sub-nav__active">Колекции</span></li>
+								<li><span>Тип товара</span></li>
+							</ul>
+						</li>
 						<li><a href="#">lorem 3</a></li>
 						<li><a href="#">lorem 4</a></li>
 						<li><a href="#">lorem 5</a></li>
@@ -58,6 +67,20 @@
 
 				<!-- BEGIN kat -->
 				<div class="kat">
+					<ul class="photogallery__nav not-active">
+						<li class="active"><a href="#">Коллекции</a></li>
+						<li><a href="#">Тип товара</a></li>
+					</ul>
+					<ul class="kat__nav">
+						<li><a href="#">lorem lorem</a></li>
+						<li><a href="#">lorem lorem</a></li>
+						<li class="active"><a href="#">lorem lorem</a></li>
+						<li><a href="#">lorem lorem</a></li>
+						<li><a href="#">lorem lorem</a></li>
+						<li><a href="#">lorem lorem</a></li>
+						<li><a href="#">lorem lorem</a></li>
+						<li><a href="#">lorem lorem</a></li>
+					</ul>
 					<div class="kat__conteiner">
 						<div class="kat__media">
 							<img src="img/shell.jpg" alt="">
@@ -70,32 +93,23 @@
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, ad, sit, asperiores, modi praesentium accusamus eligendi veritatis beatae deleniti expedita ab reiciendis laboriosam commodi iste ipsa ducimus dolore nemo voluptates excepturi adipisci ratione maiores voluptatum! Earum, aspernatur, deleniti quos nihil sit obcaecati cum temporibus deserunt unde veritatis facilis sapiente vero.
 							</div>
 						</div>
+						<div class="kat__wrap">
+							<ul class="kat__charac">
+								<li><span>Характеристики</span> </li>
+								<li><span>Тип струи</span> <strong>Моноструя</strong> </li>
+								<li><span>Тип струи</span> <strong>Моноструя</strong> </li>
+								<li><span>Тип струи</span> <strong>Моноструя</strong> </li>
+							</ul>
+							<ul class="kat__doc">
+								<li class="kat__meta"><span>Брошюра</span></li>
+								<li class="doc"><a href="#"><img src="img/icons/PDF.png" alt=""> <span>25мб</span></a></li>
+								<li class="scheme">
+									<a href="#"><i class="i_scheme"></i> <span>Показать схему</span></a>
+								</li>
+							</ul>
+						</div>
 					</div>
-					<ul class="kat__nav">
-						<li><a href="#">lorem lorem</a></li>
-						<li><a href="#">lorem lorem</a></li>
-						<li><a href="#">lorem lorem</a></li>
-						<li><a href="#">lorem lorem</a></li>
-						<li><a href="#">lorem lorem</a></li>
-						<li><a href="#">lorem lorem</a></li>
-						<li><a href="#">lorem lorem</a></li>
-						<li><a href="#">lorem lorem</a></li>
-					</ul>
-					<div class="kat__wrap">
-						<ul class="kat__charac">
-							<li><span>Характеристики</span> </li>
-							<li><span>Тип струи</span> <strong>Моноструя</strong> </li>
-							<li><span>Тип струи</span> <strong>Моноструя</strong> </li>
-							<li><span>Тип струи</span> <strong>Моноструя</strong> </li>
-						</ul>
-						<ul class="kat__doc">
-							<li class="kat__meta"><span>Брошюра</span></li>
-							<li class="doc"><a href="#"><img src="img/icons/PDF.png" alt=""> <span>25мб</span></a></li>
-							<li class="scheme">
-								<a href="#"><i class="i_scheme"></i> <span>Показать схему</span></a>
-							</li>
-						</ul>
-					</div>
+
 				</div>
 				<!-- END kat -->
 

@@ -124,7 +124,7 @@ a img,fieldset{
 	}
 }
 .header{
-	background: #FFF;
+	
 }
 	.header__toppper{
 		overflow: hidden;
@@ -143,6 +143,7 @@ a img,fieldset{
 		@extend %clr;
 		min-height: 71px;
 		position: relative;
+		background: #FFF;
 	}
 ////////////////// * FOOTER * ///////////////////////////////
 .footer{
