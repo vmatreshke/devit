@@ -6,7 +6,8 @@
 	<title>Template</title>
 	<meta name="viewport" content="width=device-width"/>
 	<link rel="stylesheet" media="screen" href="css/screen.css" >
-	<script src="js/app.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/common.js"></script>
 </head>
 <body>
 	<!-- BEGIN out -->
@@ -30,20 +31,22 @@
 
 				<div class="header__general">
 					<a href="#" class="logo"></a>
+					<div class="navMobile"></div>
 					<ul class="nav">
 						<li><a href="#">lorem 1</a></li>
-						<li class="active"><a href="#">lorem 2</a>
-							<ul class="sub-nav">
-								<li><a href="#">Колекции</a></li>
-								<li><a href="#">Тип товара</a></li>
-							</ul>
+						<li><a href="#">lorem 2</a>
 						</li>
 						<li><a href="#">lorem 3</a></li>
 						<li><a href="#">lorem 4</a></li>
 						<li><a href="#">lorem 5</a></li>
 						<li><a href="#">lorem 6</a></li>
 						<li><a href="#">lorem 7</a></li>
-						<li><a href="#">lorem 8</a></li>
+						<li class="active"><a href="#">lorem 8</a>
+							<ul class="sub-nav sub-nav_right">
+								<li><a href="#">Колекции</a></li>
+								<li><a href="#">Тип товара</a></li>
+							</ul>
+						</li>
 					</ul>
 				</div>
 			</div>

@@ -20,12 +20,3 @@ line_comments = false
 
 preferred_syntax = :scss
 
-# this one for switching between production and dev versions of the website
-module Sass::Script::Functions
-  def image_path(string)
-    assert_type string, :String
-    Sass::Script::String.new("../img/#{string.value}")
-  end
-  alias_method :"image-path",:image_path 
-  declare :"image-path", :args => [:string]
-end

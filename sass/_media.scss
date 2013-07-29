@@ -218,37 +218,60 @@
     .header{
         padding: 0 9px;
     }
+    .logo{
+        margin-right: 25px;
+    }
     .wrap{
         width: 98%;
     }
     .wrap_index{
         width: 100%;
+        .nav{
+            width: 550px;
+            margin-top: 5px;
+            height: auto;
+            li{
+                width: 125px;
+                margin-right: 14px;
+                text-align: center;
+                margin: 2px 10px 2px 0;
+                height: auto;
+                line-height: 1;
+            }
+            .active{
+                &:after{
+                    background: none;
+                }
+            }
+            a,span{
+                padding: 6px 12px;
+                font-size: 15px;
+            }
+        }
+    }
+    .nav{
+        width: auto;
+        li{
+
+        }
+        a,span{
+            padding: 6px;
+            font-size: 11px;
+        }
+        .active{
+            a,span{
+                padding: 0 9px;
+            }
+        }
     }
     .content{
         width: 100%;
         padding-bottom: 30px;
         display: block;
     }
-    .nav{
-        width: 550px;
-        margin-top: 5px;
-        height: auto;
-        li{
-            width: 125px;
-            margin-right: 14px;
-            text-align: center;
-            margin: 2px 10px 2px 0;
-            height: auto;
-            line-height: 1;
-        }
-        .active{
-            &:after{
-                background: none;
-            }
-        }
-    }
+
     .sub-nav{
-        display: none;
+        // display: none;
     }
     .waves__cont{
         width: 100%;
@@ -330,6 +353,23 @@
         }
         img{
             width: 265px;
+        }
+    }
+    // catalogue_section.html
+    .product__list{
+        min-width: 200px;
+    }
+    // inner_about-contacts.html
+    .support{
+        margin: 0 auto;
+        float: none;
+    }
+    .contact-form{
+        margin: 20px  auto 0;
+        float: none;
+        width: 400px;
+        textarea,input{
+            width: 400px;
         }
     }
 
@@ -422,6 +462,9 @@
         &:before{
             content: none;
         }
+        .footer__wrap{
+            padding-left: 18px;
+        }
         .footer__left{
             width: 100%;
             .left{
@@ -454,6 +497,9 @@
                     margin-left: 9px;
                 }
             }
+        }
+        .footer__map{
+            display: inline-block;
         }
     }
     // index.html
@@ -590,7 +636,7 @@
         }
     }
     // catalogue_item.html
-    .wrap_catalogue-item{
+    .wrap_paddingBottomForMobile{
         padding-bottom: 10px;
     }
     .breadcrumbs{
@@ -605,7 +651,7 @@
                 width: 100%;
             }
             &:before{
-                @include s(glassSmall);
+                // @include s(gsmall);
                 top: 43%;
                 left: 43%;
             }
@@ -663,5 +709,63 @@
             width: 200px;
             margin-left: 5%;
         }
+    }
+    // catalogue_section.html
+    .product__item{
+        position: relative;
+    }
+    .kat_mod2{
+        padding: 35px 0;
+    }
+    .active{
+        .product__list{
+            margin-left: -20px;
+            bottom: -277px;
+            padding-right: 0;
+            min-width: 230px;
+        }
+    }
+    .map{
+        display: block;
+        width: 90%;
+        margin: 0 5%;
+        iframe{
+            width: 100%;
+        }
+    }
+    .support{
+        width: auto;
+        margin: -35px 0 20px;
+        padding: 40px 20px;
+        float: none;
+    }
+    .contact-form{
+        width: 90%;
+        margin: 0 5%;
+        textarea, input{
+            width: 100%;
+        }  
+    }
+    // inner_about-service.html
+    .kat_mod2{
+        .kat_mod__cont{
+            width: auto;
+            padding: 20px;
+            float: none;
+        }
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 482px) {
+    .proj__item{
+        width: 100%;
+    }
+    .proj__img{
+        width: 100%;
+        img{
+            width: 100%;
+        }
+    }
+    .proj__border{
+        width: 100%;
     }
 }

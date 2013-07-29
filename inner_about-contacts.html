@@ -6,12 +6,13 @@
 	<title>Template</title>
 	<meta name="viewport" content="width=device-width"/>
 	<link rel="stylesheet" media="screen" href="css/screen.css" >
-	<script src="js/app.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/common.js"></script>
 </head>
 <body>
 	<!-- BEGIN out -->
 	<div class="out out_alt">
-		<div class="wrap">
+		<div class="wrap wrap_paddingBottomForMobile">
 			<!-- BEGIN header -->
 			<div class="header">
 				<div class="header__toppper">
@@ -30,15 +31,16 @@
 
 				<div class="header__general">
 					<a href="#" class="logo"></a>
+					<div class="navMobile"></div>
 					<ul class="nav">
-						<li><a href="#">lorem 1</a></li>
-						<li><a href="#">lorem 2</a></li>
-						<li><a href="#">lorem 3</a></li>
-						<li><a href="#">lorem 4</a></li>
-						<li><a href="#">lorem 5</a></li>
-						<li><a href="#">lorem 6</a></li>
-						<li><a href="#">lorem 7</a></li>
-						<li class="active"><a href="#">lorem 8</a>
+						<li><a href="#">Главная</a></li>
+						<li><a href="#">Каталог</a></li>
+						<li><a href="#">Сервис</a></li>
+						<li><a href="#">Проекты</a></li>
+						<li><a href="#">Где купить</a></li>
+						<li><a href="#">Скачать</a></li>
+						<li><a href="#">Полезное</a></li>
+						<li class="active"><a href="#">О компании</a>
 							<ul class="sub-nav sub-nav_right">
 								<li><span>Колекции</span></li>
 								<li><span>Тип товара</span></li>
@@ -56,19 +58,21 @@
 				<h1 class="h33">О компании<i class="i_waves"></i></h1>
 				<div class="kat kat_mod2">
 					<div class="support support_aboutContacts">
-						<div class="support__media">
-							<img src="img/icons/support__media.png" alt="">
-						</div>
-						<div class="support__descr">
-							Сервисным обслуживание сантехники Devit занимается компания Инсталл-сервис
-						</div>
-						<div class="support__tel">
+						<div class="support__tel support__tel_mod">
 							<img src="img/icons/MOBILEPHONE.png" alt="">
-							<div class="support__number">
-								<p>Тел. 0 (44) 492-85-11</p>
-								<p>Тел. 0 (44) 492-85-11</p>
+							<div class="support__number support__number_big">
+								<span>Телефон сервисной службы</span>
+								<p>044 492 85 11</p>
 							</div>
 						</div>
+						<div class="support__descr">
+							Для решения вопросов по приобретению товаров марки Devit в г. Киеве и других регионах Украины обращайтесь по адресу:
+						</div>
+						<b>г. Киев, ул Булаховского 5.</b> 
+						<a href="#" class="mail-to"><i class="mail-to__ico"></i></a>
+					</div>
+					<div class="map">
+						<iframe width="280" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.ua/maps?f=q&amp;source=s_q&amp;hl=ru&amp;geocode=&amp;q=%D0%BC%D0%B0%D0%B9%D0%B4%D0%B0%D0%BD+%D0%BC%D0%B5%D1%82%D1%80%D0%BE+%D0%BA%D0%B8%D0%B5%D0%B2&amp;aq=&amp;sll=50.458994,30.519619&amp;sspn=0.030982,0.084543&amp;ie=UTF8&amp;hq=&amp;hnear=%D0%9C%D0%B0%D0%B9%D0%B4%D0%B0%D0%BD+%D0%9D%D0%B5%D0%B7%D0%B0%D0%B2%D0%B8%D1%81%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B8&amp;t=m&amp;z=14&amp;ll=50.450024,30.524204&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com.ua/maps?f=q&amp;source=embed&amp;hl=ru&amp;geocode=&amp;q=%D0%BC%D0%B0%D0%B9%D0%B4%D0%B0%D0%BD+%D0%BC%D0%B5%D1%82%D1%80%D0%BE+%D0%BA%D0%B8%D0%B5%D0%B2&amp;aq=&amp;sll=50.458994,30.519619&amp;sspn=0.030982,0.084543&amp;ie=UTF8&amp;hq=&amp;hnear=%D0%9C%D0%B0%D0%B9%D0%B4%D0%B0%D0%BD+%D0%9D%D0%B5%D0%B7%D0%B0%D0%B2%D0%B8%D1%81%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B8&amp;t=m&amp;z=14&amp;ll=50.450024,30.524204" style="color:#0000FF;text-align:left" class="map__link">Просмотреть увеличенную карту</a></small>
 					</div>
 					<div class="contact-form">
 						<h2>Контакты</h2>
@@ -106,10 +110,11 @@
 
 	<div class="waves">
 	</div>
-
+482
 	<!-- BEGIN footer -->
 	<div class="footer">
 		<div class="footer__wrap">
+			<div class="footer__map">Карта сайта</div>
 			<div class="footer__left">
 				<div class="h3">Каталог</div>
 				<ul class="left">

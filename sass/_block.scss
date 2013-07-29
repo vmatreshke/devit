@@ -1996,7 +1996,7 @@
 }
 .support{
 	width: 310px;
-	padding: 45px 45px 40px;
+	padding: 45px 45px 35px;
 	// margin-right: 35px;
 	background: #4db7fc;
 	float: right;
@@ -2017,7 +2017,28 @@
 		.support__number{
 			float: left;
 			font-size: 18px;
+			span{
+				margin-top: 3px;
+				margin-bottom: -3px;
+				display: block;
+				font-size: 13px;
+				line-height: 1;
+				text-transform: uppercase;
+			}
 		}
+		.support__number_big{
+			font-size: 35px;
+			line-height: 1;				
+		}
+	}
+	.support__tel_mod{
+		margin-bottom: 25px;		
+	}
+	b{
+		font-size: 17px;
+	}
+	.mail-to{
+		margin-top: 15px;
 	}
 }
 .contact-form{
@@ -2140,7 +2161,6 @@
 		z-index: 200;
 		li{
 			a{
-
 				display: block;
 				height: 30px;
 				line-height: 30px;
@@ -2166,5 +2186,26 @@
 		border-left: 200px solid #000;
 	}
 }
-
+.map{
+	display: none;
+}
+	.map__link{
+		display: none;
+	}
+.mail-to{
+	display: block;
+	font: 14px Calibri, sans-serif;
+	color: #FFF;
+	text-decoration: underline;
+	&:hover{
+		text-decoration: none; 
+	}
+	.mail-to__ico{ 
+		
+		display: inline-block;
+		@include s(mailTo__ico);
+		vertical-align: middle;
+		margin-right: 7px;
+	}
+}
 
