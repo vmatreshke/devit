@@ -26,6 +26,18 @@ $(document).ready(function(){
 	});
 	// $('.kat__media').append( $('.kat__descr'));
 
-
+	  	// for list
+		var firstLink = $(".slider__list li").first();
+			firstLink.click(function() {
+				if ($(this).hasClass("js-active")) {
+					$(this).removeClass("js-active");
+					$(".slider__list li").hide();
+					$(this).show();
+				}
+				else {
+					$(this).addClass("js-active")
+					$(".slider__list li").show();
+				}
+		});
 
 });

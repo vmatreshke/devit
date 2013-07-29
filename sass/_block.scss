@@ -233,6 +233,7 @@
 	@include text-shadow(0 1px 0 rgba(0,0,0,.15));
 }
 .slider{
+	@extend %clr;
 	width: 959px;
 	height: 463px;
 	margin-bottom: 65px;
