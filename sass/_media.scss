@@ -90,7 +90,7 @@
         margin: 0 auto;
         .slider__bg{
             width: 100%;
-            height: 100%;
+            // height: 100%;
         }
     }
         .slider__title{
@@ -331,6 +331,7 @@
                 width: 100%;
                 img{
                     width: 100%;
+                    height: 100%;
                 }
             }
         }
@@ -412,6 +413,11 @@
     }
     .scrollable__next, .scrollable__prew{
         display: none;
+    }
+    // inner_userfull.html
+    .scroll__cont{
+        width: auto;
+        float: none;
     }
 }
 @media only screen and (min-width: 320px) and (max-width: 767px) {
@@ -638,7 +644,7 @@
     }
     .photogallery__item_w100, .photogallery__item_w50{
         width: 96%;
-        margin: 0px 2% 0px;
+        margin: 0px 2% 10px;
         .photogallery__img{
             img{
                 width: 100%;
@@ -805,6 +811,131 @@
             margin-right: 0;
             float: none;
         }
+        .slider__media{
+            display: none;
+        }
+        .slider__meta{
+            width: 100%;
+        }
+        .scrollable__media{
+            width: 100%;
+        }
+        .scrollable__list{
+            display: none;
+        }
+        .item__conteiner{
+            width: 90%;
+            padding: 20px 5%;
+            border-left: 0;
+            .item__data{
+                padding-left: 0;
+                padding-right: 0;
+                h1{
+                    display: none;
+                }
+            }
+        }
+        .is-active{
+            background: transparent;
+            span, div{
+                color: #FFF;
+                &:hover{
+                    color: red;
+                }
+            }
+        }
+        .scrollable__next, .scrollable__prew{
+            top: 40%;
+        }
+    }
+    // inner_buy.html
+    .slider_innerBuy{
+        width: 100%;
+        .item__conteiner{
+            width: auto;
+            padding: 30px 15px 30px 15px;
+            margin-right: 0;
+            margin-left: 0;
+            float: none;
+            border-left: none;
+        }
+        .slider__list{
+            li{
+                &:first-child{
+                    background: #000;
+                }
+                a, span{
+                    color: #fff;
+                }
+            }
+        }
+        .sity{
+            width: 280px;
+            .sity__cont{
+                width: 223px;
+            }
+        }
+    }
+    // inner_collection.html
+    .slider_collectionMod{
+        width: auto;
+        background: #FFF;
+            .item__conteiner{
+                width: auto;
+                margin-left: 0;
+                margin-right: 0;
+                border-left: none;
+                float: none;
+            }
+    }
+    // inner_userfull-article.html
+    .scrollable_small {
+        margin-right: 0;
+        .scrollable__media{
+            width: 100%;
+        }
+    }
+    .kat_mod__img{
+        width: 100%;
+        img{
+            width: 100%;
+        }
+    }
+    // inner_autorization.html
+    .download__item{
+        .download__ico{
+            float: left;
+        }
+        .download__note{
+            width: auto;
+            display: block;
+        }
+        .download__eye{
+            display: none;
+        }
+        .download__title, .download__wt{
+            margin-left: 50px;
+        }
+    }
+    // inner_userfull.html
+    .scroll__media{
+        display: none;
+    }
+    .scroll__cont{
+        width: auto;
+        float: none;
+    }
+    // inner_news.html
+    .date{
+        display: none;
+    }
+    // inner_download.html & inner_download2.html
+    .download__right{
+        float: none;
+        margin-bottom: 25px;
+    }
+    // inner_proj.html, inner_buy.html, inner_collection.html
+    .slider_proj, .slider_innerBuy, .slider_collectionMod{
         .slider__list{
             width: 90%;
             margin: 0 5%;
@@ -847,40 +978,8 @@
                 }
             }
         }
-        .slider__media{
-            display: none;
-        }
-        .slider__meta{
-            display: block;
-        }
-        .scrollable__media{
-            width: 100%;
-        }
-        .item__conteiner{
-            width: 90%;
-            padding: 20px 5%;
-            border-left: 0;
-            .item__data{
-                padding-left: 0;
-                padding-right: 0;
-                h1{
-                    display: none;
-                }
-            }
-        }
-        .is-active{
-            background: transparent;
-            span, div{
-                color: #FFF;
-                &:hover{
-                    color: red;
-                }
-            }
-        }
-        .scrollable__next, .scrollable__prew{
-            top: 40%;
-        }
     }
+
 }
 @media only screen and (min-width: 320px) and (max-width: 482px) {
     .proj__item{

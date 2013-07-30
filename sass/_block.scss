@@ -246,6 +246,11 @@
 		position: absolute;
 		top: 0;
 		left: 0;
+		& > div {
+			position: relative;
+			width: 100%;
+			height: 463px;
+		}
 		img{
 			width: 100%;
 		}
@@ -497,6 +502,7 @@
 		font-family: 'Conv_DlCyLtTf',sans-serif;
 		font-weight: normal;
 		color: #FFF;
+		z-index: 9999;
 		// @include text-shadow(0 1px 0 rgba(0,0,0,.08));
 	}
 .news{
@@ -1300,6 +1306,7 @@
 		float: left;
 	}
 	.sity__cont{
+		width: 230px;
 		float: left;
 		margin-left: 12px;
 		font-family: Calibri,sans-serif;
@@ -1495,7 +1502,9 @@
 		}
 	}
 	.proj__img{
+		width: 240px;
 		height: 218px;
+		overflow: hidden;
 		// margin-top: -10px;
 		img{
 			height: 100%;
