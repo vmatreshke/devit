@@ -272,6 +272,7 @@
 		li{
 			// padding: 0 0 0 10px;
 			margin-left: 15px;
+			padding-left: 15px;
 			&:hover{
 				background: #fff;
 			}
@@ -463,8 +464,8 @@
 		z-index: 200;
 		a,span{
 			display: block;
-			padding: 0 0 0 15px;
-			height: 30px;
+			padding: 7px 0px 7px 0px;
+			// height: 30px;
 			// line-height: 30px;
 		}
 		.is-active{
@@ -477,8 +478,8 @@
 			}
 		}
 		li{
-			height: 30px;
-			line-height: 30px;
+			// height: 30px;
+			// line-height: 30px;
 			&:hover{
 				background: #4db7fc;
 				cursor: pointer;

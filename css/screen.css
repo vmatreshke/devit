@@ -142,7 +142,7 @@ a img, fieldset { border: none; }
 
 .slider_collection { width: 960px; height: auto; -webkit-box-shadow: 0 1px 16px rgba(159, 207, 238, 0.75); -moz-box-shadow: 0 1px 16px rgba(159, 207, 238, 0.75); box-shadow: 0 1px 16px rgba(159, 207, 238, 0.75); }
 .slider_collection .slider__list { padding: 25px 0; height: 100%; z-index: 200; width: 175px; background: #000; }
-.slider_collection .slider__list li { margin-left: 15px; }
+.slider_collection .slider__list li { margin-left: 15px; padding-left: 15px; }
 .slider_collection .slider__list li:hover { background: #fff; }
 .slider_collection .slider__list a, .slider_collection .slider__list span { width: 100%; display: inline-block; color: #FFF; font-size: 13px; }
 .slider_collection .slider__list a:hover, .slider_collection .slider__list span:hover { text-shadow: none; color: #4db7fc; }
@@ -178,11 +178,10 @@ a img, fieldset { border: none; }
 .slider_innerBuy { width: 960px; min-height: 100%; height: auto; overflow: hidden; background: #fff; }
 
 .slider__list { width: 211px; position: relative; padding: 6px 0; background: #000; float: left; background: rgba(0, 0, 0, 0.8); overflow: hidden; list-style: none; z-index: 200; }
-.slider__list a, .slider__list span { display: block; padding: 0 0 0 15px; height: 30px; }
+.slider__list a, .slider__list span { display: block; padding: 7px 0px 7px 0px; }
 .slider__list .is-active { background: #fff; }
 .slider__list .is-active span, .slider__list .is-active div { color: #4db7fc; }
 .slider__list .is-active:hover { cursor: auto; }
-.slider__list li { height: 30px; line-height: 30px; }
 .slider__list li:hover { background: #4db7fc; cursor: pointer; }
 .slider__list a, .slider__list span { font-family: 'Conv_DlCyLtTf', sans-serif; font-size: 16px; text-transform: uppercase; color: #FFF; text-decoration: none; }
 
@@ -609,7 +608,7 @@ a .scroll__item:hover h2 { color: #305269; }
   .wrap .date { margin-left: 40px; }
   .wrap_index { width: 100%; }
   .wrap_index .slider { width: 90%; margin: 0 5%; }
-  .wrap_index ul.slider__list a, .wrap_index ul.slider__list span { padding: 0 0 0 25px; }
+  .wrap_index ul.slider__list a, .wrap_index ul.slider__list span { padding: 5px 0 5px 25px; }
   .wrap_index .slider { width: 98%; margin: 0 1%; }
   .wrap_index .slider .slider__bg { width: 100%; }
   .wrap_index .slider .slider__bg img { width: 100%; }
