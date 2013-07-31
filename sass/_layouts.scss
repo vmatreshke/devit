@@ -19,6 +19,13 @@
 	width: 960px;
 	margin: 0 auto;
 }
+.wrap_index{
+	ul.slider__list{
+		a,span{
+			padding: 5px 0 5px 25px;
+		}
+	}
+}
 .content{
 	width: 960px;
 	display: inline-block;
