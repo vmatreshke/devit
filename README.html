@@ -1,0 +1,14 @@
+<h1>My Sass template (by akella), or boilerplate, whatever =) I should invent some cool name later on.</h1>
+<p>I&#39;m using this as a starting template for almost any project now.
+It includes sprites, assorted mixins (aka code snippets), file structure, jquery+cycle+scrollto (most usable these days).
+And, that&#39;s it.</p>
+<p>You need to have Compass installed for it to work properly.</p>
+<h1>Structure</h1>
+<p><code>/sass/libs</code> - all the mixins and libs needed for us.</p>
+<p><code>/sass/_mixins.scss</code> - agregates all those libraries and some common styles</p>
+<p><code>/sass/screen.scss</code> - agregates all .scss files.</p>
+<h1>Naming blocks</h1>
+<p>I use BEM naming, meaning <code>.block</code> for independent block. <code>.block__element</code> for elements inside that block. And <code>.block_modification</code> for modification of the block.</p>
+<p><code>layouts.css</code> consists of all the columns-header-footer stuff, all with <code>.l-*</code> prefixes. So you know its layout.</p>
+<p>States of the blocks use prefix <code>.is-*</code>. For example <code>.is-running</code>, <code>.is-hidden</code>, <code>.is-open</code>.</p>
+<p>Hooks for js should use prefix <code>.js-*</code>.</p>

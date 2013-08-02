@@ -175,7 +175,7 @@ a img,fieldset{
 		height: 54px;
 		line-height: 54px;
 		margin-bottom: 30px;
-		padding: 0 18px 0 9px;
+		padding: 0 9px;
 		border: 1px solid #4db7fc;
 		font-family: 'Conv_DlCyLtTf';
 		font-size: 24px;
@@ -193,8 +193,16 @@ a img,fieldset{
 			font-size: 13px;
 			text-transform: uppercase;
 		}
+		.h3{
+			a{
+				color: rgba(255, 255, 255, 0.4);
+				text-decoration: none;
+				&:hover{
+					color: #000;
+				}
+			}
+		}
 		.h4{
-			border-bottom: 1px solid #383838;
 			padding: 10px 8px;
 			height: 24px;
 			line-height: 24px;
@@ -229,6 +237,7 @@ a img,fieldset{
 					padding: 0;
 					margin-right: 0;
 					margin-bottom: 15px;
+					border-bottom: 1px solid #383838;
 					&:hover{
 						background: transparent;
 					}
@@ -258,6 +267,7 @@ a img,fieldset{
 				}
 				&:first-child{
 					width: 255px;
+					border-bottom: 1px solid #383838;
 					padding: 0;
 					margin-right: 0;
 					margin-bottom: 15px;
