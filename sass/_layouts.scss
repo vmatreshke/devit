@@ -20,9 +20,15 @@
 	margin: 0 auto;
 }
 .wrap_index{
-	ul.slider__list{
+	.slider__list{
 		a,span{
 			padding: 5px 0 5px 25px;
+		}
+		li {
+			&.cycle-pager-active {
+				background: #3c9ddc;
+				color: #FFF;
+			}
 		}
 	}
 }

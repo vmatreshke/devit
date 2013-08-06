@@ -4,7 +4,6 @@ $(document).ready(function(){
 		api.cycle($(this).parent().index())
 	});
 
-
 	$(".navMobile").click(function () {
 		$(".nav").slideToggle("slow");
 		$(".search").slideToggle("fast");
@@ -44,7 +43,6 @@ $(document).ready(function(){
 						$(".slider__list li").show();
 					}
 				};
-				
 		});
 
 });
