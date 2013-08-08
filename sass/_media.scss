@@ -396,6 +396,12 @@
 			margin-right: 20px;
 		}
 	}
+	.slider_innerProj{
+		.slider__media, .slider__meta{
+			width: auto;
+			height: auto;
+		}
+	}
 	.scrollable__media{
 		width: 100%;
 		// img{
@@ -892,7 +898,8 @@
 			width: 100%;
 		}
 		.scrollable__media{
-			width: 100%;
+			width: 112%;
+			margin-left: -6%;
 		}
 		.scrollable__list{
 			display: none;
@@ -1054,6 +1061,9 @@
 	}
 	.js-select-sity{
 		width: auto;
+	}
+	#choose-sity{
+		width: 100%;
 	}
 }
 @media only screen and (min-width: 320px) and (max-width: 482px) {
