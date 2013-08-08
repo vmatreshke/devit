@@ -644,6 +644,8 @@ a img, fieldset { border: none; }
   .contact-form { width: 425px; float: none; margin: 0 auto; width: 400px; background: #C1E4FC; padding: 50px; text-align: center; }
   .contact-form .i_er { right: 36px; }
   .slider_innerProj .slider__item { width: 117px; }
+  .proj__item { width: 25%; }
+  .proj__item .proj__img { width: 100%; }
   .slider_proj .item__conteiner { width: 1025px; }
   .slider_proj .scrollable__next, .slider_proj .scrollable__prew { top: 209px; }
   .scrollable__media { width: 100%; }
