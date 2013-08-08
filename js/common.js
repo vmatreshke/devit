@@ -28,7 +28,7 @@ $(document).ready(function(){
 	});
 	// $('.kat__media').append( $('.kat__descr'));
 
-	  	// for list
+		// for list
 		var firstLink = $(".slider__list li").first();
 			firstLink.click(function() {
 				var width = $(window).width();
@@ -50,23 +50,5 @@ $(document).ready(function(){
 		    var text = $(this).val();
 		    $(".js-select-sity").text(text);
 		});
-
-	// catalogue_section.html
-	// var $thisdiv = $('.product__list');
-	// var thisdiv_top = $thisdiv.offset().left - 200;
-	// var thisdiv_flag = false;
-
-	// $(window).scroll(function (event) {
-	//     if(thisdiv_flag) return;
-
-	//     // what the y position of the scroll is
-	//     var y = $(window).scrollTop();
-
-	//     // whether that's below the form
-	//     if (y >= thisdiv_top) {
-	//         // if so, ad the fixed class
-	//         $thisdiv.addClass('is-left');
-	//         thisdiv_flag = true;
-	//     }
-	// });
+		// 
 });
