@@ -611,7 +611,7 @@ a img, fieldset { border: none; }
 @media only screen and (min-width: 1200px) and (max-width: 9900px) { .header { width: 1200px; margin: 0 auto; }
   .kat__descr { width: 55%; }
   .h1 { width: 1200px; margin: 30px auto; }
-  .wrap { width: 1200px; }
+  .wrap { width: 90%; max-width: 1200px; }
   .wrap .scroll__cont_news { overflow: hidden; }
   .wrap .scroll__cont { width: auto; float: none; }
   .wrap .date { margin-left: 40px; }
