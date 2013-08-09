@@ -154,7 +154,7 @@
   .kat .kat__nav li:hover { background: #4fb8fc; }
   .kat .kat__nav li a { color: #FFF; }
   .kat .kat__nav .active { background: #000; }
-  .kat .kat__charac { width: 200px; margin-left: 5%; margin-bottom: 20px; }
+  .kat .kat__charac { width: 200px; margin-bottom: 20px; }
   .kat .kat__doc { width: 200px; margin-left: 5%; }
   .product__item { position: relative; }
   .kat_mod2 { padding: 35px 0; }
