@@ -53,24 +53,25 @@
 		display: block;
 	}
 	.footer__wrap{
-		width: 1200px;
+		width: 90%;
+		max-width: 1200px;
 	}
 	.footer__left{
-		width: 900px;
+		width: 75%;
 		margin-right: 0;
 		.left{
-			width: 600px;
+			width: 55%;
 			li{
 				&:first-child{
-					width: 600px;
+					width: 100%;
 				}
 			}
 		}
 		.right{
-			width: 300px;
+			width: 45%;
 			li{
 				&:first-child{
-					width: 300px;
+					width: 100%;
 				}
 			}
 		}
