@@ -115,6 +115,7 @@
 			width: 1025px;
 		}
 	}
+
 	.sity{
 		width: 21%;
 		height: 170px;
@@ -217,8 +218,12 @@
 	}
 	// inner_collection.html
 	.slider_collectionMod {
+		width: auto;
+		overflow: hidden;
 		.item__conteiner{
-			width: 1025px;
+			width: auto;
+			margin-left: 0;
+			float: none;
 		}
 	}
 	// inner_download.html
@@ -236,7 +241,8 @@
 		margin-right: 25px;
 	}
 	.wrap{
-		width: 90%;
+		width: auto;
+		padding: 0 10px;
 	}
 	.wrap_index{
 		width: 100%;
