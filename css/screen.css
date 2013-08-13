@@ -861,6 +861,8 @@ a img, fieldset { border: none; }
   .download__item .download__note { width: auto; display: block; }
   .download__item .download__eye { display: none; }
   .download__item .download__title, .download__item .download__wt { margin-left: 50px; }
+  .download__right { margin: 0 auto 25px; }
+  .download__left { padding-right: 0; }
   .scroll__media { display: none; }
   .scroll__cont { width: auto; float: none; }
   .date { display: none; }
