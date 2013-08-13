@@ -43,6 +43,7 @@ $(document).ready(function(){
 						$(".slider__list li").show();
 					}
 				};
+				return false;
 		});
 
 		// for select selected "post"

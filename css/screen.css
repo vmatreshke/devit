@@ -132,7 +132,6 @@ a img, fieldset { border: none; }
 .sub-nav_right li { float: right; }
 
 .h1 { margin-top: 30px; margin-bottom: 30px; text-transform: uppercase; line-height: 1; text-align: center; font-family: 'Conv_DlCyLtTf', sans-serif; font-weight: normal; font-size: 30px; color: #fff; }
-.h1 span { margin-left: 10px; margin-right: 10px; }
 .h1 span:before { content: ""; background: url('../img/icons-s965e20cf6b.png') 0 -671px no-repeat; width: 114px; height: 24px; margin-right: 10px; display: inline-block; }
 .h1 span:after { content: ""; background: url('../img/icons-s965e20cf6b.png') 0 -671px no-repeat; width: 114px; height: 24px; margin-left: 10px; display: inline-block; }
 
@@ -164,6 +163,7 @@ a img, fieldset { border: none; }
 .slider_collectionMod .slider__list { position: relative; z-index: 200; }
 .slider_collectionMod .slider__list a, .slider_collectionMod .slider__list span { padding: 6px 0 6px 0px; }
 .slider_collectionMod .slider__media img { width: 100%; }
+.slider_collectionMod .photogallery__nav { display: none; }
 
 .slider_innerProj { width: auto; min-height: 940px; height: auto; min-height: 230px; margin-top: 20px; box-shadow: none; display: inline-block; overflow: hidden; margin-right: -38px; }
 .slider_innerProj .slider__item { width: 112px; color: #4db5f9; font-family: "Calibri"; font-size: 17px; font-weight: bold; }
@@ -356,7 +356,7 @@ a img, fieldset { border: none; }
 .product__cnt { text-decoration: none; text-transform: uppercase; font-family: Calibri,sans-serif; font-size: 16px; line-height: 1.2; color: #1795e6; }
 .product__cnt img { width: 100%; border-radius: 50%; margin-bottom: 20px; position: relative; max-width: 100%; }
 
-.product__list { list-style: none; display: none; position: relative; top: 0; right: -200px; width: 200px; min-height: 100%; white-space: normal; padding-top: 20px; padding-right: 20px; background-color: #4fb8fc; box-sizing: border-box; text-align: left; -webkit-box-shadow: 3px 0px 16px rgba(77, 184, 240, 0.63); -moz-box-shadow: 3px 0px 16px rgba(77, 184, 240, 0.63); box-shadow: 3px 0px 16px rgba(77, 184, 240, 0.63); }
+.product__list { list-style: none; display: none; position: absolute; top: 0; right: -200px; width: 200px; min-height: 100%; white-space: normal; padding-top: 20px; padding-right: 20px; background-color: #4fb8fc; box-sizing: border-box; text-align: left; -webkit-box-shadow: 3px 0px 16px rgba(77, 184, 240, 0.63); -moz-box-shadow: 3px 0px 16px rgba(77, 184, 240, 0.63); box-shadow: 3px 0px 16px rgba(77, 184, 240, 0.63); }
 .product__list li { line-height: 27px; }
 .product__list li:hover { background: #112837; }
 .product__list a { padding: 0 12px; display: block; font-family: Calibri,sans-serif; font-size: 13px; color: #FFF; text-decoration: none; text-transform: uppercase; }
@@ -526,7 +526,7 @@ a img, fieldset { border: none; }
 .date .date__number { opacity: 0.4; margin-top: 10px; margin-bottom: -7px; font-size: 34px; }
 .date .date__day { opacity: 0.4; }
 
-.popupBg { width: 100%; height: 100%; position: fixed; bottom: 0px; top: 0px; z-index: 2000; background: #415665; opacity: 0.8; }
+.popupBg { width: 100%; height: 100%; position: fixed; bottom: 0px; top: 0px; left: 0; right: 0; z-index: 2000; background: #415665; opacity: 0.8; }
 
 .popupLogin { width: 460px; position: absolute; top: 400px; left: 50%; margin-left: -230px; z-index: 1000; }
 .popupLogin .popupLogin__cross { background: url('../img/icons-s965e20cf6b.png') 0 -1328px no-repeat; width: 19px; height: 19px; position: absolute; top: 5px; right: 15px; }
@@ -622,6 +622,7 @@ a img, fieldset { border: none; }
   .wrap_index ul.slider__list a, .wrap_index ul.slider__list span { height: 31px; line-height: 31px; padding: 0px 0 0px 25px; }
   .wrap_index .slider { width: 1200px; }
   .wrap_index .slider .slider__bg { width: 100%; }
+  .wrap_index .content { padding-bottom: 20px; }
   .logo { margin-right: 130px; }
   .content { width: auto; display: block; }
   .footer__wrap { width: 90%; max-width: 1200px; }
@@ -665,8 +666,8 @@ a img, fieldset { border: none; }
   .slider_collectionMod .item__conteiner { width: auto; margin-left: 0; float: none; } }
 @media only screen and (min-width: 768px) and (max-width: 960px) { .header { padding: 0 9px; }
   .logo { margin-right: 25px; }
-  .wrap { width: auto; padding: 0 10px; }
-  .wrap_index { width: 100%; }
+  .wrap { width: auto; padding: 0 9px; }
+  .wrap_index { width: 100%; padding: 0; }
   .wrap_index .nav { width: 550px; margin-top: 5px; height: auto; }
   .wrap_index .nav li { width: 125px; margin-right: 14px; text-align: center; margin: 2px 10px 2px 0; height: auto; line-height: 1; }
   .wrap_index .nav .active:after { background: none; }
@@ -805,7 +806,7 @@ a img, fieldset { border: none; }
   .kat { margin: 0 9px; }
   .kat .kat__media { width: 90%; margin: 0 5%; }
   .kat .kat__media img { width: 100%; }
-  .kat .kat__media:before { top: 43%; left: 43%; }
+  .kat .kat__media:before { top: 50%; left: 50%; margin-top: -51px; margin-left: -50px; }
   .kat .kat__descr { width: 95%; margin-top: 20px; }
   .kat .kat__conteiner { border-left: none; }
   .kat .kat__nav { width: 90%; margin: 0 5%; padding: 0; float: none; }
@@ -850,6 +851,7 @@ a img, fieldset { border: none; }
   .slider_innerBuy .slider__list li a, .slider_innerBuy .slider__list li span { color: #fff; }
   .slider_collectionMod { width: 94%; padding-top: 10px; margin: 0 3%; background: #FFF; }
   .slider_collectionMod .item__conteiner { width: auto; margin-left: 0; margin-right: 0; border-left: none; float: none; }
+  .slider_collectionMod .photogallery__nav { display: block; }
   .scrollable_small { margin-right: 0; }
   .scrollable_small .scrollable__media { width: 100%; }
   .scrollable_small .scrollable__media img { margin-bottom: 15px; }
@@ -892,3 +894,6 @@ a img, fieldset { border: none; }
   .slider_collection .slider__item:nth-child(4n+1) { margin: 0 5%; }
   .slider_collection .slider__item:nth-child(4n) { margin: 0 5%; } }
 @media only screen and (min-width: 650px) and (max-width: 767px) { .slider_collectionMod .slider__item { width: 46%; margin: 0 2% 3% !important; } }
+@media only screen and (min-width: 767px) and (max-width: 800px) { .h1 span:after, .h1 span:before { content: none; } }
+@media only screen and (min-width: 768px) and (max-width: 789px) { .logo { margin-right: 15px; }
+  .nav a, .nav span { padding: 6px 2px; } }

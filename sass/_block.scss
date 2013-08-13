@@ -203,8 +203,8 @@
 	font-size: 30px;
 	color: #fff;
 	span{
-		margin-left: 10px;
-		margin-right: 10px;
+		// margin-left: 10px;
+		// margin-right: 10px;
 		&:before{
 			content:"";
 			@include s(h2_before);
@@ -369,6 +369,9 @@
 		img{
 			width: 100%;
 		}
+	}
+	.photogallery__nav{
+		display: none;
 	}
 }
 .slider_innerProj{
@@ -1263,8 +1266,8 @@
 	.product__list{
 		list-style: none;
 		display: none;
-		position: relative;
-		//position: absolute;
+		// position: relative;
+		position: absolute;
 		top: 0;
 		right: -200px;
 		width: 200px;
@@ -1979,6 +1982,8 @@
 	position: fixed;
 	bottom: 0px;
 	top: 0px;
+	left: 0;
+	right: 0;
 	z-index: 2000;
 	background: #415665;
 	opacity: 0.8;
