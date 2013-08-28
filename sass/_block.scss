@@ -127,7 +127,7 @@
 
 .sub-nav{
 	@extend %clr;
-	width: 300px;
+	width: 600px;
 	height: 41px;
 	line-height: 41px;
 	margin: 0 auto;
@@ -356,6 +356,10 @@
 	}
 }
 .slider_collectionMod{
+	background: #FFF;
+	.photogallery__nav{
+		margin-bottom: 24px;
+	}
 	.slider__list{
 		position: relative;
 		z-index: 200;
@@ -538,7 +542,7 @@
 	}
 	.slider__title{
 		position: absolute;
-		bottom: 25px;
+		bottom: 50px;
 		left: 230px;
 		font-size: 92px;
 		line-height: 1;
@@ -547,6 +551,15 @@
 		color: #FFF;
 		z-index: 9999;
 		// @include text-shadow(0 1px 0 rgba(0,0,0,.08));
+		&:hover{
+			.slider{
+				.slider__bg{
+					img{
+						opacity: 0.8;
+					}
+				}
+			}
+		}
 	}
 .news{
 	position: relative;
