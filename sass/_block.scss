@@ -127,7 +127,7 @@
 
 .sub-nav{
 	@extend %clr;
-	width: 600px;
+	width: 700px;
 	height: 41px;
 	line-height: 41px;
 	margin: 0 auto;
@@ -157,7 +157,7 @@
 		left: 100%;
 	}
 	li{
-		padding: 0 15px !important;
+		padding: 0 15px 0 0 !important;
 		height: 41px;
 		line-height: 41px;
 		float: left;
@@ -190,6 +190,7 @@
 	right: 0;
 	li{
 		float: right;
+		padding: 0 0 0 15px !important;
 	}
 }
 .h1{
@@ -203,8 +204,8 @@
 	font-size: 30px;
 	color: #fff;
 	span{
-		margin-left: 10px;
-		margin-right: 10px;
+		// margin-left: 10px;
+		// margin-right: 10px;
 		&:before{
 			content:"";
 			@include s(h2_before);
@@ -356,22 +357,22 @@
 	}
 }
 .slider_collectionMod{
-	background: #FFF;
-	.photogallery__nav{
-		margin-bottom: 24px;
-	}
 	.slider__list{
 		position: relative;
 		z-index: 200;
 		a,span{
 			// height: 31px;
-			line-height: 31px;
+			// line-height: 31px;
+			padding: 6px 0 6px 0px;
 		}
 	}
 	.slider__media{
 		img{
 			width: 100%;
 		}
+	}
+	.photogallery__nav{
+		display: none;
 	}
 }
 .slider_innerProj{
@@ -551,15 +552,6 @@
 		color: #FFF;
 		z-index: 9999;
 		// @include text-shadow(0 1px 0 rgba(0,0,0,.08));
-		&:hover{
-			.slider{
-				.slider__bg{
-					img{
-						opacity: 0.8;
-					}
-				}
-			}
-		}
 	}
 .news{
 	position: relative;
@@ -947,14 +939,11 @@
 		color: rgba(50,60,65, .77);
 	}
 	.kat__wrap{
-		// margin-bottom: 50px;
-		overflow: hidden;
-		// float: left;
+		// overflow: hidden;
 		margin-top: 40px;
 		margin-left: 30px;
 		padding-bottom: 50px;
 		font-size: 14px;
-		//overflow: hidden;
 	}
 	.kat__charac{
 		h4{
@@ -969,12 +958,12 @@
 				position: relative;
 				line-height: 28px;
 				border-top: 1px solid #e5e5e5;
-				span {
+				span{
 					width: 50%;
 				}
 				strong{
-					margin-left: 25px;
 					width: 50%;
+					margin-left: 25px;
 				}
 			}
 		}
@@ -993,8 +982,8 @@
 						height: 1px;
 						position: absolute;
 						left: 0;
-						background: #e5e5e5;
 						bottom: 0;
+						background: #e5e5e5;
 					}
 					&:before{
 						content: none;
@@ -1007,7 +996,9 @@
 				}
 			}
 		}
+
 	}
+
 	.kat__charac{
 		// margin-left: 30px;
 		margin-right: 25px;
@@ -1015,6 +1006,7 @@
 		min-width: 300px;
 		width: 100%;
 	}
+
 	.kat__doc{
 		li{
 			border-top: none;
@@ -1103,7 +1095,7 @@
 		margin-bottom: 10px;
 		li{
 			height: 60px;
-			padding: 0 65px;
+			padding: 0 50px;
 			line-height: 60px;
 			float: left;
 
@@ -1279,12 +1271,14 @@
 	.product__list{
 		list-style: none;
 		display: none;
+		// position: relative;
 		position: absolute;
 		top: 0;
 		right: -200px;
+		width: 200px;
 		min-height: 100%;
 		white-space: normal;
-		width: 200px;
+		//width: 200px;
 		padding-top: 20px;
 		padding-right: 20px;
 		background-color: #4fb8fc;
@@ -1993,6 +1987,8 @@
 	position: fixed;
 	bottom: 0px;
 	top: 0px;
+	left: 0;
+	right: 0;
 	z-index: 2000;
 	background: #415665;
 	opacity: 0.8;
@@ -2268,4 +2264,9 @@
 			}
 		}
 	}
+}
+.sexsex{
+	position: absolute;
+	right: -200px;
+	left: 0;
 }
