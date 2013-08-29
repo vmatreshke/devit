@@ -870,7 +870,8 @@
 		&:before{
 			content: "";
 			position: absolute;
-			top: 140px;
+			margin-top: 50%;
+			margin-top: -51px;
 			left: 130px;
 			opacity: 0;
 			@include s(glass);
