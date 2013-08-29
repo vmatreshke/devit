@@ -407,11 +407,11 @@
 	}
 	// catalogue_section.html
 	.product__item{
-		width: 31%;
+		width: 48%;
 	}
-	.product__list{
-		min-width: 200px;
-	}
+	// .product__list{
+	// 	min-width: 200px;
+	// }
 	// inner_about-contacts.html
 	.support{
 		margin: 0 auto;
@@ -923,14 +923,14 @@
 		width: 90%;
 		margin: 0 4%;
 	}
-	.product__list{
-		width: 100%;
-		top: 269px;
-		left: 20px;
-	}
+	// .product__list{
+	// 	width: 100%;
+	// 	top: 269px;
+	// 	left: 20px;
+	// }
 	.product__cnt{
 		img{
-			width: auto;
+			// width: auto;
 			max-width: auto;
 		}
 	}
@@ -939,12 +939,12 @@
 		left: 0;
 	}
 	.active{
-		.product__list{
-			margin-left: -20px;
-			bottom: -277px;
-			padding-right: 0;
-			min-width: 230px;
-		}
+		// .product__list{
+		// 	margin-left: -20px;
+		// 	bottom: -277px;
+		// 	padding-right: 0;
+		// 	min-width: 230px;
+		// }
 	}
 	.map{
 		display: block;
