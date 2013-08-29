@@ -823,12 +823,6 @@
 		// bottom: 0;
 		// left: 0;
 		float: left;
-		li{
-			background: #000;
-			&:hover{
-				background: #FFF;
-			}
-		}
 		.active{
 			background: #FFF;
 			a{
@@ -838,6 +832,7 @@
 		}
 		a{
 			padding: 5px 0 5px 10px;
+			background: #000;
 			display: block;
 			font-family: 'Conv_DlCyLtTf', sans-serif;
 			font-size: 14px;
@@ -845,6 +840,7 @@
 			text-decoration: none;
 			color: #FFF;
 			&:hover{
+				background: #FFF;
 				color: #4db7fc;
 			}
 		}
@@ -870,7 +866,7 @@
 		&:before{
 			content: "";
 			position: absolute;
-			margin-top: 50%;
+			top: 50%;
 			margin-top: -51px;
 			left: 130px;
 			opacity: 0;
@@ -2271,3 +2267,5 @@
 	right: -200px;
 	left: 0;
 }
+
+
