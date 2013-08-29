@@ -1241,38 +1241,22 @@
 	.product__item{
 		width: 23%;
 		padding: 35px 1% 15px;
-		float: left;
+		//float: left;
+		display: inline-block;
+		vertical-align: top;
 		position: relative;
 		text-align: center;
 
-		@include box-shadow(0 1px 16px rgba(77,184,240,.63));
-		background-color: #4fb8fc;
+		//@include box-shadow(0 1px 16px rgba(77,184,240,.63));
+		//background-color: #4fb8fc;
 		img{
 			// background: transparent;
 			background: #FFF;
-			@include box-shadow(0 0 0 15px #fff, inset 0 1px 16px rgba(77,184,240,.63));
+			//@include box-shadow(0 0 0 15px #fff, inset 0 1px 16px rgba(77,184,240,.63));
 		}
 		.product__meta{
 			text-decoration: none;
-			color: #FFF;
-		}
-		&:hover {
-			// background-color: #4fb8fc;
-			z-index: 10;
-			&.product__item{
-				// @include box-shadow(0 1px 16px rgba(77,184,240,.63));
-			}
-			img{
-				// background: #FFF;
-				// @include box-shadow(0 0 0 15px #fff, inset 0 1px 16px rgba(77,184,240,.63));
-			}
-			// .product__list {
-			// 	display: block;
-			// }
-			// .product__meta{
-			// 	text-decoration: none;
-			// 	color: #FFF;
-			// }
+			//color: #FFF;
 		}
 		.is-left{
 			left: -200px;
@@ -1300,12 +1284,41 @@
 					min-width: 160px;
 					min-height: 160px;
 					border-radius: 50%;
-					margin-bottom: 20px;
+					margin-bottom: 15px;
 					position: relative;
 				}
+				&:hover {
+					// background-color: #4fb8fc;
+					//z-index: 10;
+					img{
+						// background: #FFF;
+						@include box-shadow(0 0 0 10px #4DB7FC, inset 0 1px 11px rgba(77,184,240,.63));
+				}
+			// .product__list {
+			// 	display: block;
+			// }
+			// .product__meta{
+			// 	text-decoration: none;
+			// 	color: #FFF;
+			// }
+		}
 			}
 		.product__list{
 			display: block !important;
+			list-style: none;
+    		margin-left: 30px;
+    		text-align: left;
+    		line-height: 1.2;
+    		li{
+    			margin-bottom: 8px;	
+    		}
+    		a{
+    			color: #1895E6;
+    			text-decoration: none;
+    			&:hover{
+					border-bottom: 1px solid #1895E6;
+    			}
+    		}
 		}
 	// .product__list{
 	// 	list-style: none;
