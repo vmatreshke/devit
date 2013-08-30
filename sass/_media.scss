@@ -856,12 +856,10 @@
 			img{
 				width: 100%;
 			}
-			&:before{
-				// @include s(gsmall);
-				top: 50%;
-				left: 50%;
-				margin-top: -51px;
-				margin-left: -50px;
+			.lupa{
+				@include s(gsmall);
+				margin-left: -31px;
+				margin-top: -30px;
 			}
 		}
 		.kat__descr{

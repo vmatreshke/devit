@@ -258,7 +258,7 @@ a img, fieldset { border: none; }
 .kat__media { width: 365px; margin-left: 30px; display: inline-block; position: relative; }
 .kat__media:hover { cursor: pointer; }
 .kat__media:hover .lupa { -webkit-transition: opacity 0.3s; -moz-transition: opacity 0.3s; -o-transition: opacity 0.3s; transition: opacity 0.3s; opacity: 1; }
-.kat__media .lupa { position: absolute; top: 50%; margin-top: -51px; left: 130px; opacity: 0; background: url('../img/icons-s965e20cf6b.png') 0 -322px no-repeat; width: 103px; height: 100px; -webkit-transition: opacity 0.3s; -moz-transition: opacity 0.3s; -o-transition: opacity 0.3s; transition: opacity 0.3s; z-index: 10; }
+.kat__media .lupa { position: absolute; top: 50%; margin-top: -50px; left: 50%; margin-left: -51px; opacity: 0; background: url('../img/icons-s965e20cf6b.png') 0 -322px no-repeat; width: 103px; height: 100px; -webkit-transition: opacity 0.3s; -moz-transition: opacity 0.3s; -o-transition: opacity 0.3s; transition: opacity 0.3s; z-index: 10; }
 .kat__media a { display: block; position: relative; z-index: 100; }
 
 .kat__descr { width: 43%; display: inline-block; padding-right: 0; vertical-align: top; }
@@ -800,7 +800,7 @@ a img, fieldset { border: none; }
   .kat { margin: 0 9px; }
   .kat .kat__media { width: 90%; margin: 0 5%; }
   .kat .kat__media img { width: 100%; }
-  .kat .kat__media:before { top: 50%; left: 50%; margin-top: -51px; margin-left: -50px; }
+  .kat .kat__media .lupa { background: url('../img/icons-s965e20cf6b.png') 0 -124px no-repeat; width: 63px; height: 60px; margin-left: -31px; margin-top: -30px; }
   .kat .kat__descr { width: 95%; margin-top: 20px; }
   .kat .kat__conteiner { border-left: none; }
   .kat .kat__nav { width: 90%; margin: 0 5%; padding: 0; float: none; }

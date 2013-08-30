@@ -885,8 +885,9 @@
 		.lupa{
 			position: absolute;
 			top: 50%;
-			margin-top: -51px;
-			left: 130px;
+			margin-top: -50px;
+			left: 50%;
+			margin-left: -51px;
 			opacity: 0;
 			@include s(glass);
 			@include transition(opacity .3s);
