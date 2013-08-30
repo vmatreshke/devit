@@ -121,8 +121,9 @@ a img, fieldset { border: none; }
 .sub-nav:before { content: ""; width: 10000px; height: 41px; line-height: 41px; background-color: #4db7fc; position: absolute; top: 0px; right: 100%; }
 .sub-nav:after { content: ""; width: 10000px; height: 41px; line-height: 41px; background-color: #4db7fc; position: absolute; top: 0px; left: 100%; }
 .sub-nav li { padding: 0 15px 0 0 !important; height: 41px; line-height: 41px; float: left; }
-.sub-nav a, .sub-nav span { display: inline-block; height: 23px; line-height: 23px; padding: 0 10px !important; border: 1px solid transparent; color: #fff; text-decoration: none; text-transform: uppercase; }
-.sub-nav a:hover, .sub-nav span:hover { border: 1px solid transparent; }
+.sub-nav a, .sub-nav span { display: inline-block; height: 23px; line-height: 23px; padding: 0 10px !important; color: #fff; text-decoration: none; text-transform: uppercase; }
+.sub-nav a { border: 1px solid transparent; }
+.sub-nav a:hover { border: 1px solid transparent; }
 .sub-nav .sub-nav__active { border: 1px solid #a6dbfe; }
 .sub-nav .sub-nav__active:hover { border: 1px solid #a6dbfe; }
 

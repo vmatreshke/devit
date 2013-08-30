@@ -167,10 +167,16 @@
 		height: 23px;
 		line-height: 23px;
 		padding: 0 10px !important;
-		border: 1px solid transparent;
+
 		color: #fff;
 		text-decoration: none;
 		text-transform: uppercase;
+		&:hover{
+			// border: 1px solid transparent;
+		}
+	}
+	a{
+		border: 1px solid transparent;
 		&:hover{
 			border: 1px solid transparent;
 		}
