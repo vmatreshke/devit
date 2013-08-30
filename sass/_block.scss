@@ -392,13 +392,18 @@
 	overflow: hidden;
 	margin-right: -38px;
 	.slider__item{
-		width: 112px;
+		// width: 112px;
+		width: 14.6%;
+		margin: 0 1% 1%;
 		color: #4db5f9;
 		font-family: "Calibri";
 		font-size: 17px;
 		font-weight: bold;
 		&:hover{
 			text-decoration: underline;
+		}
+		&:nth-child(4n+1), &:nth-child(4n) {
+			margin: 0 1% 1%;
 		}
 	}
 	.slider__media, .slider__meta {
@@ -424,6 +429,7 @@
 	@extend %clr;
 	.scrollable__media {
 		img{
+			cursor: pointer;
 			width: auto;
 		}
 		&:hover{
