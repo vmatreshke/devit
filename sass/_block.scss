@@ -79,11 +79,12 @@
 	float: left;
 	vertical-align: top;
 	list-style: none;
+	position: relative;
 	li{
 		height: 71px;
 		line-height: 71px;
 		margin-left: 2px;
-		position: relative;
+		// position: relative;
 		display: inline-block;
 		&:first-child{
 			margin-left: 0;
@@ -1126,6 +1127,7 @@
 // photogallery
 .js-masonry{
 	@extend %clr;
+	margin-left: 11px;
 	padding-bottom: 14px;
 }
 	.photogallery__nav{
@@ -1296,10 +1298,12 @@
 					width: 100%;
 					max-width: 100%;
 					min-width: 160px;
-					min-height: 160px;
+					min-height: 176px;
 					border-radius: 50%;
 					margin-bottom: 15px;
 					position: relative;
+					font-size: 0;
+					background-color: rgb(241, 241, 241);
 				}
 				&:hover {
 					// background-color: #4fb8fc;
