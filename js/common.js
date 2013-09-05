@@ -1,4 +1,13 @@
 $(document).ready(function(){
+
+		// masonry
+		if($('#container').length > 0) {
+			$('#container').masonry({
+			  columnWidth: 4,
+			  itemSelector: '.photogallery__item'
+			});
+		};
+
 	$('.content .slider__list a').click(function (e) {
 		api = $('.slider__bg').cycle();
 		api.cycle($(this).parent().index())
@@ -51,11 +60,6 @@ $(document).ready(function(){
 		    $(".js-select-sity").text(text);
 		});
 
-		// with jQuery
-		$('#container').masonry({
-		  columnWidth: 4,
-		  itemSelector: '.photogallery__item'
-		});
 
 
 });

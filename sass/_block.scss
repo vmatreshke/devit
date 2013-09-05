@@ -2339,4 +2339,31 @@
 	left: 0;
 }
 
+.kat-fot-mobile{
+	display: none;
+	a{
+		height: 54px;
+		line-height: 54px;
+		padding: 0 9px;
+		border: 1px solid #4db7fc;
+		font-family: 'Conv_DlCyLtTf';
+		font-size: 21px;
+		color: #FFF;
+		text-transform: uppercase;
+		text-decoration: none;
+		opacity: 0.4;
+		text-shadow: 0 1px 0 rgba(0,0,0,.48); /* drop shadow */
+		
+		position: absolute;
+		top: 17px;
+		right: 3%;
+		z-index: 200;
+		width: 40%;
+		text-align: center;
+		&:first-child{
+			left: 3%;
+			opacity: 1;
+		}
+	}
+}
 
