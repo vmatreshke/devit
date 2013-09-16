@@ -452,7 +452,7 @@
 			a,span{
 				font-family: 'Conv_DlCyLtTf', sans-serif;
 				text-shadow: none;
-				padding: 16px 0 16px 10px;
+				padding: 10px 0 10px 10px;
 				&:hover{
 					color: #4db7fc;
 				}
@@ -460,7 +460,7 @@
 		}
 		a,span{
 			display: inline-block;
-			font-size: 14px;
+			font-size: 13px;
 			color: #FFF;
 		}
 	}
@@ -527,6 +527,12 @@
 			// padding: 7px 0px 7px 0px;
 			// height: 30px;
 			// line-height: 30px;
+			font-family: 'Conv_DlCyLtTf', sans-serif;
+			font-size: 16px;
+			//text-transform: uppercase;
+			color: #FFF;
+			text-decoration: none;
+			// @include text-shadow(0 1px 0 rgba(0,0,0,.48));
 		}
 		.is-active{
 			background: #fff;
@@ -545,14 +551,7 @@
 				cursor: pointer;
 			}
 		}
-		a,span{
-			font-family: 'Conv_DlCyLtTf', sans-serif;
-			font-size: 16px;
-			text-transform: uppercase;
-			color: #FFF;
-			text-decoration: none;
-			// @include text-shadow(0 1px 0 rgba(0,0,0,.48));
-		}
+
 	}
 	.slider__title{
 		position: absolute;
