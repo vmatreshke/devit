@@ -1094,6 +1094,44 @@
 		p{
 			margin-bottom: 10px;
 		}
+		h4{
+			font-family: Calibri, sans-serif;
+			font-weight: bold;
+			font-size: 18px;
+			color: #4eb6fa;
+		}
+		ul{
+			min-height: 600px;
+			float: left;
+			list-style: none;
+			li{
+				margin-top: 25px;
+				&:before{
+					content: "";
+					margin-right: 12px;
+					display: inline-block;
+					vertical-align: middle;
+					@include s(tradeMark__ok);
+				}
+				h4, a{
+					margin-bottom: 10px;
+					font-family: Calibri, sans-serif;
+					font-size: 15px;
+					color: #323c41;
+					text-transform: uppercase; 
+					text-decoration: none;
+				}
+				a{
+					&:hover{
+						text-decoration: underline;
+					}
+				}
+				strong{
+					font-weight: bold;
+					color: #1795e6;
+				}
+			}
+		}
 	}
 	.kat_mod__img{
 		margin-left: 20px;
