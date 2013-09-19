@@ -39,7 +39,7 @@ a img, fieldset { border: none; }
 .footer__left .h3 a:hover { color: #000; }
 .footer__left .h4 { padding: 10px 8px; height: 24px; line-height: 24px; text-transform: uppercase; }
 .footer__left .left, .footer__left .right { list-style: none; }
-.footer__left .left a, .footer__left .right a { color: rgba(255, 255, 255, 0.4); text-decoration: none; }
+.footer__left .left a, .footer__left .right a { color: rgba(255, 255, 255, 0.4); text-decoration: none; text-overflow: ellipsis; overflow: hidden; }
 .footer__left .left { width: 345px; margin-bottom: 45px; float: left; }
 .footer__left .left li { margin-right: 8px; margin-bottom: 1px; display: inline-block; vertical-align: top; }
 .footer__left .left li a:hover { color: #000; }
