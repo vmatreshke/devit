@@ -734,16 +734,7 @@
 		.slider{
 			position: relative;
 			width: 100%;
-			.slider__list{
-				width: 100%;
-				padding-top: 90px;
-				background: #000;
-				opacity: 0.8;
-				a,span{
-					text-align: center;
-					font-size: 20px;
-				}
-			}
+			display: none;
 			.slider__bg{
 				width: 100%;
 				img{
@@ -752,6 +743,37 @@
 			}
 			.slider__title{
 				display: none;
+			}
+		}
+		.mobile-list{
+			display: block;
+		}
+		.mobile-list__cont{
+			width: 100%;
+			padding-top: 90px;
+			background: #000;
+			opacity: 0.8;
+			list-style: none;
+			div{
+				text-align: center;
+			}
+			li{
+				text-align: center;
+			}
+			a,span{
+				height: 31px;
+				line-height: 31px;
+				display: block;
+				text-align: center;
+				font-size: 20px;
+				font-family: 'Conv_DlCyLtTf', sans-serif;
+				font-size: 16px;
+				color: #FFF;
+				text-decoration: none;
+				&:hover{
+					background: #4db7fc;
+					cursor: pointer;
+				}
 			}
 		}
 	}
@@ -819,7 +841,7 @@
 		}
 	}
 	// catalogue.html
-	.kat-fot-mobile{
+	.mobile-list__tabs{
 		display: block;
 	}
 	.out__border{
@@ -1029,7 +1051,7 @@
 		margin: 0 5%;
 		textarea, input{
 			width: 100%;
-		}  
+		}
 	}
 	// inner_about-service.html
 	.kat_mod2{

@@ -60,6 +60,8 @@ $(document).ready(function(){
 		    $(".js-select-sity").text(text);
 		});
 
-
+		$(function() {
+		    $("ul.mobile-list__tabs").tabs(".mobile-list__cont > li");
+		});
 
 });
