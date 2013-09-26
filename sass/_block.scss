@@ -279,6 +279,7 @@
 .slider_collection{
 	width: 960px;
 	height: auto;
+	background: #FFF;
 	@include box-shadow(0 1px 16px rgba(159,207,238,.75));
 	.slider__list{
 		padding: 25px 0;
@@ -313,7 +314,7 @@
 		float: right;
 		width: 785px;
 		border-left: 175px solid #000;
-		
+
 		font-size: 0;
 		margin-right: 0;
 		padding: 30px 0;
@@ -346,12 +347,15 @@
 		// height: 202px;
 		width: auto;
 		height: auto;
+		// height: 210px;
 		overflow: hidden;
 		margin-bottom: 10px;
-
+		img{
+			// max-width: 210px;
+		}
 	}
 	.slider__meta{
-		font-family: Calibri,sans-sefif;
+		font-family: "Calibri" ,sans-sefif;
 		font-size: 17px;
 		color: #4eb6fa;
 		font-weight: bold;
@@ -1866,7 +1870,7 @@
 		padding: 0 30px;
 		color: #4db7fc;
 		text-transform: uppercase;
-		font-family: 'Conv_DlCyLtTf';
+		font-family: 'Conv_DlCyLtTf',sans-serif;;
 		font-size: 13px;
 		&:hover{
 			cursor: pointer;
@@ -2048,7 +2052,7 @@
 	}
 	.tradeMark__cnt{
 		margin-left: 38px;
-		font-family: Calibri, sans-serif;
+		font-family: "Calibri", sans-serif;
 		font-size: 14px;
 		color: #323c41;
 		strong{
@@ -2396,7 +2400,7 @@
 		letter-spacing: -1px;
 		display: block;
 		border: 1px solid #4db7fc;
-		font-family: 'Conv_DlCyLtTf';
+		font-family: 'Conv_DlCyLtTf',sans-serif;
 		font-size: 21px;
 		color: #FFF;
 		text-transform: uppercase;
