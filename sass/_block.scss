@@ -1087,7 +1087,6 @@
 		font-size: 14px;
 		line-height: 1.4;
 		h2{
-			width: 390px;
 			margin-bottom: 15px;
 			overflow: hidden;
 			font-family: Calibri, sans-serif;
@@ -1104,7 +1103,7 @@
 			font-size: 18px;
 			color: #4eb6fa;
 		}
-		ul{
+		ul, ol{
 			min-height: 600px;
 			float: left;
 			list-style: none;
@@ -1112,10 +1111,10 @@
 				margin-top: 25px;
 				&:before{
 					content: "";
-					margin-right: 12px;
+					margin-right: 10px;
 					display: inline-block;
 					vertical-align: middle;
-					@include s(tradeMark__ok);
+					@include s(select__arr-mini);
 				}
 				h4, a{
 					margin-bottom: 10px;
@@ -2320,7 +2319,6 @@
 		text-decoration: none;
 	}
 	.mail-to__ico{
-		
 		display: inline-block;
 		@include s(mailTo__ico);
 		vertical-align: middle;
@@ -2337,15 +2335,14 @@
 		border: 1px solid #d0d0d0;
 		display: block;
 		font-size: 16px;
-		position: relative;  
-		color: #35393c;  
+		position: relative;
+		color: #35393c;
 		&:after{
 			content:"";
 			@include s(select__arr);
 			position: absolute;
 			top: 7px;
 			right: 8px;
-			
 		}
 	}
 	#choose-sity{
@@ -2417,7 +2414,3 @@
 	position: relative;
 	display: none;
 }
-
-
-
-
