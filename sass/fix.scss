@@ -61,22 +61,27 @@
   color: #fff;
 }
 
-// .slider_collection .slider__list li.selected {
-//   background: #fff;
-//   cursor: default;
-// } 
+.slider_collection .slider__list li.selected {
+  background: #fff;
+  cursor: default;
+  &:hover{
+    span{
+      color: #4db7fc !important;
+    }
+  }
+}
 
 .slider_collection .slider__list li.selected:hover {
   -webkit-box-shadow: none;
-  -moz-box-shadow: none; 
+  -moz-box-shadow: none;
   box-shadow: none;
 }
 
 .slider_collection .slider__list li.selected a, .slider_collection .slider__list li.selected span {
   text-shadow: none;
-  color: #FFF;
+  color: #4db7fc;
   &:hover{
-    color: #4db7fc;   
+    color: #fff;  
   }
 }
 

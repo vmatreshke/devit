@@ -11,10 +11,13 @@
 
 .slider_collection .slider__list li:hover a, .slider_collection .slider__list li:hover span { text-shadow: none; color: #fff; }
 
+.slider_collection .slider__list li.selected { background: #fff; cursor: default; }
+.slider_collection .slider__list li.selected:hover span { color: #4db7fc !important; }
+
 .slider_collection .slider__list li.selected:hover { -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; }
 
-.slider_collection .slider__list li.selected a, .slider_collection .slider__list li.selected span { text-shadow: none; color: #FFF; }
-.slider_collection .slider__list li.selected a:hover, .slider_collection .slider__list li.selected span:hover { color: #4db7fc; }
+.slider_collection .slider__list li.selected a, .slider_collection .slider__list li.selected span { text-shadow: none; color: #4db7fc; }
+.slider_collection .slider__list li.selected a:hover, .slider_collection .slider__list li.selected span:hover { color: #fff; }
 
 .slider_collection .slider__list span { cursor: default; }
 

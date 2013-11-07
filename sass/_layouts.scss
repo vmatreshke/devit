@@ -1,16 +1,16 @@
 // default layout
 .out{
 	position: relative;
-	background: url(../img/bg.jpg) 0% 121px no-repeat;
+	background: url(../_img/bg.jpg) 0% 121px no-repeat;
 	@include background-size(cover);
 }
 .out_changeBg{
 	margin-bottom: 10px;
-	background: url(../img/bg2.jpg) 50% 121px no-repeat;
+	background: url(../_img/bg2.jpg) 50% 121px no-repeat;
 	overflow: hidden;
 }
 .out_alt{
-	background: url(../img/bg.jpg) 0% 121px no-repeat;
+	background: url(../_img/bg.jpg) 0% 121px no-repeat;
 	@include background-size(cover);
 	margin-bottom: 125px;
 	padding-bottom: 20px;
