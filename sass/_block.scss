@@ -473,7 +473,7 @@
 		padding: 25px 0px 45px 0px;
 		background: #FFF;
 		margin-left: 175px;
-		font-family: Calibri,sans-serif;
+		font-family: "Calibri", Helvetica, sans-serif;
 		font-size: 14px;
 		color: #323c41;
 		line-height: 1.2;
@@ -488,7 +488,7 @@
 			padding-right: 50px;
 			h1{
 				margin-bottom: 20px;
-				font-family: Calibri,sans-serif;
+				font-family: "Calibri", Helvetica, sans-serif;
 				font-size: 32px;
 				color: #4eb6fa;
 				font-weight: bold;
@@ -810,7 +810,7 @@
 		margin: 0 auto;
 		text-align: center;
 		p{
-			font-family: Calibri,sans-serif;
+			font-family: "Calibri", Helvetica, sans-serif;
 			font-size: 14px;
 			color: #4d6779;
 			margin-bottom: 25px;
@@ -932,7 +932,7 @@
 	}
 	.kat__title{
 		margin-bottom: 25px;
-		font-family: Calibri,sans-serif;
+		font-family: "Calibri", Helvetica, sans-serif;
 		font-size: 25px;
 		line-height: 1;
 		color: #4eb6fa;
@@ -966,7 +966,7 @@
 	}
 	.kat__info{
 		margin-top: 25px;
-		font-family: Calibri,sans-serif;
+		font-family: "Calibri", Helvetica, sans-serif;
 		font-size: 14px;
 		line-height: 1.2;
 		color: rgba(50,60,65, .77);
@@ -1075,7 +1075,7 @@
 		.scheme{
 			a{
 				font-size: 14px;
-				font-family: Calibri,sans-serif;
+				font-family: "Calibri", Helvetica, sans-serif;
 				color: #1795e6;
 				text-decoration: none;
 			}
@@ -1331,7 +1331,7 @@
 			.product__cnt{
 				text-decoration: none;
 				text-transform: uppercase;
-				font-family: Calibri,sans-serif;
+				font-family: "Calibri", Helvetica, sans-serif;
 				font-size: 16px;
 				line-height: 1.2;
 				color: #1795e6;
@@ -1404,7 +1404,7 @@
 	// 	a{
 	// 		padding: 0 12px;
 	// 		display: block;
-	// 		font-family: Calibri,sans-serif;
+	// 		font-family: "Calibri", Helvetica, sans-serif;
 	// 		font-size: 13px;
 	// 		color: #FFF;
 	// 		text-decoration: none;
@@ -1457,11 +1457,11 @@
 	.sity__cont{
 		// float: left;
 		margin-left: 56px;
-		font-family: Calibri,sans-serif;
+		font-family: "Calibri", Helvetica, sans-serif;
 		line-height: 1.4;
 	}
 	.sity__town{
-		font-family: Calibri,sans-serif;
+		font-family: "Calibri", Helvetica, sans-serif;
 		font-size: 17px;
 		color: #4eb6fa;
 		font-weight: bold;
@@ -1668,7 +1668,7 @@
 			color: #4db7fc;
 			font-size: 18px;
 			line-height: 1;
-			font-family: Calibri,sans-serif;
+			font-family: "Calibri", Helvetica, sans-serif;
 		}
 	}
 	.proj__border{
@@ -1813,10 +1813,10 @@
 			font-weight: bold;
 			color: #4eb6fa;
 			font-size: 17px;
-			font-family: Calibri,sans-serif;
+			font-family: "Calibri", Helvetica, sans-serif;
 		}
 		.download__wt{
-			font-family: Calibri,sans-serif;
+			font-family: "Calibri", Helvetica, sans-serif;
 			font-size: 14px;
 			color: #323c41;
 		}
@@ -1840,7 +1840,7 @@
 			text-align: center;
 			color: #FFF;
 			text-transform: uppercase;
-			font-family: Calibri,sans-serif;
+			font-family: "Calibri", Helvetica, sans-serif;
 			font-size: 27px;
 		}
 	}
@@ -1899,7 +1899,7 @@
 				p{
 					color: #4eb6fa;
 					font-size: 18px;
-					font-family: Calibri,sans-serif;
+					font-family: "Calibri", Helvetica, sans-serif;
 					font-weight: bold;
 				}
 			}
@@ -1954,7 +1954,7 @@
 	}
 		.scroll__item{
 			@extend %clr;
-			display: inline-block;
+			// display: inline-block;
 			margin-bottom: 25px;
 		}
 			.scroll__item{
@@ -1971,9 +1971,13 @@
 							opacity: 0.4;
 						}
 					}
-					h2,a{
+					a{
 						color: #305269;
 						text-decoration: underline;
+					}
+					h2 span{
+						color: #4eb6fa;
+						text-decoration: none;
 					}
 				}
 			}
@@ -2067,7 +2071,7 @@
 	width: 84px;
 	height: 84px;
 	margin-left: 55px;
-	margin-top: 45px;
+	margin-top: 10px;
 	-webkit-border-radius: 50%;
 			border-radius: 50%;
 	text-align: center;
