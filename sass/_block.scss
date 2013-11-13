@@ -803,7 +803,8 @@
 		color: #FFF;
 		opacity: 0.55;
 		&:hover{
-			border-bottom: 1px solid #b3b2b6;
+			border-bottom: 1px solid #fff;
+			opacity: 0.55;
 		}
 	}
 	.active{

@@ -240,7 +240,7 @@ a:hover { text-decoration: underline; }
 .breadcrumbs { margin: 20px 0 0; list-style: none; }
 .breadcrumbs li { padding: 2px 10px; margin-right: 20px; display: inline-block; }
 .breadcrumbs a { font-family: "Calibri", Helvetica, sans-serif; font-size: 11px; text-decoration: none; color: #FFF; opacity: 0.55; }
-.breadcrumbs a:hover { border-bottom: 1px solid #b3b2b6; }
+.breadcrumbs a:hover { border-bottom: 1px solid #fff; opacity: 0.55; }
 .breadcrumbs .active { position: relative; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50); opacity: 0.5; background-color: rgba(0, 0, 0, 0.78); }
 .breadcrumbs .active:after { content: ""; width: 0px; height: 0px; border-style: solid; border-width: 10px 0 10px 7px; border-color: transparent transparent transparent rgba(0, 0, 0, 0.78); position: absolute; top: 0; right: -7px; }
 
