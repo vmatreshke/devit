@@ -110,7 +110,7 @@
 			background: url(../_img/icons/nav_border.png) 0px 0px repeat-x;
 		}
 	}
-	a, span{
+		a, span{
 		// padding: 6px 12px;
 		padding: 6px 8px;
 		line-height: 27px;
@@ -162,30 +162,24 @@
 		height: 41px;
 		line-height: 41px;
 		float: left;
-	}
-	a, span{
-		display: inline-block;
-		height: 23px;
-		line-height: 23px;
-		padding: 0 10px !important;
-
-		color: #fff;
-		text-decoration: none;
-		text-transform: uppercase;
-		&:hover{
-			// border: 1px solid transparent;
-		}
-	}
-	a{
-		border: 1px solid transparent;
-		&:hover{
+		a, span{
+			display: inline-block;
+			height: 23px;
+			line-height: 23px;
+			padding: 0 10px !important;
 			border: 1px solid transparent;
+			color: #fff;
+			text-decoration: none;
+			text-transform: uppercase;
+			&:hover{
+				border: 1px solid transparent;
+			}
 		}
-	}
-	.sub-nav__active{
-		border: 1px solid #a6dbfe;
-		&:hover{
+		.sub-nav__active{
 			border: 1px solid #a6dbfe;
+			&:hover{
+				border: 1px solid #a6dbfe;
+			}
 		}
 	}
 }
