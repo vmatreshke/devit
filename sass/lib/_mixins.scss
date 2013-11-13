@@ -134,3 +134,7 @@ $icons: sprite-map("icons/*.png", $spacing: 10px);
 @mixin switch-on-gpu{
 	@include transform(translate3d(0,0,0));
 }
+
+@mixin gpu {
+    @include transform(translate3d(0,0,0));
+}

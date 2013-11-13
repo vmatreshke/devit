@@ -22,7 +22,7 @@
 		display: inline-block;
 		padding: 3px 7px;
 		text-decoration: none;
-		font-family: Calibri, sans-serif;
+		font-family: "Calibri", Helvetica, sans-serif;
 		color: #4db7fc;
 		&:hover{
 			text-decoration: underline;
@@ -39,7 +39,8 @@
 		border: 1px solid #e3e6e8;
 		padding: 0 10px;
 		height: 29px;
-		font: 14px Calibri,sans-serif;
+		font-size: 14px;
+		font-family: "Calibri", Helvetica, sans-serif;
 		&:focus{
 			outline: 1px solid #4db7fc;
 		}
@@ -267,16 +268,34 @@
 			// min-height: 460px;
 			@include transition(all .2s ease-in-out);
 			&:hover{
-				opacity: 0.5;
+				// opacity: 0.5;
 				@include transition(all .2s ease-in-out);
+				@include transform(scale(1.05));
 			}
 		}
-
 	}
 	.slider__col{
 		overflow: hidden;
 	}
 }
+.slider__title{
+	&:hover + {
+		a img{
+			@include transition(all .2s ease-in-out);
+			@include transform(scale(1.05));		
+		}
+	}
+}
+// .slider__title:hover + a img{
+// 	-webkit-transition: all 0.2s ease-in-out;
+// 	-moz-transition: all 0.2s ease-in-out;
+// 	-o-transition: all 0.2s ease-in-out;
+// 	transition: all 0.2s ease-in-out;
+// 	-webkit-transform: scale(1.05);
+// 	-moz-transform: scale(1.05);
+// 	-ms-transform: scale(1.05);
+// 	-o-transform: scale(1.05);
+// }
 .slider_collection{
 	width: 960px;
 	height: auto;
@@ -356,7 +375,7 @@
 		}
 	}
 	.slider__meta{
-		font-family: "Calibri" ,sans-sefif;
+		font-family: "Calibri", Helvetica, sans-serif;
 		font-size: 17px;
 		color: #4eb6fa;
 		font-weight: bold;
@@ -364,7 +383,7 @@
 	.slider__code{
 	@include opacity(.5);
 	color: #323c40;
-	font-family: "Calibri";
+	font-family: "Calibri", Helvetica, sans-serif;
 	font-size: 14px;
 	}
 }
@@ -402,7 +421,7 @@
 		width: 14.6%;
 		margin: 0 1% 1%;
 		color: #4db5f9;
-		font-family: "Calibri";
+		font-family: "Calibri", Helvetica, sans-serif;
 		font-size: 17px;
 		font-weight: bold;
 		&:hover{
@@ -568,7 +587,25 @@
 		font-weight: normal;
 		color: #FFF;
 		z-index: 9999;
+		cursor: pointer;
 		// @include text-shadow(0 1px 0 rgba(0,0,0,.08));
+		@include gpu;
+		&:hover{
+			text-decoration: none;
+			@include gpu;
+		}
+		a{
+			font-size: 92px;
+			line-height: 1;
+			font-family: 'Conv_DlCyLtTf',sans-serif;
+			font-weight: normal;
+			color: #FFF;
+			z-index: 9999;
+			cursor: pointer;
+			&:hover{
+				text-decoration: none;
+			}
+		}
 	}
 .news{
 	position: relative;
@@ -685,7 +722,8 @@
 		vertical-align: top;
 		text-align: center;
 		text-decoration: none;
-		font: 14px Calibri, sans-serif;
+		font-size: 14px;
+		font-family: "Calibri", Helvetica, sans-serif;
 		&:first-child{
 			margin-left: 0;
 		}
@@ -743,7 +781,8 @@
 	margin-top: 60px;
 	margin-bottom: 50px;
 	text-align: center;
-	font: 14px Calibri,sans-serif;
+	font-size: 14px;
+	font-family: "Calibri", Helvetica, sans-serif;
 	color: #000;
 	p{
 		margin-bottom: 20px;
@@ -758,7 +797,7 @@
 		display: inline-block;
 	}
 	a{
-		font-family: Calibri, sans-serif;
+		font-family: "Calibri", Helvetica, sans-serif;
 		font-size: 11px;
 		text-decoration: none;
 		color: #FFF;
@@ -942,7 +981,7 @@
 		text-transform: uppercase;
 		color: #323c41;
 		opacity: 0.5;
-		font-family: Calibri, sans-serif;
+		font-family: "Calibri", Helvetica, sans-serif;
 		font-size: 14px;
 	}
 	.kat__group{
@@ -1084,13 +1123,13 @@
 	@extend %clr;
 	padding: 20px 20px 35px;
 	.kat_mod__cont{
-		font-family: Calibri, sans-serif;
+		font-family: "Calibri", Helvetica, sans-serif;
 		font-size: 14px;
 		line-height: 1.4;
 		h2{
 			margin-bottom: 15px;
 			overflow: hidden;
-			font-family: Calibri, sans-serif;
+			font-family: "Calibri", Helvetica, sans-serif;
 			font-size: 26px;
 			line-height: 1;
 			color: #4eb6fa;
@@ -1099,7 +1138,7 @@
 			margin-bottom: 10px; 
 		}
 		h4{
-			font-family: Calibri, sans-serif; 
+			font-family: "Calibri", Helvetica, sans-serif;
 			font-weight: bold;
 			font-size: 18px;
 			color: #4eb6fa;
@@ -1119,7 +1158,7 @@
 				}
 				h4, a{
 					margin-bottom: 10px;
-					font-family: Calibri, sans-serif;
+					font-family: "Calibri", Helvetica, sans-serif;
 					font-size: 15px;
 					color: #323c41;
 					text-transform: uppercase;
@@ -1146,7 +1185,7 @@
 		}
 		span{
 			display: block;
-			font-family: Calibri, sans-serif;
+			font-family: "Calibri", Helvetica, sans-serif;
 			font-size: 12px;
 			color: #323c41;
 			opacity: 0.5;
@@ -1156,7 +1195,7 @@
 .kat_mod2{
 	@extend %clr;
 	padding: 35px;
-	font-family: Calibri, sans-serif;
+	font-family: "Calibri", Helvetica, sans-serif;
 	font-size: 14px;
 	line-height: 1.4;
 	.kat_mod__cont{
@@ -1404,7 +1443,7 @@
 	// 	a{
 	// 		padding: 0 12px;
 	// 		display: block;
-	// 		font-family: "Calibri", Helvetica, sans-serif;
+	// 		font-family: Calibri,sans-serif;
 	// 		font-size: 13px;
 	// 		color: #FFF;
 	// 		text-decoration: none;
@@ -1879,7 +1918,7 @@
 	}
 	.login__note{
 		float: right;
-		font-family: Calibri, sans-serif;
+		font-family: "Calibri", Helvetica, sans-serif;
 		font-size: 12px;
 		line-height: 32px;
 	}
@@ -2003,13 +2042,13 @@
 				width: 510px;
 				padding: 25px 0;
 				float: left;
-				font-family: Calibri, sans-serif;
+				font-family: "Calibri", Helvetica, sans-serif;
 				font-size: 14px;
 				color: #323c41;
 				line-height: 1.3;
 				h2,a{
 					margin-bottom: 10px;
-					font-family: Calibri, sans-serif;
+					font-family: "Calibri", Helvetica, sans-serif;
 					font-size: 25px;
 					color: #4eb6fa;
 					line-height: 1;
@@ -2032,7 +2071,7 @@
 	margin-top: 35px;
 }
 	.tradeMark__title{
-		font-family: Calibri, sans-serif;
+		font-family: "Calibri", Helvetica, sans-serif;
 		font-weight: bold;
 		font-size: 18px;
 		color: #4eb6fa;
@@ -2049,7 +2088,7 @@
 			@include s(tradeMark__ok);
 		}
 		strong{
-			font-family: Calibri, sans-serif;
+			font-family: "Calibri", Helvetica, sans-serif;
 			font-size: 15px;
 			color: #323c41;
 			text-transform: uppercase;
@@ -2057,7 +2096,7 @@
 	}
 	.tradeMark__cnt{
 		margin-left: 38px;
-		font-family: "Calibri", sans-serif;
+		font-family: "Calibri", Helvetica, sans-serif;
 		font-size: 14px;
 		color: #323c41;
 		strong{
@@ -2076,7 +2115,7 @@
 			border-radius: 50%;
 	text-align: center;
 	border: 1px solid #cae9fe;
-	font-family: Calibri, sans-serif;
+	font-family: "Calibri", Helvetica, sans-serif;
 	color: #4db7fc;
 	// &:hover{
 	// 	background: #eaf6ff;
@@ -2168,7 +2207,7 @@
 	// margin-right: 35px;
 	background: #4db7fc;
 	float: right;
-	font-family: Calibri, sans-serif;
+	font-family: "Calibri", Helvetica, sans-serif;
 	color: #FFF;
 	.support__media{
 		margin-bottom: 20px;
@@ -2223,7 +2262,7 @@
 		display: block;
 		margin-bottom: 10px;
 		border: 1px solid #e3e6e8;
-		font-family: Calibri, sans-serif;
+		font-family: "Calibri", Helvetica, sans-serif;
 		font-size: 14px;
 		color: #323c41;
 		opacity: 0.6;
@@ -2318,7 +2357,8 @@
 	}
 .mail-to{
 	display: block;
-	font: 14px Calibri, sans-serif;
+	font-size: 14px;
+	font-family: "Calibri", Helvetica, sans-serif;
 	color: #FFF;
 	text-decoration: underline;
 	&:hover{
