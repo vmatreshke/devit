@@ -1416,6 +1416,12 @@
 		margin-top: 0;
 		margin-bottom: 0;
 	}
+	.news__items{
+		a{
+			margin-left: 0;
+			padding: 0 40px;
+		}
+	}
 }
 
 @media only screen and (min-width: 959px) and (max-width: 976px) { 

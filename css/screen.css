@@ -940,7 +940,8 @@ a:hover { text-decoration: underline; }
   .slider_collection .slider__item:nth-child(4n) { margin: 0 5%; } }
 @media only screen and (min-width: 650px) and (max-width: 767px) { .slider_collectionMod .slider__item { width: 46%; margin: 0 2% 3% !important; } }
 @media only screen and (min-width: 767px) and (max-width: 844px) { .h1 span:after, .h1 span:before { content: none; } }
-@media only screen and (min-width: 320px) and (max-width: 767px) { .some-info { margin-top: 0; margin-bottom: 0; } }
+@media only screen and (min-width: 320px) and (max-width: 767px) { .some-info { margin-top: 0; margin-bottom: 0; }
+  .news__items a { margin-left: 0; padding: 0 40px; } }
 @media only screen and (min-width: 959px) and (max-width: 976px) { .wrap, .content, .slider, .news:after { width: 100%; } }
 @media only screen and (min-width: 1200px) and (max-width: 1216px) { .wrap_index .slider { width: 90%; margin: 0 auto; }
   .header, .footer__wrap { width: 90%; margin: 0 auto; }
