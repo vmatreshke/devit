@@ -696,7 +696,8 @@
 				width: 50%;
 				li{
 					&:first-child{
-						display: none;
+						// display: none;
+						width: 100%;
 					}
 				}
 			}
@@ -708,7 +709,8 @@
 				width: 50%;
 				li{
 					&:first-child{
-						display: none;
+						// display: none;
+						width: 100%;
 					}
 				}
 			}
@@ -1122,7 +1124,7 @@
 			span, div{
 				color: #FFF;
 				&:hover{
-					color: red;
+					// color: red;
 				}
 			}
 		}
@@ -1169,7 +1171,7 @@
 	// inner_collection.html
 	.slider_collectionMod{
 		width: 94%;
-		padding-top: 10px;
+		padding-top: 28px;
 		margin: 0 3%;
 		background: #FFF;
 		.item__conteiner{
@@ -1246,7 +1248,7 @@
 			padding: 0;
 			float: none;
 			li{
-				display: none;
+				// display: none;
 				width: 100%;
 				padding: 0 12px;
 				height: 40px;
@@ -1424,6 +1426,26 @@
 	}
 }
 
+@media only screen and (min-width: 320px) and (max-width: 767px){
+	.footer__right{
+		overflow: hidden;
+		li{
+			float: left;
+		}
+		dl{
+			clear: both;
+		}
+	}
+}
+
+@media only screen and (min-width: 961px) and (max-width: 972px){
+	.news__items{
+		a{
+			margin-left: 0;
+			padding: 0 40px;
+		}
+	}
+}
 @media only screen and (min-width: 959px) and (max-width: 976px) { 
 	.wrap, .content, .slider, .news:after{
 		width: 100%;
@@ -1450,5 +1472,60 @@
 	.some-info{
 		width: 90%;
 		margin: 60px auto 50px;
+	}
+}
+
+@media only screen and (min-width: 961px) and (max-width: 989px){
+	.footer__wrap, .header{
+		padding: 0 10px;
+		@include box;
+	}
+	.copyright{
+		.copyright__info{
+			right: 10px;
+		}
+	}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+	.slider_collection, .slider_proj{
+		.slider__list{
+			li{
+				&:hover{
+					@include box-shadow(inset 0 0 0 1px #fff);
+				}
+				&.selected, &.active{
+					background: #4db7fc;
+					@include box-shadow(inset 0 0 0 1px #fff);
+					&:hover{
+						cursor: default;
+						background: #4db7fc;
+						@include box-shadow(inset 0 0 0 1px #fff);
+						a,span{
+							color: #fff;
+							cursor: default;
+						}				
+					}
+					a,span{
+						color: #fff;
+					}
+				}
+			}
+		}
+	}
+
+	.slider_proj{
+		.slider__list{
+			li{
+				a, span{
+					padding: 0;
+					display: block;
+				}			
+			}
+		}
+	}
+	.kat{
+		width: 94%;
+		margin: 0 3%;
 	}
 }

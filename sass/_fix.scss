@@ -71,11 +71,11 @@
 }
 
 .slider_collection{
-  &:hover{
-    span{
-      color: #4db7fc !important;
-    }
-  }
+  // &:hover{
+  //   span{
+  //     color: #4db7fc !important;
+  //   }
+  // }
 
   .slider__list{
     li{
@@ -92,30 +92,30 @@
     li{
       &.selected{
         &:hover{
-          -webkit-box-shadow: none;
-          -moz-box-shadow: none;
-          box-shadow: none;
+          // -webkit-box-shadow: none;
+          // -moz-box-shadow: none;
+          // box-shadow: none;
         }
       }
     }
   }
 }
 
-.slider_collection{
-  &:hover{
-    color: #fff;  
-  }
-  .slider__list{
-    li{
-      &.selected{
-        a,span{
-          text-shadow: none;
-          color: #4db7fc;       
-        }
-      }
-    }
-  }
-}
+// .slider_collection{
+//   &:hover{
+//     color: #fff;  
+//   }
+//   .slider__list{
+//     li{
+//       &.selected{
+//         a,span{
+//           text-shadow: none;
+//           color: #4db7fc;
+//         }
+//       }
+//     }
+//   }
+// }
 
 .slider_collection  span{
   .slider__list{
@@ -166,17 +166,17 @@
   }
 }
 
-.slider_proj{
-  .slider__list{
-    li{
-      a, span{
-        font-family: 'Conv_DlCyLtTf', sans-serif;
-        text-shadow: none;
-        padding: 10px 0 10px 10px;     
-      }
-    }
-  }
-}   
+// .slider_proj{
+//   .slider__list{
+//     li{
+//       a, span{
+//         font-family: 'Conv_DlCyLtTf', sans-serif;
+//         text-shadow: none;
+//         padding: 10px 0 10px 10px;     
+//       }
+//     }
+//   }
+// }
 
 .slider_proj{
   .item__conteiner{
@@ -709,8 +709,8 @@
   }
 
   .slider_proj .slider__list, .slider_innerBuy .slider__list, .slider_collectionMod .slider__list {
-    width: 96%;
-    margin: 0 2%;
+    width: 94%;
+    margin: 0 3%;
     padding: 0;
     float: none;
   }
@@ -728,10 +728,10 @@
   }
 }
 // menu
-.slider_collection .slider__list li.selected{
-  background: #fff;
-  cursor: default;
-}
+// .slider_collection .slider__list li.selected{
+//   background: #fff;
+//   cursor: default;
+// }
 .kat__nav{
   .sub-active > a{
     background: #FFF;

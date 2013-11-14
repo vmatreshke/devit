@@ -138,3 +138,9 @@ $icons: sprite-map("icons/*.png", $spacing: 10px);
 @mixin gpu {
     @include transform(translate3d(0,0,0));
 }
+
+//box-sizing
+@mixin box{
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
