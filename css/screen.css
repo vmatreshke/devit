@@ -673,9 +673,6 @@ a:hover { text-decoration: underline; }
   .kat__conteiner { width: 1025px; }
   .product__item { width: 18%; }
   .kat_mod2 .kat_mod__cont { width: auto; overflow: hidden; float: none; margin-right: 35px; }
-  .support_aboutContacts { float: none; margin: 0 auto; padding: 45px 95px 40px; }
-  .contact-form { width: 425px; float: none; margin: 0 auto; width: 400px; background: #C1E4FC; padding: 50px; text-align: center; }
-  .contact-form .i_er { right: 36px; }
   .used .slider_innerProj .slider__item { width: 15%; }
   .used .slider_innerProj .slider__item { margin: 0 1.5% 1% 0; }
   .used .slider_innerProj .slider__item:nth-child(4n+1) { margin: 0 1.5% 1% 0; }
@@ -739,9 +736,6 @@ a:hover { text-decoration: underline; }
   .kat__descr .kat__wrap { margin-left: 0; }
   .kat__wrap { margin-left: 2.5%; }
   .product__item { width: 48%; }
-  .support { margin: 0 auto; float: none; }
-  .contact-form { margin: 20px auto 0; float: none; width: 400px; }
-  .contact-form textarea, .contact-form input { width: 400px; }
   .slider { width: auto; overflow: hidden; }
   .slider .item__conteiner { width: auto; margin-left: 0; float: none; }
   .scrollable__list li { width: 16.6%; }
@@ -873,9 +867,6 @@ a:hover { text-decoration: underline; }
   .kat_mod2 { padding: 35px 0; left: 0; }
   .map { display: block; width: 90%; margin: 0 5%; }
   .map iframe { width: 100%; }
-  .support { width: auto; margin: -35px 0 20px; padding: 40px 20px; float: none; }
-  .contact-form { width: 90%; margin: 0 5%; }
-  .contact-form textarea, .contact-form input { width: 100%; }
   .kat_mod2 .kat_mod__cont { width: auto; padding: 20px; float: none; }
   .slider_proj { width: 90%; margin: 0 5%; background: #fff; padding-top: 10px; }
   .slider_proj .slider__item { width: 100%; margin-right: 0; float: none; }
@@ -963,7 +954,12 @@ a:hover { text-decoration: underline; }
   .slider_collection .slider__list li.selected:hover a, .slider_collection .slider__list li.selected:hover span, .slider_collection .slider__list li.active:hover a, .slider_collection .slider__list li.active:hover span, .slider_proj .slider__list li.selected:hover a, .slider_proj .slider__list li.selected:hover span, .slider_proj .slider__list li.active:hover a, .slider_proj .slider__list li.active:hover span { color: #fff; cursor: default; }
   .slider_collection .slider__list li.selected a, .slider_collection .slider__list li.selected span, .slider_collection .slider__list li.active a, .slider_collection .slider__list li.active span, .slider_proj .slider__list li.selected a, .slider_proj .slider__list li.selected span, .slider_proj .slider__list li.active a, .slider_proj .slider__list li.active span { color: #fff; }
   .slider_proj .slider__list li a, .slider_proj .slider__list li span { padding: 0; display: block; }
-  .kat { width: 94%; margin: 0 3%; } }
+  .kat { width: 94%; margin: 0 3%; -moz-box-sizing: border-box; box-sizing: border-box; } }
+@media only screen and (min-width: 500px) and (max-width: 880px) { .support { margin: 0 auto 20px; float: none; width: 80%; -moz-box-sizing: border-box; box-sizing: border-box; }
+  .contact-form { margin: 0 auto 20px; float: none; width: 80%; -moz-box-sizing: border-box; box-sizing: border-box; } }
+@media only screen and (min-width: 320px) and (max-width: 499px) { .support { width: auto; margin: 0px 0 20px; padding: 40px 20px; float: none; }
+  .contact-form { width: 90%; margin: 0 5%; }
+  .contact-form textarea, .contact-form input { width: 100%; } }
 .lang a, .lang span { display: inline-block; padding: 3px 7px; text-decoration: none; font-family: "Calibri", Helvetica, sans-serif; color: #4db7fc; }
 
 .search input { border: 1px solid #e3e6e8; padding: 0 10px; height: 29px; font-family: "Calibri", Helvetica, sans-serif; }
@@ -1087,8 +1083,6 @@ a:hover { text-decoration: underline; }
 .tradeMark__cnt { margin-left: 38px; font-family: "Calibri", Helvetica, sans-serif; font-size: 14px; color: #323c41; }
 
 .date { float: right; display: inline-block; width: 84px; height: 84px; margin-left: 55px; margin-top: 45px; -webkit-border-radius: 50%; border-radius: 50%; text-align: center; border: 1px solid #cae9fe; font-family: "Calibri",Helvetica, sans-serif; color: #4db7fc; }
-
-.support { width: 310px; padding: 45px 45px 35px; background: #4db7fc; float: right; font-family: "Calibri",Helvetica, sans-serif; color: #FFF; }
 
 .mail-to { display: block; font: 14px "Calibri", Helvetica, sans-serif; color: #FFF; text-decoration: underline; }
 
