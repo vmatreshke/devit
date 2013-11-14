@@ -58,6 +58,7 @@
 	.footer__wrap{
 		// width: 90%;
 		max-width: 1200px;
+		width: 1200px;
 	}
 	.footer__left{
 		width: 72%;
@@ -1420,5 +1421,28 @@
 @media only screen and (min-width: 959px) and (max-width: 976px) { 
 	.wrap, .content, .slider, .news:after{
 		width: 100%;
+	}
+}
+
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1216px) {
+	.wrap_index{
+		.slider{
+			width: 90%;
+			margin: 0 auto;
+		}
+	}
+	.header{
+		width: 90%;
+		margin: 0 auto;
+	}
+	.h1{
+		width: 90%;
+		margin: 30px auto;
+	}
+	.some-info{
+		width: 90%;
+		margin: 60px auto 50px;
 	}
 }
