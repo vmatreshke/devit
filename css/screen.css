@@ -362,7 +362,7 @@ a:hover { text-decoration: underline; }
 .photogallery__title h2 { text-transform: uppercase; font-family: 'Conv_DlCyLtTf', sans-serif; color: #FFF; }
 .photogallery__title .big { font-family: 'Conv_DlCyLtTf', sans-serif; font-weight: normal; font-size: 26px; }
 
-.product { list-style-type: none; }
+.product { list-style-type: none; text-align: center; }
 
 .product__item { width: 25%; padding: 35px 0% 15px; display: inline-block; vertical-align: top; position: relative; text-align: center; }
 .product__item img { background: #FFF; }
