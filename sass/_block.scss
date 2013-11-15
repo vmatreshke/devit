@@ -1336,8 +1336,8 @@
 	list-style-type: none;
 }
 	.product__item{
-		width: 23%;
-		padding: 35px 1% 15px;
+		width: 25%;
+		padding: 35px 0% 15px;
 		//float: left;
 		display: inline-block;
 		vertical-align: top;
@@ -1360,7 +1360,10 @@
 		}
 	}
 		.product__wrap{
-			padding:0 20px;
+			// padding:0 20px;
+			// margin: 0 -3%;
+			@include box;
+			padding: 0 7%;
 			text-align: center;
 			.product__meta{
 				height: 38px;
@@ -2485,3 +2488,4 @@
 		}
 	}
 }
+
