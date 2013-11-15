@@ -375,3 +375,20 @@ a{
 			right: 0;
 		}
 	}
+
+// mod for nav
+.header{
+	.nav{
+		padding-top: 20px;
+		@include box;
+		height: 71px;
+		li{
+			height: 51px;
+			line-height: 51px;
+		}
+		.is-thereIsDropNaw{
+			height: 51px;
+			line-height: 51px;
+		}
+	}	
+}

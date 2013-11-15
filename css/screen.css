@@ -74,6 +74,10 @@ a:hover { text-decoration: underline; }
 .copyright .copyright__logo { background: url('../_img/icons-s238e0baf5f.png') 0 -84px no-repeat; width: 115px; height: 30px; display: inline-block; vertical-align: middle; }
 .copyright .copyright__info { position: absolute; top: 0px; right: 0; }
 
+.header .nav { padding-top: 20px; -moz-box-sizing: border-box; box-sizing: border-box; height: 71px; }
+.header .nav li { height: 51px; line-height: 51px; }
+.header .nav .is-thereIsDropNaw { height: 51px; line-height: 51px; }
+
 .out { position: relative; background: url(../_img/bg.jpg) 0% 121px no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 
 .out_changeBg { margin-bottom: 10px; background: url(../_img/bg2.jpg) 50% 121px no-repeat; overflow: hidden; }
