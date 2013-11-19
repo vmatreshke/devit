@@ -682,7 +682,7 @@
 					content: "";
 					width: 7px;
 					height: 100%;
-					position: absolute;
+					position: absolute;  
 					top: 0;
 					right: 0;
 					background: url(../_img/icons/news_border.png) 0px 0px repeat-y;
@@ -963,6 +963,7 @@
 		// float: left;
 		// padding-right: 30px;
 		width: 43%;
+		min-width: 300px;
 		display: inline-block;
 		padding-right: 0;
 		vertical-align: top;
@@ -1002,6 +1003,7 @@
 		&:hover{
 			@include transition(all .3s ease-in-out);
 			background: #48a5e1;
+			text-decoration: none;
 		}
 	}
 	.kat__info{
@@ -1046,6 +1048,7 @@
 			}
 		}
 		table{
+			width: 100%;
 			tr{
 				&:first-child{
 					td{
@@ -1305,6 +1308,7 @@
 		}
 	}
 	.photogallery__img{
+		overflow: hidden;
 		img{
 			vertical-align: top;
 		}

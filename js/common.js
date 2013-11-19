@@ -15,7 +15,7 @@ $(document).ready(function(){
 
 	$(".navMobile").click(function () {
 		$(".nav").slideToggle("slow");
-		$(".search").slideToggle("fast");
+		$(".search").slideToggle("slow");
 		$(".h33").toggleClass("btNone");
 	});
 

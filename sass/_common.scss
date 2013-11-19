@@ -318,7 +318,7 @@ a{
 	}
 	.footer__right{
 		@extend %clr;
-		float: left;
+		// float: left;
 		.left, dl{
 			margin-right: 40px;
 			float: left;
