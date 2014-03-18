@@ -1,6 +1,7 @@
+@charset "IBM866";
 .header__general, .footer__wrap, .footer__right, .sub-nav, .slider, .slider_proj, .kat, .kat_mod, .kat_mod2, .js-masonry, .photogallery__nav, .scroll__item, .scroll__wrap_news .scroll__item, .popupLogin .row_log { *zoom: 1; }
-.header__general:before, .footer__wrap:before, .footer__right:before, .sub-nav:before, .slider:before, .slider_proj:before, .kat:before, .kat_mod:before, .kat_mod2:before, .js-masonry:before, .photogallery__nav:before, .scroll__item:before, .popupLogin .row_log:before, .header__general:after, .footer__wrap:after, .footer__right:after, .sub-nav:after, .slider:after, .slider_proj:after, .kat:after, .kat_mod:after, .kat_mod2:after, .js-masonry:after, .photogallery__nav:after, .scroll__item:after, .popupLogin .row_log:after { content: " "; display: table; }
-.header__general:after, .footer__wrap:after, .footer__right:after, .sub-nav:after, .slider:after, .slider_proj:after, .kat:after, .kat_mod:after, .kat_mod2:after, .js-masonry:after, .photogallery__nav:after, .scroll__item:after, .popupLogin .row_log:after { clear: both; }
+.header__general:before, .footer__wrap:before, .footer__right:before, .sub-nav:before, .slider:before, .slider_proj:before, .kat:before, .kat_mod:before, .kat_mod2:before, .js-masonry:before, .photogallery__nav:before, .scroll__item:before, .scroll__wrap_news .scroll__item:before, .popupLogin .row_log:before, .header__general:after, .footer__wrap:after, .footer__right:after, .sub-nav:after, .slider:after, .slider_proj:after, .kat:after, .kat_mod:after, .kat_mod2:after, .js-masonry:after, .photogallery__nav:after, .scroll__item:after, .scroll__wrap_news .scroll__item:after, .popupLogin .row_log:after { content: " "; display: table; }
+.header__general:after, .footer__wrap:after, .footer__right:after, .sub-nav:after, .slider:after, .slider_proj:after, .kat:after, .kat_mod:after, .kat_mod2:after, .js-masonry:after, .photogallery__nav:after, .scroll__item:after, .scroll__wrap_news .scroll__item:after, .popupLogin .row_log:after { clear: both; }
 
 * { margin: 0; padding: 0; }
 
@@ -793,9 +794,10 @@ a:hover { text-decoration: underline; }
   .waves__cont { width: 100%; }
   .footer { font-size: 14px; }
   .footer:before { content: none; }
-  .footer .footer__wrap { padding-left: 18px; }
+  .footer .footer__wrap { padding-left: 18px; padding-right: 18px; }
   .footer .footer__left { width: 100%; }
   .footer .footer__left .left { width: 50%; }
+  .footer .footer__left .left li { display: block; }
   .footer .footer__left .left li:first-child { width: 100%; }
   .footer .footer__left .h3 { border-bottom: none; font-size: 20.5px; }
   .footer .footer__left .right { width: 50%; }
@@ -805,19 +807,20 @@ a:hover { text-decoration: underline; }
   .footer .footer__right .left a { font-size: 20px; }
   .footer .footer__right dl a { font-size: 14px; }
   .footer .footer__right dl dt { font-size: 25.5px; }
-  .footer .footer__map { display: inline-block; }
+  .footer .footer__map { display: block; margin: 10px auto; text-align: center; }
   .wrap_index .slider { position: relative; width: 100%; display: none; }
   .wrap_index .slider .slider__bg { width: 100%; }
   .wrap_index .slider .slider__bg img { display: none !important; }
   .wrap_index .slider .slider__title { display: none; }
   .wrap_index .mobile-list { display: block; }
-  .wrap_index .mobile-list__cont { width: 100%; padding-top: 90px; background: #000; opacity: 0.8; list-style: none; overflow: hidden; }
+  .wrap_index .mobile-list__cont { width: 100%; padding-top: 90px; padding-bottom: 20px; background: #000; opacity: 0.8; list-style: none; overflow: hidden; }
   .wrap_index .mobile-list__cont div { text-align: center; width: 33%; float: left; }
   .wrap_index .mobile-list__cont li { text-align: center; }
   .wrap_index .mobile-list__cont a, .wrap_index .mobile-list__cont span { height: 31px; line-height: 31px; display: block; text-align: center; font-size: 20px; font-family: 'Conv_DlCyLtTf', sans-serif; font-size: 16px; color: #FFF; text-decoration: none; }
   .wrap_index .mobile-list__cont a:hover, .wrap_index .mobile-list__cont span:hover { background: #4db7fc; cursor: pointer; }
   .copyright_index { display: none; }
   .h1 { margin-top: 65px; margin-bottom: 15px; }
+  .h1 .index { margin-top: 0; margin-bottom: 15px; }
   .h1 span { font-size: 21px; color: #fff; text-shadow: 0 0 3px rgba(0, 0, 0, 0.48); }
   .h1 span:before, .h1 span:after { content: none; }
   .news { background: #5c8bac; }
@@ -943,7 +946,9 @@ a:hover { text-decoration: underline; }
 @media only screen and (min-width: 650px) and (max-width: 767px) { .slider_collectionMod .slider__item { width: 46%; margin: 0 2% 3% !important; } }
 @media only screen and (min-width: 767px) and (max-width: 844px) { .h1 span:after, .h1 span:before { content: none; } }
 @media only screen and (min-width: 320px) and (max-width: 767px) { .some-info { margin-top: 0; margin-bottom: 0; }
-  .news__items a { margin-left: 0; padding: 0 40px; } }
+  .news__items { padding: 0 10px; width: 320px; }
+  .news__items a { margin-left: 0; padding: 0; }
+  .news__items a .news__meta { width: 280px; } }
 @media only screen and (min-width: 320px) and (max-width: 767px) { .footer__right { overflow: hidden; }
   .footer__right li { float: left; }
   .footer__right dl { clear: both; } }

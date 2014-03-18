@@ -707,12 +707,14 @@
 		}
 		.footer__wrap{
 			padding-left: 18px;
+			padding-right: 18px;
 		}
 		.footer__left{
 			width: 100%;
 			.left{
 				width: 50%;
 				li{
+					display: block;
 					&:first-child{
 						// display: none;
 						width: 100%;
@@ -751,7 +753,9 @@
 			}
 		}
 		.footer__map{
-			display: inline-block;
+			display: block;
+    		margin: 10px auto;
+    		text-align: center;
 		}
 	}
 	// index.html
@@ -776,6 +780,7 @@
 		.mobile-list__cont{
 			width: 100%;
 			padding-top: 90px;
+			padding-bottom: 20px;
 			background: #000;
 			opacity: 0.8;
 			list-style: none;
@@ -809,6 +814,10 @@
 		display: none;
 	}
 	.h1{
+		.index {
+			margin-top: 0;
+			margin-bottom: 15px;
+		}
 		margin-top: 65px;
 		margin-bottom: 15px;
 		span{
@@ -1427,9 +1436,14 @@
 		margin-bottom: 0;
 	}
 	.news__items{
+		padding: 0 10px;
+		width: 320px;
 		a{
 			margin-left: 0;
-			padding: 0 40px;
+			padding: 0;
+			.news__meta{
+				width:280px
+			}
 		}
 	}
 }
