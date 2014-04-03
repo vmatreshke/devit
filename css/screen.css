@@ -265,6 +265,7 @@ a:hover { text-decoration: underline; }
 .kat_cat-section { overflow: visible; }
 
 .kat__nav { width: 160px; padding: 25px 0 25px 15px; background: #000; list-style: none; position: relative; z-index: 200; float: left; }
+.kat__nav li { line-height: 1.2; }
 .kat__nav .active { background: #FFF; color: #4db7fc; }
 .kat__nav .active a { color: #4db7fc; cursor: default; }
 .kat__nav a { padding: 5px 0 5px 10px; background: #000; display: block; font-family: 'Conv_DlCyLtTf', sans-serif; font-size: 14px; text-decoration: none; color: #FFF; }
@@ -294,14 +295,15 @@ a:hover { text-decoration: underline; }
 .kat__wrap { margin-top: 40px; margin-left: 30px; padding-bottom: 50px; font-size: 14px; }
 
 .kat__charac { margin-right: 25px; float: left; min-width: 300px; width: 100%; }
-.kat__charac h4 { font-weight: normal; color: #7f7f7f; margin-bottom: 5px; font-size: 16px; }
+.kat__charac h4 { font-weight: bold; color: #7f7f7f; margin-bottom: 5px; font-size: 18px; }
 .kat__charac ul { list-style: none; }
 .kat__charac ul li { position: relative; line-height: 28px; border-top: 1px solid #e5e5e5; }
 .kat__charac ul li span { width: 50%; }
 .kat__charac ul li strong { width: 50%; margin-left: 25px; }
 .kat__charac table { width: 100%; }
-.kat__charac table tr:first-child td { padding-top: 25px; vertical-align: top; }
-.kat__charac table td { height: 28px; border-top: 1px solid #e5e5e5; padding-right: 25px; }
+.kat__charac table tr:first-child td { vertical-align: top; }
+.kat__charac table td { border-top: 1px solid #e5e5e5; padding: 7px 25px 6px 0; vertical-align: top; font-weight: bold; }
+.kat__charac table td:first-child { font-weight: normal; }
 
 .kat__doc ul li { margin-top: 15px; position: relative; line-height: 28px; border-top: 1px solid #e5e5e5; }
 .kat__doc ul li:first-child:after { content: ""; width: 100%; height: 1px; position: absolute; left: 0; bottom: 0; background: #e5e5e5; }
@@ -365,7 +367,7 @@ a:hover { text-decoration: underline; }
 .photogallery__title h2 { text-transform: uppercase; font-family: 'Conv_DlCyLtTf', sans-serif; color: #FFF; }
 .photogallery__title .big { font-family: 'Conv_DlCyLtTf', sans-serif; font-weight: normal; font-size: 26px; }
 
-.product { list-style-type: none; text-align: center; }
+.product { list-style-type: none; text-align: center; padding: 0 10px; }
 
 .product__item { width: 25%; padding: 35px 0% 15px; display: inline-block; vertical-align: top; position: relative; text-align: center; }
 .product__item img { background: #FFF; }
@@ -377,7 +379,7 @@ a:hover { text-decoration: underline; }
 
 .product__cnt { text-decoration: none; text-transform: uppercase; font-family: "Calibri", Helvetica, sans-serif; font-size: 16px; line-height: 1.2; color: #1795e6; }
 .product__cnt img { width: 100%; max-width: 100%; min-width: 160px; min-height: 176px; border-radius: 50%; border: 1px solid #4fb8fc; margin-bottom: 15px; position: relative; font-size: 0; background-color: #f1f1f1; }
-.product__cnt:hover img { -webkit-box-shadow: 0 0 0 10px #4db7fc, inset 0 1px 11px rgba(77, 184, 240, 0.63); -moz-box-shadow: 0 0 0 10px #4db7fc, inset 0 1px 11px rgba(77, 184, 240, 0.63); box-shadow: 0 0 0 10px #4db7fc, inset 0 1px 11px rgba(77, 184, 240, 0.63); }
+.product__cnt:hover img { -webkit-box-shadow: 0 0 0 5px #4db7fc, inset 0 1px 6px rgba(77, 184, 240, 0.63); -moz-box-shadow: 0 0 0 5px #4db7fc, inset 0 1px 6px rgba(77, 184, 240, 0.63); box-shadow: 0 0 0 5px #4db7fc, inset 0 1px 6px rgba(77, 184, 240, 0.63); }
 
 .product__list { display: block !important; list-style: none; margin-left: 30px; text-align: left; line-height: 1.2; }
 .product__list li { margin-bottom: 8px; }
@@ -871,7 +873,7 @@ a:hover { text-decoration: underline; }
   .kat .kat__nav .active { background: #4db7fc; color: #fff; border: 1px solid #fff; }
   .kat .kat__nav .sub-active > a { background: #4db7fc; border: 1px solid #fff; }
   .kat .kat__nav .sub-active > a:hover { background: #4db7fc; }
-  .kat .kat__charac { width: 200px; margin-bottom: 20px; }
+  .kat .kat__charac { width: 100%; margin-bottom: 20px; }
   .kat .kat__doc { width: 200px; }
   .product__item { width: 90%; margin: 0 4%; }
   .product__cnt img { max-width: auto; }
