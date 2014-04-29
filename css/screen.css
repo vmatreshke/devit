@@ -324,7 +324,7 @@ a:hover { text-decoration: underline; }
 .kat_mod .kat_mod__cont h2 { margin-bottom: 15px; overflow: hidden; font-family: "Calibri", Helvetica, sans-serif; font-size: 26px; line-height: 1; color: #4eb6fa; }
 .kat_mod .kat_mod__cont p { margin-bottom: 10px; }
 .kat_mod .kat_mod__cont h4 { font-family: "Calibri", Helvetica, sans-serif; font-weight: bold; font-size: 18px; color: #4eb6fa; }
-.kat_mod .kat_mod__cont ul, .kat_mod .kat_mod__cont ol { min-height: 600px; float: left; list-style: none; }
+.kat_mod .kat_mod__cont ul, .kat_mod .kat_mod__cont ol { float: left; list-style: none; }
 .kat_mod .kat_mod__cont ul li, .kat_mod .kat_mod__cont ol li { margin-top: 25px; }
 .kat_mod .kat_mod__cont ul li:before, .kat_mod .kat_mod__cont ol li:before { content: ""; margin-right: 10px; display: inline-block; vertical-align: middle; background: url('../_img/icons-s238e0baf5f.png') 0 -592px no-repeat; width: 16px; height: 16px; }
 .kat_mod .kat_mod__cont ul li h4, .kat_mod .kat_mod__cont ul li a, .kat_mod .kat_mod__cont ol li h4, .kat_mod .kat_mod__cont ol li a { margin-bottom: 10px; font-family: "Calibri", Helvetica, sans-serif; font-size: 15px; color: #323c41; text-transform: uppercase; text-decoration: none; }
